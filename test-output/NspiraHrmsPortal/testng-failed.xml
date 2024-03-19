@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NspiraHrmsPortal]" guice-stage="DEVELOPMENT">
+	<parameter name="browser" value="chrome" />
+	<listeners>
+		<listener class-name="com.cucumber.utility.Listener" />
+	</listeners>
+	<test name="AdminGeneratedCertificatesChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner" />
+		</classes>
+	</test> <!--
+	AdminGeneratedCertificatesChromeBrowser -->
+	<test name="AdminGeneratedCertificatesChromeBrowser(failed)">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner">
+				<methods>
+					<include name="setUpClass" />
+					<include name="beforeclass" />
+					<include name="feature" invocation-numbers="0" />
+					<include name="tearDownClass" />
+					<include name="testDownClass" />
+				</methods>
+			</class> <!--
+			com.cucumber.TestRunner.AdminGeneratedCertificatesRunner -->
+		</classes>
+	</test> <!--
+	AdminGeneratedCertificatesChromeBrowser(failed) -->
+</suite> <!--
+Failed suite [NspiraHrmsPortal] -->
