@@ -221,22 +221,22 @@
 	    
 	    
 	     
-  <test name="ChromeBrowser">
+  <!-- <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
-			 <!--  <class name="com.cucumber.TestRunner.UserInternalPrintingRunner" /> -->
-			 <!--  <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" /> -->
-			 <!--  <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> -->
-			 <!--  <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> -->
-			 <!--  <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> -->
+			   <class name="com.cucumber.TestRunner.UserInternalPrintingRunner" /> 
+			  <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" /> 
+			   <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
+			  <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
+			   <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> 
 			 
 			 
 			 
 			  
 			 
 			</classes>
-	    </test>
+	    </test>-->
 
 	    
 	    
