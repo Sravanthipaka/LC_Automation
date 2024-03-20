@@ -16,55 +16,71 @@
 			<class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner" />		
-            <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
+           
 
             <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner" />		
-            <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner" />	
-            <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner" /> 
             <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner" /> 
+            
+            <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner" />
+            <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner" /> 
+            <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner" /> 
+            <class name="com.cucumber.TestRunner.AdminVerifiedCertificatesRunner" />
+            <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner" /> 
+            <class name="com.cucumber.TestRunner.AdminChangePasswordRunner" /> 
+            <class name="com.cucumber.TestRunner.ApprovalSettingsRunner" /> 
+            <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  
+			<class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner" />
+			<class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner" />   
+			<class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner" /> 
+			<class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner" /> 
          
-			 <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner" />
-		    <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner" />
-		    <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner" />
-		    <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner" />
-		    <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner" /> 
-		    <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner" />
-		  
 			
-         <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner" />   
-			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  
-			 <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner" />
-			 
-			 <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner" /> 
+		    <class name="com.cucumber.TestRunner.UserVerificationURLRunner" />  
+		    <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" /> 
+		    <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
+			<class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
+			<class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner" />
+			<class name="com.cucumber.TestRunner.UserInternalPrintingRunner" />
+			<class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner" />
+			<class name="com.cucumber.TestRunner.UserBulkGeneratedCertficatesRunner" />
+			<class name="com.cucumber.TestRunner.UserUpdateProfileRunner" />
+            <class name="com.cucumber.TestRunner.UserNewMailEditRunner" />
+            <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner" /> 
+			<class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner" />     
 			
-			 
+			
 			</classes>
 	    </test>
 	    
-	    
-	    
-	   <!--   <test name="ChromeBrowser">
+			
+			
+			
+			
+			
+			
+		<!--   <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
+				
+			<class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner" />
+		    <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner" />
+		    <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner" />
+		    <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner" />
+		    <class name="com.cucumber.TestRunner.AdminVerificationURLRunner" /> 
+            <class name="com.cucumber.TestRunner.AdminWelcomeTextRunner" />  
+		  
 			
-			 <class name="com.cucumber.TestRunner.AdminVerificationURLRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminVerifiedCertificatesRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminWelcomeTextRunner" />  
-			 <class name="com.cucumber.TestRunner.ApprovalSettingsRunner" /> 
-			 
-			
-			  </classes>
-	    </test> --> 
+       </classes>
+	    </test>--> 
 	    
 	    
+	 
 	    <!--   <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
-			 <class name="com.cucumber.TestRunner.BulkGeneratedCertificatesRunner" />  
+			
 			 <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
 			 <class name="com.cucumber.TestRunner.UserApplicationTitleRunner" />
 			 <class name="com.cucumber.TestRunner.UserBacktotopbuttonRunner" /> 
@@ -84,7 +100,7 @@
 		<classes>
 			
 			 <class name="com.cucumber.TestRunner.UserBulkDashboardLinkRunner" />
-			 <class name="com.cucumber.TestRunner.UserBulkGeneratedCertficatesRunner" />
+			
 			 <class name="com.cucumber.TestRunner.UserBulkUploadingandRemovethefileRunner" />
 			 <class name="com.cucumber.TestRunner.UserBulkWithoutSelectingCertificatetypeRunner" />
 			
@@ -132,75 +148,34 @@
 		<classes>
 			
 			  <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserNewMailEditRunner" /> 
+			
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner" /> 
+			 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" /> 
 			
 			
 			  </classes>
 	    </test>-->
-	    
-	      <!--   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
-			  <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserNewMailEditRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" /> 
-			
-			
-			  </classes>
-	    </test>-->
-	    
-	    
-	  <!--     <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
-			   <class name="com.cucumber.TestRunner.UserUpdateProfileRunner" /> 
-			   <class name="com.cucumber.TestRunner.UserVerificationURLRunner" />  
-			   <class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner" />
-			   <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner" /> 
-			   <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner" /> 
-			   <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" /> 
-			  
-			 </classes>
-	    </test>-->
-	    
 	    
 	     
-  <!-- <test name="ChromeBrowser">
+	    <!-- <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
-			   <class name="com.cucumber.TestRunner.UserInternalPrintingRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" /> 
-			   <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
-			   <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> 
 			   
-			   
-			   
-			   
-			  
-			     <class name="com.cucumber.TestRunner.AdminChangePasswordRunner" /> 
-			       <class name="com.cucumber.TestRunner.AdminCreditsListRunner" /> 
-			       <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner" /> 
-			        <class name="com.cucumber.TestRunner.AdminNewMailEditRunner" /> 
-			         <class name="com.cucumber.TestRunner.AdminRateContractListRunner" />  
-			         
-			          <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner" />  
-			 
-			 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />
+		     <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> 
+			 <class name="com.cucumber.TestRunner.AdminCreditsListRunner" /> 
+			 <class name="com.cucumber.TestRunner.AdminNewMailEditRunner" /> 
+			 <class name="com.cucumber.TestRunner.AdminRateContractListRunner" />  
+			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner" />  
+			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />
+			 <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
+	         <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner" />	
+             <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner" /> 
+             <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner" /> 
+		     <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" /> 
 
 			 
 			  
