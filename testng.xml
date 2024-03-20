@@ -18,62 +18,35 @@
             <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
 
-
-			
-	    
-	    
-	    
-	    
-	  
-			
-		    <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner" />
+            <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner" />		
             <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner" />	
             <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner" /> 
             <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner" /> 
          
-           
-	    
-	    
-	      
-	   
-			
-		    <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner" />
+			 <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner" />
 		    <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner" />
 		    <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner" />
 		    <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner" />
 		    <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner" /> 
-		    <class name="com.cucumber.TestRunner.AdminChangePasswordRunner" /> 
-		    <class name="com.cucumber.TestRunner.AdminCreditsListRunner" /> 
+		    <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner" />
+		  
 			
-         
-	    
-	    
-	          
-	  
-			
-			<class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner" />
-			 <class name="com.cucumber.TestRunner.AdminNewMailEditRunner" />  
-			 <class name="com.cucumber.TestRunner.AdminRateContractListRunner" />  
-			
-			 
-			
-			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner" />   
+         <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner" />   
 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />
 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  
 			 <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner" />
+			 
 			 <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner" /> 
 			
 			 
 			</classes>
 	    </test>
 	    
-	            
-	<!--   <test name="ChromeBrowser">
+	    
+	    
+	   <!--   <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -214,8 +187,21 @@
 			   <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner" /> 
 			   <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> 
+			   
+			   
+			   
+			   
+			  
+			     <class name="com.cucumber.TestRunner.AdminChangePasswordRunner" /> 
+			       <class name="com.cucumber.TestRunner.AdminCreditsListRunner" /> 
+			       <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner" /> 
+			        <class name="com.cucumber.TestRunner.AdminNewMailEditRunner" /> 
+			         <class name="com.cucumber.TestRunner.AdminRateContractListRunner" />  
+			         
+			          <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner" />  
 			 
-			 
+			 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />
+
 			 
 			  
 			 

@@ -29,7 +29,8 @@ public class AdminRecentCertificateGenerationsRecallSteps {
 	@Given("^login as through Username and password$")
 	public void login_as_through_Username_and_password() throws Throwable {
 		login.Logintoappln("SahaAdmin", "Admin@123");
-	}
+		Thread.sleep(2000);
+		}
 
 	@Then("^scroll by the vertical bar in dashboard$")
 	public void scroll_by_the_vertical_bar_in_dashboard() throws Throwable {

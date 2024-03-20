@@ -20,7 +20,7 @@ public class AdminAddCertificateTypeSteps {
 	}
 	@Given("^login admin username and password$")
 	public void login_admin_username_and_password() throws Throwable {
-		login.Logintoappln("SahaAdmin", "Admin@1");
+		login.Logintoappln("SahaAdmin", "Admin@123");
 	}
 
 	@Then("^click on the Certificates$")

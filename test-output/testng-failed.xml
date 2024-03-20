@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test" verbose="2">
+<suite name="Failed suite [Sapphirus Systems Pvt Ltd]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.cucumber.utility.Listener"/>
+  </listeners>
+  <test name="ChromeBrowser">
+    <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner"/>
+      <class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner"/>
+      <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner"/>
+      <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner"/>
+      <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner"/>
+      <class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner"/>
+      <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner"/>
+      <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner"/>
+      <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner"/>
       <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner"/>
+      <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner"/>
+      <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner"/>
+      <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner"/>
+      <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner"/>
+      <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner"/>
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner"/>
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner"/>
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner"/>
+      <class name="com.cucumber.TestRunner.AdminRegistrationRunner"/>
+      <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner"/>
+      <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner"/>
     </classes>
-  </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="feature"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminAddCertificateNameRunner -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- ChromeBrowser -->
+</suite> <!-- Failed suite [Sapphirus Systems Pvt Ltd] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeBrowser</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 19 18:54:16 IST 2024</td>
+<td>Started on:</td><td>Wed Mar 20 11:40:30 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>64 seconds (64325 ms)</td>
+<tr><td>Total time:</td><td>837 seconds (837155 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,125 +67,328 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.cucumber.TestRunner.UserGenSingleWithApprovalRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.UserGenSingleWithApprovalRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Check the flow of Institute User Generate Single With Approvals<br/>
-<a href="#Output-535361000" onClick='toggleBox("Output-535361000", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.cucumber.TestRunner.OrgMgmtChangePasswordRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgMgmtChangePasswordRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Organization Management - Check the flow of ChangePassword<br/>
+<a href="#Output-1392601873" onClick='toggleBox("Output-1392601873", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-535361000" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-535361000">
+<a href="#Output-1392601873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1392601873">
 Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
-Test Method resides in com.cucumber.TestRunner.UserGenSingleWithApprovalRunner<br/>
-Test Method had the following parameters : nullCheck the flow of Institute User Generate Single With Approvals,<br/>
-Test Status: Failed<br/>
+Test Method resides in com.cucumber.TestRunner.OrgMgmtChangePasswordRunner<br/>
+Test Method had the following parameters : nullOrganization Management - Check the flow of ChangePassword,<br/>
+Test Status: Pass<br/>
 </div>
 </td>
-<td><div><pre>cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;StudentName&apos;]&quot;}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03277e999bf9bd632c97e33b8ec3accf, findElement {using=xpath, value=//input[@id=&apos;StudentName&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03277e999bf9bd632c97e33b8ec3accf
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;StudentName&apos;]&quot;}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03277e999bf9bd632c97e33b8ec3accf, findElement {using=xpath, value=//input[@id=&apos;StudentName&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03277e999bf9bd632c97e33b8ec3accf
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at com.cucumber.PageObjects.UserGenSingleWithApprovalPageObjects.Entertheinputfields1(UserGenSingleWithApprovalPageObjects.java:143)
-	at com.cucumber.stepdefination.UserGenSingleWithApprovalSteps.enter_the_input_fields(UserGenSingleWithApprovalSteps.java:76)
-	at ✽.Then Enter the input fields1(src/test/resources/features/UserGenSingleWithApproval.feature:16)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace535361000", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace535361000'><pre>cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;StudentName&apos;]&quot;}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03277e999bf9bd632c97e33b8ec3accf, findElement {using=xpath, value=//input[@id=&apos;StudentName&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03277e999bf9bd632c97e33b8ec3accf
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;StudentName&apos;]&quot;}
-  (Session info: chrome=122.0.6261.129)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.20&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03277e999bf9bd632c97e33b8ec3accf, findElement {using=xpath, value=//input[@id=&apos;StudentName&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53312/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03277e999bf9bd632c97e33b8ec3accf
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at com.cucumber.PageObjects.UserGenSingleWithApprovalPageObjects.Entertheinputfields1(UserGenSingleWithApprovalPageObjects.java:143)
-	at com.cucumber.stepdefination.UserGenSingleWithApprovalSteps.enter_the_input_fields(UserGenSingleWithApprovalSteps.java:76)
-	at ✽.Then Enter the input fields1(src/test/resources/features/UserGenSingleWithApproval.feature:16)
-</pre></div></td>
-<td>56</td>
-<td>com.cucumber.TestRunner.UserGenSingleWithApprovalRunner@505fc5a4</td></tr>
+<td></td>
+<td>53</td>
+<td>com.cucumber.TestRunner.OrgMgmtChangePasswordRunner@543588e6</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Organisation Management - Check the flow of Launch the application<br/>
+<a href="#Output-810646103" onClick='toggleBox("Output-810646103", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-810646103" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-810646103">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner<br/>
+Test Method had the following parameters : nullOrganisation Management - Check the flow of Launch the application,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner@f5acb9d</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Organisation Management - Check the flow of Update Profile<br/>
+<a href="#Output-92340202" onClick='toggleBox("Output-92340202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-92340202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-92340202">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner<br/>
+Test Method had the following parameters : nullOrganisation Management - Check the flow of Update Profile,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner@4fb3ee4e</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Organisation Management - Check the flow of View Institutions<br/>
+<a href="#Output-1894577531" onClick='toggleBox("Output-1894577531", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1894577531" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1894577531">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner<br/>
+Test Method had the following parameters : nullOrganisation Management - Check the flow of View Institutions,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>69</td>
+<td>com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner@5d7148e2</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgSalesChangePasswordRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgSalesChangePasswordRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Orgnaisation Sales - Check the flow of Change Password<br/>
+<a href="#Output-458946139" onClick='toggleBox("Output-458946139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-458946139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-458946139">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgSalesChangePasswordRunner<br/>
+Test Method had the following parameters : nullOrgnaisation Sales - Check the flow of Change Password,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>54</td>
+<td>com.cucumber.TestRunner.OrgSalesChangePasswordRunner@25fb8912</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Organisation Sales - Check the flow of Launch the application<br/>
+<a href="#Output-1248832688" onClick='toggleBox("Output-1248832688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1248832688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1248832688">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner<br/>
+Test Method had the following parameters : nullOrganisation Sales - Check the flow of Launch the application,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner@7c24b813</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Organisation Sales - Check the flow of View Institutions<br/>
+<a href="#Output-289163990" onClick='toggleBox("Output-289163990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-289163990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-289163990">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner<br/>
+Test Method had the following parameters : nullOrganisation Sales - Check the flow of View Institutions,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>76</td>
+<td>com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner@2c35e847</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgSalesViewUserListRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgSalesViewUserListRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Orgnaisation Sales - Check the flow of View user list<br/>
+<a href="#Output-1687418752" onClick='toggleBox("Output-1687418752", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1687418752" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687418752">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgSalesViewUserListRunner<br/>
+Test Method had the following parameters : nullOrgnaisation Sales - Check the flow of View user list,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>com.cucumber.TestRunner.OrgSalesViewUserListRunner@7bd4937b</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.OrgSalesReceiptsRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.OrgSalesReceiptsRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Organisation Sales - Check the flow of Organisation Sales Reports Receipts<br/>
+<a href="#Output-986473968" onClick='toggleBox("Output-986473968", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-986473968" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-986473968">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.OrgSalesReceiptsRunner<br/>
+Test Method had the following parameters : nullOrganisation Sales - Check the flow of Organisation Sales Reports Receipts,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>com.cucumber.TestRunner.OrgSalesReceiptsRunner@21e360a</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminAddCertificateNameRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminAddCertificateNameRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution Admin - Check the flow of Certificate Names<br/>
+<a href="#Output-1720032937" onClick='toggleBox("Output-1720032937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1720032937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1720032937">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminAddCertificateNameRunner<br/>
+Test Method had the following parameters : nullInstitution Admin - Check the flow of Certificate Names,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.cucumber.TestRunner.AdminAddCertificateNameRunner@5ba3f27a</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminApplicationTitleRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminApplicationTitleRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution User - Check the flow of Application Title<br/>
+<a href="#Output-1454670179" onClick='toggleBox("Output-1454670179", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1454670179" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1454670179">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminApplicationTitleRunner<br/>
+Test Method had the following parameters : nullInstitution User - Check the flow of Application Title,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.cucumber.TestRunner.AdminApplicationTitleRunner@58d75e99</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminBacktotopbuttonRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminBacktotopbuttonRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution Admin - Check the flow of Back to top<br/>
+<a href="#Output-753129818" onClick='toggleBox("Output-753129818", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-753129818" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-753129818">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminBacktotopbuttonRunner<br/>
+Test Method had the following parameters : nullInstitution Admin - Check the flow of Back to top,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.cucumber.TestRunner.AdminBacktotopbuttonRunner@d5b810e</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminCertificateApprovalsRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminCertificateApprovalsRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institute Admin - Check the flow of CertificatesApprovals<br/>
+<a href="#Output-287985825" onClick='toggleBox("Output-287985825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-287985825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-287985825">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminCertificateApprovalsRunner<br/>
+Test Method had the following parameters : nullInstitute Admin - Check the flow of CertificatesApprovals,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.cucumber.TestRunner.AdminCertificateApprovalsRunner@342c38f8</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminAddCertificateTypeRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminAddCertificateTypeRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution Admin - Check the flow of Add Certificate Type<br/>
+<a href="#Output-1443422804" onClick='toggleBox("Output-1443422804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1443422804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1443422804">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminAddCertificateTypeRunner<br/>
+Test Method had the following parameters : nullInstitution Admin - Check the flow of Add Certificate Type,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.cucumber.TestRunner.AdminAddCertificateTypeRunner@5d0a1059</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminLaunchTheApplicationRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminLaunchTheApplicationRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution User - Check the flow of Launch the application<br/>
+<a href="#Output-1334198737" onClick='toggleBox("Output-1334198737", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1334198737" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1334198737">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminLaunchTheApplicationRunner<br/>
+Test Method had the following parameters : nullInstitution User - Check the flow of Launch the application,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cucumber.TestRunner.AdminLaunchTheApplicationRunner@1de76cc7</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution Admin - Check the flow of Recent Certificate Generations Revoke<br/>
+<a href="#Output-1868724762" onClick='toggleBox("Output-1868724762", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1868724762" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1868724762">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner<br/>
+Test Method had the following parameters : nullInstitution Admin - Check the flow of Recent Certificate Generations Revoke,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@593aaf41</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution User - Check the flow of Recent Certificate Generations Recall<br/>
+<a href="#Output-1473300345" onClick='toggleBox("Output-1473300345", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1473300345" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1473300345">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner<br/>
+Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate Generations Recall,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@7c711375</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail<br/>
+<a href="#Output-360328326" onClick='toggleBox("Output-360328326", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-360328326" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-360328326">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner<br/>
+Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@5b03b9fe</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminRegistrationRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminRegistrationRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution Admin - Check the flow of Registration<br/>
+<a href="#Output-1986703963" onClick='toggleBox("Output-1986703963", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1986703963" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1986703963">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminRegistrationRunner<br/>
+Test Method had the following parameters : nullInstitution Admin - Check the flow of Registration,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.cucumber.TestRunner.AdminRegistrationRunner@434a63ab</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminUpdateInstitutionRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminUpdateInstitutionRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution Admin - Check the flow of Update Institution<br/>
+<a href="#Output-1643298618" onClick='toggleBox("Output-1643298618", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1643298618" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1643298618">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminUpdateInstitutionRunner<br/>
+Test Method had the following parameters : nullInstitution Admin - Check the flow of Update Institution,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.cucumber.TestRunner.AdminUpdateInstitutionRunner@2805d709</td></tr>
+<tr>
+<td title='com.cucumber.TestRunner.AdminUpdateProfileRunner.feature()'><b>feature</b><br>Test class: com.cucumber.TestRunner.AdminUpdateProfileRunner<br>Test method: Runs Cucumber Feature<br>Parameters: Institution Admin - Check the flow of Updateprofile<br/>
+<a href="#Output-1214118601" onClick='toggleBox("Output-1214118601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1214118601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1214118601">
+Completed executing following method : AbstractTestNGCucumberTests.feature<br/>
+Test Method resides in com.cucumber.TestRunner.AdminUpdateProfileRunner<br/>
+Test Method had the following parameters : nullInstitution Admin - Check the flow of Updateprofile,<br/>
+Test Status: Pass<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.cucumber.TestRunner.AdminUpdateProfileRunner@2ea41516</td></tr>
 </table><p>
 </body>
 </html>

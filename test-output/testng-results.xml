@@ -1,58 +1,1602 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="0" failed="0" skipped="1">
+<testng-results total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Sapphirus Systems Pvt Ltd]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test ChromeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtChangePasswordRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtChangePasswordRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtChangePasswordRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrganization Management - Check the flow of ChangePassword,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtChangePasswordRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtChangePasswordRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtLaunchTheApplicationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtLaunchTheApplicationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrganisation Management - Check the flow of Launch the application,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtLaunchTheApplicationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtLaunchTheApplicationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtUpdateProfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtUpdateProfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrganisation Management - Check the flow of Update Profile,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtUpdateProfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtUpdateProfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtViewInstitutionsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtViewInstitutionsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrganisation Management - Check the flow of View Institutions,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgMgmtViewInstitutionsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgMgmtViewInstitutionsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesChangePasswordRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesChangePasswordRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesChangePasswordRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrgnaisation Sales - Check the flow of Change Password,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesChangePasswordRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesChangePasswordRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesLaunchTheApplicationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesLaunchTheApplicationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrganisation Sales - Check the flow of Launch the application,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesLaunchTheApplicationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesLaunchTheApplicationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesViewInstitutionsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesViewInstitutionsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrganisation Sales - Check the flow of View Institutions,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesViewInstitutionsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesViewInstitutionsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesViewUserListRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesViewUserListRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesViewUserListRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrgnaisation Sales - Check the flow of View user list,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesViewUserListRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesViewUserListRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesReceiptsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesReceiptsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesReceiptsRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullOrganisation Sales - Check the flow of Organisation Sales Reports Receipts,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : OrgSalesReceiptsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : OrgSalesReceiptsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminAddCertificateNameRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminAddCertificateNameRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminAddCertificateNameRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Certificate Names,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminAddCertificateNameRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminAddCertificateNameRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminApplicationTitleRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminApplicationTitleRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminApplicationTitleRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Application Title,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminApplicationTitleRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminApplicationTitleRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminBacktotopbuttonRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminBacktotopbuttonRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminBacktotopbuttonRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Back to top,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminBacktotopbuttonRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminBacktotopbuttonRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminCertificateApprovalsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminCertificateApprovalsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminCertificateApprovalsRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitute Admin - Check the flow of CertificatesApprovals,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminCertificateApprovalsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminCertificateApprovalsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminAddCertificateTypeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminAddCertificateTypeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminAddCertificateTypeRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Add Certificate Type,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminAddCertificateTypeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminAddCertificateTypeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminLaunchTheApplicationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminLaunchTheApplicationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminLaunchTheApplicationRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Launch the application,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminLaunchTheApplicationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminLaunchTheApplicationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRevokeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Recent Certificate Generations Revoke,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRevokeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRecallRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate Generations Recall,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRecallRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRegistrationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRegistrationRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRegistrationRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Registration,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRegistrationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRegistrationRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminUpdateInstitutionRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminUpdateInstitutionRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminUpdateInstitutionRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Update Institution,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminUpdateInstitutionRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminUpdateInstitutionRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminUpdateProfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminUpdateProfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminUpdateProfileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Updateprofile,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminUpdateProfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminUpdateProfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-03-19T17:41:01Z" name="Default suite" finished-at="2024-03-19T17:41:02Z" duration-ms="776">
+  <suite started-at="2024-03-20T06:10:30Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-20T06:24:28Z" duration-ms="837155">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5f9be66c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5ba3f27a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateTypeRunner@5d0a1059]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminApplicationTitleRunner@58d75e99]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminBacktotopbuttonRunner@d5b810e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminCertificateApprovalsRunner@342c38f8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminLaunchTheApplicationRunner@1de76cc7]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@7c711375]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@593aaf41]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@5b03b9fe]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRegistrationRunner@434a63ab]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminUpdateInstitutionRunner@2805d709]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminUpdateProfileRunner@2ea41516]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtChangePasswordRunner@543588e6]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner@f5acb9d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner@4fb3ee4e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner@5d7148e2]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesChangePasswordRunner@25fb8912]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner@7c24b813]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesReceiptsRunner@21e360a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner@2c35e847]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewUserListRunner@7bd4937b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-19T17:41:01Z" name="Default test" finished-at="2024-03-19T17:41:02Z" duration-ms="776">
-      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5f9be66c]" started-at="2024-03-19T23:11:01Z" name="setUpClass" finished-at="2024-03-19T23:11:01Z" duration-ms="438" status="PASS">
+    <test started-at="2024-03-20T06:10:30Z" name="ChromeBrowser" finished-at="2024-03-20T06:24:28Z" duration-ms="837155">
+      <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner@4fb3ee4e]" started-at="2024-03-20T11:41:34Z" name="setUpClass" finished-at="2024-03-20T11:41:34Z" duration-ms="69" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5f9be66c]" started-at="2024-03-19T23:11:01Z" name="beforeclass" finished-at="2024-03-19T23:11:01Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by @Configuration on method beforeclass but has not been marked @Optional or defined
-in C:\Users\admin\AppData\Local\Temp\testng-eclipse-1940234244\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by @Configuration on method beforeclass but has not been marked @Optional or defined
-in C:\Users\admin\AppData\Local\Temp\testng-eclipse-1940234244\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner@4fb3ee4e]" started-at="2024-03-20T11:41:34Z" name="beforeclass" finished-at="2024-03-20T11:41:37Z" duration-ms="3305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtUpdateProfileRunner.beforeclass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5f9be66c]" started-at="2024-03-19T23:11:02Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-19T23:11:02Z" duration-ms="1" status="SKIP">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner@4fb3ee4e]" started-at="2024-03-20T11:41:37Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:42:48Z" duration-ms="70608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Organisation Management - Check the flow of Update Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrganisation Management - Check the flow of Update Profile,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner@4fb3ee4e]" started-at="2024-03-20T11:42:48Z" name="testDownClass" finished-at="2024-03-20T11:42:48Z" duration-ms="187" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtUpdateProfileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner@4fb3ee4e]" started-at="2024-03-20T11:42:48Z" name="tearDownClass" finished-at="2024-03-20T11:42:48Z" duration-ms="66" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner -->
+      <class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner@7c24b813]" started-at="2024-03-20T11:45:00Z" name="setUpClass" finished-at="2024-03-20T11:45:00Z" duration-ms="62" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner@7c24b813]" started-at="2024-03-20T11:45:00Z" name="beforeclass" finished-at="2024-03-20T11:45:04Z" duration-ms="3647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesLaunchTheApplicationRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner@7c24b813]" started-at="2024-03-20T11:45:04Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:45:04Z" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Organisation Sales - Check the flow of Launch the application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrganisation Sales - Check the flow of Launch the application,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner@7c24b813]" started-at="2024-03-20T11:45:04Z" name="testDownClass" finished-at="2024-03-20T11:45:04Z" duration-ms="189" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesLaunchTheApplicationRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner@7c24b813]" started-at="2024-03-20T11:45:04Z" name="tearDownClass" finished-at="2024-03-20T11:45:04Z" duration-ms="56" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner -->
+      <class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner@f5acb9d]" started-at="2024-03-20T11:41:30Z" name="setUpClass" finished-at="2024-03-20T11:41:31Z" duration-ms="111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner@f5acb9d]" started-at="2024-03-20T11:41:31Z" name="beforeclass" finished-at="2024-03-20T11:41:34Z" duration-ms="3041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtLaunchTheApplicationRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner@f5acb9d]" started-at="2024-03-20T11:41:34Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:41:34Z" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Organisation Management - Check the flow of Launch the application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrganisation Management - Check the flow of Launch the application,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner@f5acb9d]" started-at="2024-03-20T11:41:34Z" name="testDownClass" finished-at="2024-03-20T11:41:34Z" duration-ms="190" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtLaunchTheApplicationRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner@f5acb9d]" started-at="2024-03-20T11:41:34Z" name="tearDownClass" finished-at="2024-03-20T11:41:34Z" duration-ms="76" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner -->
+      <class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtChangePasswordRunner@543588e6]" started-at="2024-03-20T11:40:30Z" name="setUpClass" finished-at="2024-03-20T11:40:31Z" duration-ms="581" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtChangePasswordRunner@543588e6]" started-at="2024-03-20T11:40:31Z" name="beforeclass" finished-at="2024-03-20T11:40:36Z" duration-ms="5380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtChangePasswordRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtChangePasswordRunner@543588e6]" started-at="2024-03-20T11:40:37Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:41:30Z" duration-ms="53125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Organization Management - Check the flow of ChangePassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtChangePasswordRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrganization Management - Check the flow of ChangePassword,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtChangePasswordRunner@543588e6]" started-at="2024-03-20T11:41:30Z" name="testDownClass" finished-at="2024-03-20T11:41:30Z" duration-ms="308" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtChangePasswordRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtChangePasswordRunner@543588e6]" started-at="2024-03-20T11:41:30Z" name="tearDownClass" finished-at="2024-03-20T11:41:30Z" duration-ms="528" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgMgmtChangePasswordRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@593aaf41]" started-at="2024-03-20T11:51:22Z" name="setUpClass" finished-at="2024-03-20T11:51:22Z" duration-ms="60" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@593aaf41]" started-at="2024-03-20T11:51:22Z" name="beforeclass" finished-at="2024-03-20T11:51:26Z" duration-ms="4282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@593aaf41]" started-at="2024-03-20T11:51:26Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:51:47Z" duration-ms="21378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution Admin - Check the flow of Recent Certificate Generations Revoke]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Recent Certificate Generations Revoke,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@593aaf41]" started-at="2024-03-20T11:51:47Z" name="testDownClass" finished-at="2024-03-20T11:51:48Z" duration-ms="192" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@593aaf41]" started-at="2024-03-20T11:51:48Z" name="tearDownClass" finished-at="2024-03-20T11:51:48Z" duration-ms="48" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner -->
+      <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner@5d7148e2]" started-at="2024-03-20T11:42:48Z" name="setUpClass" finished-at="2024-03-20T11:42:48Z" duration-ms="49" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner@5d7148e2]" started-at="2024-03-20T11:42:48Z" name="beforeclass" finished-at="2024-03-20T11:42:52Z" duration-ms="3753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtViewInstitutionsRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner@5d7148e2]" started-at="2024-03-20T11:42:52Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:44:01Z" duration-ms="69219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Organisation Management - Check the flow of View Institutions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrganisation Management - Check the flow of View Institutions,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner@5d7148e2]" started-at="2024-03-20T11:44:01Z" name="testDownClass" finished-at="2024-03-20T11:44:02Z" duration-ms="303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgMgmtViewInstitutionsRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner@5d7148e2]" started-at="2024-03-20T11:44:02Z" name="tearDownClass" finished-at="2024-03-20T11:44:02Z" duration-ms="78" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner -->
+      <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminUpdateProfileRunner@2ea41516]" started-at="2024-03-20T11:53:54Z" name="setUpClass" finished-at="2024-03-20T11:53:54Z" duration-ms="57" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminUpdateProfileRunner@2ea41516]" started-at="2024-03-20T11:53:54Z" name="beforeclass" finished-at="2024-03-20T11:53:58Z" duration-ms="3563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminUpdateProfileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminUpdateProfileRunner@2ea41516]" started-at="2024-03-20T11:53:58Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:54:27Z" duration-ms="29275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution Admin - Check the flow of Updateprofile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminUpdateProfileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Updateprofile,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminUpdateProfileRunner@2ea41516]" started-at="2024-03-20T11:54:27Z" name="testDownClass" finished-at="2024-03-20T11:54:27Z" duration-ms="274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminUpdateProfileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminUpdateProfileRunner@2ea41516]" started-at="2024-03-20T11:54:27Z" name="tearDownClass" finished-at="2024-03-20T11:54:28Z" duration-ms="60" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminUpdateProfileRunner -->
+      <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminLaunchTheApplicationRunner@1de76cc7]" started-at="2024-03-20T11:51:18Z" name="setUpClass" finished-at="2024-03-20T11:51:18Z" duration-ms="53" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminLaunchTheApplicationRunner@1de76cc7]" started-at="2024-03-20T11:51:18Z" name="beforeclass" finished-at="2024-03-20T11:51:21Z" duration-ms="3662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminLaunchTheApplicationRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminLaunchTheApplicationRunner@1de76cc7]" started-at="2024-03-20T11:51:21Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:51:21Z" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Launch the application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminLaunchTheApplicationRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Launch the application,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminLaunchTheApplicationRunner@1de76cc7]" started-at="2024-03-20T11:51:21Z" name="testDownClass" finished-at="2024-03-20T11:51:22Z" duration-ms="187" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminLaunchTheApplicationRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminLaunchTheApplicationRunner@1de76cc7]" started-at="2024-03-20T11:51:22Z" name="tearDownClass" finished-at="2024-03-20T11:51:22Z" duration-ms="56" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminLaunchTheApplicationRunner -->
+      <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminUpdateInstitutionRunner@2805d709]" started-at="2024-03-20T11:53:18Z" name="setUpClass" finished-at="2024-03-20T11:53:18Z" duration-ms="59" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminUpdateInstitutionRunner@2805d709]" started-at="2024-03-20T11:53:18Z" name="beforeclass" finished-at="2024-03-20T11:53:21Z" duration-ms="3632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminUpdateInstitutionRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminUpdateInstitutionRunner@2805d709]" started-at="2024-03-20T11:53:21Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:53:54Z" duration-ms="32506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution Admin - Check the flow of Update Institution]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminUpdateInstitutionRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Update Institution,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminUpdateInstitutionRunner@2805d709]" started-at="2024-03-20T11:53:54Z" name="testDownClass" finished-at="2024-03-20T11:53:54Z" duration-ms="231" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminUpdateInstitutionRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminUpdateInstitutionRunner@2805d709]" started-at="2024-03-20T11:53:54Z" name="tearDownClass" finished-at="2024-03-20T11:53:54Z" duration-ms="82" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminUpdateInstitutionRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@7c711375]" started-at="2024-03-20T11:51:48Z" name="setUpClass" finished-at="2024-03-20T11:51:48Z" duration-ms="35" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@7c711375]" started-at="2024-03-20T11:51:48Z" name="beforeclass" finished-at="2024-03-20T11:51:51Z" duration-ms="3563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@7c711375]" started-at="2024-03-20T11:51:51Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:52:15Z" duration-ms="23787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Recent Certificate Generations Recall]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate Generations Recall,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@7c711375]" started-at="2024-03-20T11:52:15Z" name="testDownClass" finished-at="2024-03-20T11:52:15Z" duration-ms="229" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@7c711375]" started-at="2024-03-20T11:52:15Z" name="tearDownClass" finished-at="2024-03-20T11:52:15Z" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@5b03b9fe]" started-at="2024-03-20T11:52:15Z" name="setUpClass" finished-at="2024-03-20T11:52:15Z" duration-ms="38" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@5b03b9fe]" started-at="2024-03-20T11:52:15Z" name="beforeclass" finished-at="2024-03-20T11:52:19Z" duration-ms="3600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@5b03b9fe]" started-at="2024-03-20T11:52:19Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:52:43Z" duration-ms="23863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@5b03b9fe]" started-at="2024-03-20T11:52:43Z" name="testDownClass" finished-at="2024-03-20T11:52:43Z" duration-ms="249" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@5b03b9fe]" started-at="2024-03-20T11:52:43Z" name="tearDownClass" finished-at="2024-03-20T11:52:43Z" duration-ms="82" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner -->
+      <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewUserListRunner@7bd4937b]" started-at="2024-03-20T11:46:26Z" name="setUpClass" finished-at="2024-03-20T11:46:26Z" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewUserListRunner@7bd4937b]" started-at="2024-03-20T11:46:26Z" name="beforeclass" finished-at="2024-03-20T11:46:30Z" duration-ms="3766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesViewUserListRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewUserListRunner@7bd4937b]" started-at="2024-03-20T11:46:30Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:47:17Z" duration-ms="47201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Orgnaisation Sales - Check the flow of View user list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesViewUserListRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrgnaisation Sales - Check the flow of View user list,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewUserListRunner@7bd4937b]" started-at="2024-03-20T11:47:17Z" name="testDownClass" finished-at="2024-03-20T11:47:17Z" duration-ms="301" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesViewUserListRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewUserListRunner@7bd4937b]" started-at="2024-03-20T11:47:17Z" name="tearDownClass" finished-at="2024-03-20T11:47:17Z" duration-ms="65" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgSalesViewUserListRunner -->
+      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5ba3f27a]" started-at="2024-03-20T11:48:38Z" name="setUpClass" finished-at="2024-03-20T11:48:38Z" duration-ms="44" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5ba3f27a]" started-at="2024-03-20T11:48:38Z" name="beforeclass" finished-at="2024-03-20T11:49:03Z" duration-ms="24963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminAddCertificateNameRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5ba3f27a]" started-at="2024-03-20T11:49:03Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:49:38Z" duration-ms="35084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,49 +1605,515 @@ in C:\Users\admin\AppData\Local\Temp\testng-eclipse-1940234244\testng-customsuit
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminAddCertificateNameRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Certificate Names,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5f9be66c]" started-at="2024-03-19T23:11:02Z" name="testDownClass" finished-at="2024-03-19T23:11:02Z" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.cucumber.listener.Reporter.addScreenCaptureFromPath(Reporter.java:94)
-	at com.cucumber.TestRunner.AdminAddCertificateNameRunner.testDownClass(AdminAddCertificateNameRunner.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:232)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5ba3f27a]" started-at="2024-03-20T11:49:38Z" name="testDownClass" finished-at="2024-03-20T11:49:39Z" duration-ms="364" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminAddCertificateNameRunner.testDownClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5f9be66c]" started-at="2024-03-19T23:11:02Z" name="tearDownClass" finished-at="2024-03-19T23:11:02Z" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateNameRunner@5ba3f27a]" started-at="2024-03-20T11:49:39Z" name="tearDownClass" finished-at="2024-03-20T11:49:39Z" duration-ms="55" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cucumber.TestRunner.AdminAddCertificateNameRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.cucumber.TestRunner.AdminRegistrationRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRegistrationRunner@434a63ab]" started-at="2024-03-20T11:52:43Z" name="setUpClass" finished-at="2024-03-20T11:52:43Z" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRegistrationRunner@434a63ab]" started-at="2024-03-20T11:52:43Z" name="beforeclass" finished-at="2024-03-20T11:52:47Z" duration-ms="4210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRegistrationRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRegistrationRunner@434a63ab]" started-at="2024-03-20T11:52:47Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:53:17Z" duration-ms="29965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution Admin - Check the flow of Registration]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRegistrationRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Registration,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRegistrationRunner@434a63ab]" started-at="2024-03-20T11:53:17Z" name="testDownClass" finished-at="2024-03-20T11:53:18Z" duration-ms="241" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRegistrationRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRegistrationRunner@434a63ab]" started-at="2024-03-20T11:53:18Z" name="tearDownClass" finished-at="2024-03-20T11:53:18Z" duration-ms="94" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRegistrationRunner -->
+      <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminCertificateApprovalsRunner@342c38f8]" started-at="2024-03-20T11:50:16Z" name="setUpClass" finished-at="2024-03-20T11:50:16Z" duration-ms="49" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminCertificateApprovalsRunner@342c38f8]" started-at="2024-03-20T11:50:16Z" name="beforeclass" finished-at="2024-03-20T11:50:20Z" duration-ms="3698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminCertificateApprovalsRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminCertificateApprovalsRunner@342c38f8]" started-at="2024-03-20T11:50:20Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:50:40Z" duration-ms="20522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institute Admin - Check the flow of CertificatesApprovals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminCertificateApprovalsRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitute Admin - Check the flow of CertificatesApprovals,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminCertificateApprovalsRunner@342c38f8]" started-at="2024-03-20T11:50:40Z" name="testDownClass" finished-at="2024-03-20T11:50:41Z" duration-ms="307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminCertificateApprovalsRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminCertificateApprovalsRunner@342c38f8]" started-at="2024-03-20T11:50:41Z" name="tearDownClass" finished-at="2024-03-20T11:50:41Z" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminCertificateApprovalsRunner -->
+      <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesReceiptsRunner@21e360a]" started-at="2024-03-20T11:47:17Z" name="setUpClass" finished-at="2024-03-20T11:47:17Z" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgSalesReceiptsRunner@21e360a]" started-at="2024-03-20T11:47:17Z" name="beforeclass" finished-at="2024-03-20T11:47:21Z" duration-ms="3579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesReceiptsRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesReceiptsRunner@21e360a]" started-at="2024-03-20T11:47:21Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:48:38Z" duration-ms="77113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Organisation Sales - Check the flow of Organisation Sales Reports Receipts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesReceiptsRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrganisation Sales - Check the flow of Organisation Sales Reports Receipts,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesReceiptsRunner@21e360a]" started-at="2024-03-20T11:48:38Z" name="testDownClass" finished-at="2024-03-20T11:48:38Z" duration-ms="243" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesReceiptsRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesReceiptsRunner@21e360a]" started-at="2024-03-20T11:48:38Z" name="tearDownClass" finished-at="2024-03-20T11:48:38Z" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgSalesReceiptsRunner -->
+      <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner@2c35e847]" started-at="2024-03-20T11:45:04Z" name="setUpClass" finished-at="2024-03-20T11:45:04Z" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner@2c35e847]" started-at="2024-03-20T11:45:04Z" name="beforeclass" finished-at="2024-03-20T11:45:08Z" duration-ms="4075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesViewInstitutionsRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner@2c35e847]" started-at="2024-03-20T11:45:08Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:46:25Z" duration-ms="76899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Organisation Sales - Check the flow of View Institutions]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrganisation Sales - Check the flow of View Institutions,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner@2c35e847]" started-at="2024-03-20T11:46:25Z" name="testDownClass" finished-at="2024-03-20T11:46:26Z" duration-ms="316" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesViewInstitutionsRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner@2c35e847]" started-at="2024-03-20T11:46:26Z" name="tearDownClass" finished-at="2024-03-20T11:46:26Z" duration-ms="68" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner -->
+      <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesChangePasswordRunner@25fb8912]" started-at="2024-03-20T11:44:02Z" name="setUpClass" finished-at="2024-03-20T11:44:02Z" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.OrgSalesChangePasswordRunner@25fb8912]" started-at="2024-03-20T11:44:02Z" name="beforeclass" finished-at="2024-03-20T11:44:05Z" duration-ms="3614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesChangePasswordRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.OrgSalesChangePasswordRunner@25fb8912]" started-at="2024-03-20T11:44:05Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:45:00Z" duration-ms="54557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Orgnaisation Sales - Check the flow of Change Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.OrgSalesChangePasswordRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullOrgnaisation Sales - Check the flow of Change Password,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesChangePasswordRunner@25fb8912]" started-at="2024-03-20T11:45:00Z" name="testDownClass" finished-at="2024-03-20T11:45:00Z" duration-ms="305" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : OrgSalesChangePasswordRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.OrgSalesChangePasswordRunner@25fb8912]" started-at="2024-03-20T11:45:00Z" name="tearDownClass" finished-at="2024-03-20T11:45:00Z" duration-ms="85" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.OrgSalesChangePasswordRunner -->
+      <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminApplicationTitleRunner@58d75e99]" started-at="2024-03-20T11:49:39Z" name="setUpClass" finished-at="2024-03-20T11:49:39Z" duration-ms="76" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminApplicationTitleRunner@58d75e99]" started-at="2024-03-20T11:49:39Z" name="beforeclass" finished-at="2024-03-20T11:49:43Z" duration-ms="4153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminApplicationTitleRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminApplicationTitleRunner@58d75e99]" started-at="2024-03-20T11:49:43Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:49:52Z" duration-ms="8986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Application Title]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminApplicationTitleRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Application Title,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminApplicationTitleRunner@58d75e99]" started-at="2024-03-20T11:49:52Z" name="testDownClass" finished-at="2024-03-20T11:49:52Z" duration-ms="299" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminApplicationTitleRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminApplicationTitleRunner@58d75e99]" started-at="2024-03-20T11:49:52Z" name="tearDownClass" finished-at="2024-03-20T11:49:52Z" duration-ms="60" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminApplicationTitleRunner -->
+      <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminBacktotopbuttonRunner@d5b810e]" started-at="2024-03-20T11:49:52Z" name="setUpClass" finished-at="2024-03-20T11:49:52Z" duration-ms="66" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminBacktotopbuttonRunner@d5b810e]" started-at="2024-03-20T11:49:52Z" name="beforeclass" finished-at="2024-03-20T11:49:56Z" duration-ms="3599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminBacktotopbuttonRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminBacktotopbuttonRunner@d5b810e]" started-at="2024-03-20T11:49:56Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:50:16Z" duration-ms="19607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution Admin - Check the flow of Back to top]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminBacktotopbuttonRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Back to top,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminBacktotopbuttonRunner@d5b810e]" started-at="2024-03-20T11:50:16Z" name="testDownClass" finished-at="2024-03-20T11:50:16Z" duration-ms="303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminBacktotopbuttonRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminBacktotopbuttonRunner@d5b810e]" started-at="2024-03-20T11:50:16Z" name="tearDownClass" finished-at="2024-03-20T11:50:16Z" duration-ms="43" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminBacktotopbuttonRunner -->
+      <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateTypeRunner@5d0a1059]" started-at="2024-03-20T11:50:41Z" name="setUpClass" finished-at="2024-03-20T11:50:41Z" duration-ms="55" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateTypeRunner@5d0a1059]" started-at="2024-03-20T11:50:41Z" name="beforeclass" finished-at="2024-03-20T11:50:44Z" duration-ms="3859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminAddCertificateTypeRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateTypeRunner@5d0a1059]" started-at="2024-03-20T11:50:44Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-20T11:51:17Z" duration-ms="32811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution Admin - Check the flow of Add Certificate Type]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminAddCertificateTypeRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Add Certificate Type,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateTypeRunner@5d0a1059]" started-at="2024-03-20T11:51:17Z" name="testDownClass" finished-at="2024-03-20T11:51:18Z" duration-ms="248" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminAddCertificateTypeRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminAddCertificateTypeRunner@5d0a1059]" started-at="2024-03-20T11:51:18Z" name="tearDownClass" finished-at="2024-03-20T11:51:18Z" duration-ms="72" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminAddCertificateTypeRunner -->
+    </test> <!-- ChromeBrowser -->
+  </suite> <!-- Sapphirus Systems Pvt Ltd -->
 </testng-results>
