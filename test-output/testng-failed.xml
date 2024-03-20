@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Sapphirus Systems Pvt Ltd]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
-  <listeners>
-    <listener class-name="com.cucumber.utility.Listener"/>
-  </listeners>
-  <test name="ChromeBrowser">
-    <parameter name="browser" value="chrome"/>
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
-      <class name="com.cucumber.TestRunner.UserGenSingleWithApprovalRunner"/>
+      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner"/>
     </classes>
-  </test> <!-- ChromeBrowser -->
-  <test name="ChromeBrowser(failed)">
-    <parameter name="browser" value="chrome"/>
+  </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.cucumber.TestRunner.UserGenSingleWithApprovalRunner">
+      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="feature" invocation-numbers="0"/>
           <include name="testDownClass"/>
+          <include name="feature"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.UserGenSingleWithApprovalRunner -->
+      </class> <!-- com.cucumber.TestRunner.AdminAddCertificateNameRunner -->
     </classes>
-  </test> <!-- ChromeBrowser(failed) -->
-</suite> <!-- Failed suite [Sapphirus Systems Pvt Ltd] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

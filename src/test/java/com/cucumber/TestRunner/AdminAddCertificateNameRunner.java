@@ -38,7 +38,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 			// "html:target/cucumber-reports/cucumber-pretty",
 			// "rerun:target/cucumber-reports/rerun.txt"
 
-			driverManager.launchBrowser(browser);
+			driverManager.launchBrowser("chrome");
 
 			Log.startTestCase(testcasename);
 		}
