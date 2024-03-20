@@ -19,15 +19,12 @@
             <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
 
 
-			</classes>
-	    </test>
+			
 	    
 	    
 	    
 	    
-	  <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+	  
 			
 		    <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner" />		
@@ -35,14 +32,11 @@
             <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner" /> 
             <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner" /> 
          
-            </classes>
-	    </test>
+           
 	    
 	    
 	      
-	   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+	   
 			
 		    <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner" />
 		    <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner" />
@@ -53,27 +47,17 @@
 		    <class name="com.cucumber.TestRunner.AdminCreditsListRunner" /> 
 			
          
-            </classes>
-	    </test>
 	    
 	    
 	          
-	  <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+	  
 			
 			<class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner" />
 			 <class name="com.cucumber.TestRunner.AdminNewMailEditRunner" />  
 			 <class name="com.cucumber.TestRunner.AdminRateContractListRunner" />  
 			
-			  </classes>
-	    </test> 
-	    
-	    
-	    <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+			 
 			
 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner" />   
