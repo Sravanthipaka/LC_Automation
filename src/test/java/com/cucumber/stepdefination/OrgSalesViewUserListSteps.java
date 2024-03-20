@@ -24,7 +24,8 @@ public class OrgSalesViewUserListSteps {
 	@Given("^Login through a valid Username and valid Password$")
 	public void login_through_a_valid_Username_and_valid_Password() throws Throwable {
 		login.Logintoappln("pavan123", "Global12@");
-		Thread.sleep(30000);	}
+		Thread.sleep(30000);
+		}
 
 	@Then("^Click on the View user list$")
 	public void click_on_the_View_user_list() throws Throwable {

@@ -26,6 +26,7 @@ public class OrgSalesViewInstitutionsSteps {
     @Given("^Login by the Username and Password$")
 	public void login_by_the_Username_and_Password() throws Throwable {
 		login.Logintoappln("pavan123", "Global12@");
+		Thread.sleep(4000);
 	}
 
 	@When("^click the institutions option$")

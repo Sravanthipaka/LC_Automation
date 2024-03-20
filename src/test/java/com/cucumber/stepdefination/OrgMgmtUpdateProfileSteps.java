@@ -27,6 +27,7 @@ public class OrgMgmtUpdateProfileSteps {
 	@Given("^Login as Username and Password$")
 	public void login_as_Username_and_Password() throws Throwable {
 		login.Logintoappln("sankar12", "Global12@");
+		Thread.sleep(2000);
 	}
 	@Then("^Click the Settings option$")
 	public void click_the_Settings_option() throws Throwable {
