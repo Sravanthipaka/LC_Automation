@@ -8,278 +8,451 @@
   <test name="ChromeBrowser">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner"/>
-      <class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner"/>
-      <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner"/>
-      <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner"/>
-      <class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner"/>
-      <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner"/>
-      <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner"/>
-      <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner"/>
-      <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner"/>
-      <class name="com.cucumber.TestRunner.AdminVerifiedCertificatesRunner"/>
-      <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner"/>
-      <class name="com.cucumber.TestRunner.AdminChangePasswordRunner"/>
-      <class name="com.cucumber.TestRunner.ApprovalSettingsRunner"/>
-      <class name="com.cucumber.TestRunner.AdminRegistrationRunner"/>
-      <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner"/>
-      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner"/>
-      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner"/>
-      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner"/>
-      <class name="com.cucumber.TestRunner.UserVerificationURLRunner"/>
-      <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner"/>
-      <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner"/>
-      <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner"/>
-      <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner"/>
-      <class name="com.cucumber.TestRunner.UserInternalPrintingRunner"/>
-      <class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner"/>
-      <class name="com.cucumber.TestRunner.UserBulkGeneratedCertficatesRunner"/>
-      <class name="com.cucumber.TestRunner.UserUpdateProfileRunner"/>
-      <class name="com.cucumber.TestRunner.UserNewMailEditRunner"/>
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner"/>
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner"/>
+      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner"/>
+      <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner"/>
+      <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner"/>
+      <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner"/>
+      <class name="com.cucumber.TestRunner.AdminVerificationURLRunner"/>
+      <class name="com.cucumber.TestRunner.AdminWelcomeTextRunner"/>
+      <class name="com.cucumber.TestRunner.UserWelcomeTextRunner"/>
+      <class name="com.cucumber.TestRunner.UserApplicationTitleRunner"/>
+      <class name="com.cucumber.TestRunner.UserBacktotopbuttonRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCXfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingJPGfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingPDFfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingJPEGfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingCombinationOffilesRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkDashboardLinkRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkUploadingandRemovethefileRunner"/>
+      <class name="com.cucumber.TestRunner.UserBulkWithoutSelectingCertificatetypeRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenSingleBygivingFutureMonthandYearRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenSingleEmailWithMultipleSpecialcharectersRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner"/>
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner"/>
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner"/>
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithSpacesandDotsRunner"/>
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithoutAcademicReferenceNumberRunner"/>
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsinAcademicReferenceNumberRunner"/>
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsRunner"/>
+      <class name="com.cucumber.TestRunner.UserInternalPrintingwithoutuploadingCSVfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner"/>
+      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner"/>
+      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner"/>
+      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner"/>
+      <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner"/>
+      <class name="com.cucumber.TestRunner.UserGuidelinesRunner"/>
+      <class name="com.cucumber.TestRunner.AdminCreditsListRunner"/>
+      <class name="com.cucumber.TestRunner.AdminNewMailEditRunner"/>
+      <class name="com.cucumber.TestRunner.AdminRateContractListRunner"/>
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner"/>
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner"/>
+      <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner"/>
+      <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner"/>
+      <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner"/>
+      <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner"/>
+      <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner"/>
     </classes>
   </test> <!-- ChromeBrowser -->
   <test name="ChromeBrowser(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.UserNewMailEditRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-          <include name="beforeclass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserNewMailEditRunner -->
-      <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner">
-        <methods>
-          <include name="beforeclass"/>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminUpdateInstitutionRunner -->
-      <class name="com.cucumber.TestRunner.UserBulkWithoutApprovalRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserBulkWithoutApprovalRunner -->
-      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner -->
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner">
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="beforeclass"/>
           <include name="testDownClass"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner -->
-      <class name="com.cucumber.TestRunner.AdminChangePasswordRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="beforeclass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminChangePasswordRunner -->
-      <class name="com.cucumber.TestRunner.AdminVerifiedCertificatesRunner">
-        <methods>
-          <include name="beforeclass"/>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminVerifiedCertificatesRunner -->
-      <class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner -->
-      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner -->
-      <class name="com.cucumber.TestRunner.UserInternalPrintingRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingRunner -->
-      <class name="com.cucumber.TestRunner.UserBulkGeneratedCertficatesRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserBulkGeneratedCertficatesRunner -->
-      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner">
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingCombinationOffilesRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="testDownClass"/>
           <include name="tearDownClass"/>
           <include name="beforeclass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner -->
-      <class name="com.cucumber.TestRunner.ApprovalSettingsRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.ApprovalSettingsRunner -->
-      <class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner">
-        <methods>
-          <include name="beforeclass"/>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserVerifiedCertificatesRunner -->
-      <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserVerifyCertificatesRunner -->
-      <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner -->
-      <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminAddCertificateTypeRunner -->
-      <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminCertificateApprovalsRunner -->
-      <class name="com.cucumber.TestRunner.AdminRegistrationRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="beforeclass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminRegistrationRunner -->
-      <class name="com.cucumber.TestRunner.UserUpdateProfileRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-          <include name="beforeclass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserUpdateProfileRunner -->
-      <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner">
+      </class> <!-- com.cucumber.TestRunner.UserBulkByUploadingCombinationOffilesRunner -->
+      <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="beforeclass"/>
           <include name="feature" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminGeneratedCertificatesRunner -->
-      <class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner">
-        <methods>
-          <include name="testDownClass"/>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner -->
-      <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminUpdateProfileRunner -->
-      <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner">
-        <methods>
-          <include name="beforeclass"/>
-          <include name="setUpClass"/>
           <include name="testDownClass"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.OrgSalesChangePasswordRunner -->
-      <class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="beforeclass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.OrgMgmtChangePasswordRunner -->
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="beforeclass"/>
-          <include name="testDownClass"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner -->
-      <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner">
+      </class> <!-- com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner -->
+      <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="testDownClass"/>
           <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkUploadingandRemovethefileRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkUploadingandRemovethefileRunner -->
+      <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner -->
+      <class name="com.cucumber.TestRunner.AdminRateContractListRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
           <include name="beforeclass"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner -->
-      <class name="com.cucumber.TestRunner.OrgSalesReceiptsRunner">
+      </class> <!-- com.cucumber.TestRunner.AdminRateContractListRunner -->
+      <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.OrgSalesViewUserListRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithoutAcademicReferenceNumberRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileWithoutAcademicReferenceNumberRunner -->
+      <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner">
         <methods>
           <include name="beforeclass"/>
           <include name="setUpClass"/>
           <include name="testDownClass"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.OrgSalesReceiptsRunner -->
-      <class name="com.cucumber.TestRunner.UserVerificationURLRunner">
+      </class> <!-- com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner -->
+      <class name="com.cucumber.TestRunner.AdminCreditsListRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminCreditsListRunner -->
+      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingJPGfileRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkByUploadingJPGfileRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCfileRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkByUploadingDOCfileRunner -->
+      <class name="com.cucumber.TestRunner.AdminVerificationURLRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminVerificationURLRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkWithoutSelectingCertificatetypeRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkWithoutSelectingCertificatetypeRunner -->
+      <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner -->
+      <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserLaunchTheApplicationRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsRunner -->
+      <class name="com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingwithoutuploadingCSVfileRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingwithoutuploadingCSVfileRunner -->
+      <class name="com.cucumber.TestRunner.UserGenSingleEmailWithMultipleSpecialcharectersRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGenSingleEmailWithMultipleSpecialcharectersRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkDashboardLinkRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkDashboardLinkRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingPDFfileRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkByUploadingPDFfileRunner -->
+      <class name="com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner">
         <methods>
           <include name="beforeclass"/>
           <include name="setUpClass"/>
           <include name="testDownClass"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.UserVerificationURLRunner -->
+      </class> <!-- com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner -->
+      <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner -->
+      <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner -->
+      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner -->
+      <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminBacktotopbuttonRunner -->
+      <class name="com.cucumber.TestRunner.UserApplicationTitleRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserApplicationTitleRunner -->
+      <class name="com.cucumber.TestRunner.UserWelcomeTextRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserWelcomeTextRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingJPEGfileRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkByUploadingJPEGfileRunner -->
+      <class name="com.cucumber.TestRunner.UserGuidelinesRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGuidelinesRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner -->
+      <class name="com.cucumber.TestRunner.AdminNewMailEditRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminNewMailEditRunner -->
+      <class name="com.cucumber.TestRunner.UserBacktotopbuttonRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBacktotopbuttonRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsinAcademicReferenceNumberRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsinAcademicReferenceNumberRunner -->
+      <class name="com.cucumber.TestRunner.AdminApplicationTitleRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminApplicationTitleRunner -->
+      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner -->
+      <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCXfileRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserBulkByUploadingDOCXfileRunner -->
+      <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminLaunchTheApplicationRunner -->
+      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminAddCertificateNameRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithSpacesandDotsRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithSpacesandDotsRunner -->
+      <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner -->
+      <class name="com.cucumber.TestRunner.AdminWelcomeTextRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminWelcomeTextRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner -->
+      <class name="com.cucumber.TestRunner.UserGenSingleBygivingFutureMonthandYearRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGenSingleBygivingFutureMonthandYearRunner -->
     </classes>
   </test> <!-- ChromeBrowser(failed) -->
 </suite> <!-- Failed suite [Sapphirus Systems Pvt Ltd] -->

@@ -9,7 +9,7 @@
 	
            
 
-	 <test name="ChromeBrowser">
+	<!-- <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -51,7 +51,7 @@
 			
 			
 			</classes>
-	    </test>
+	    </test>--> 
 	    
 			
 			
@@ -59,7 +59,7 @@
 			
 			
 			
-		<!--   <test name="ChromeBrowser">
+		   <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 				
@@ -70,17 +70,6 @@
 		    <class name="com.cucumber.TestRunner.AdminVerificationURLRunner" /> 
             <class name="com.cucumber.TestRunner.AdminWelcomeTextRunner" />  
 		  
-			
-       </classes>
-	    </test>--> 
-	    
-	    
-	 
-	    <!--   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
-			
 			 <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
 			 <class name="com.cucumber.TestRunner.UserApplicationTitleRunner" />
 			 <class name="com.cucumber.TestRunner.UserBacktotopbuttonRunner" /> 
@@ -91,29 +80,10 @@
 			 <class name="com.cucumber.TestRunner.UserBulkByUploadingJPEGfileRunner" />
 			 <class name="com.cucumber.TestRunner.UserBulkByUploadingCombinationOffilesRunner" />
 			
-      </classes>
-	    </test> -->
-	    
-	    
-	    <!--   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
+      
 			 <class name="com.cucumber.TestRunner.UserBulkDashboardLinkRunner" />
-			
 			 <class name="com.cucumber.TestRunner.UserBulkUploadingandRemovethefileRunner" />
 			 <class name="com.cucumber.TestRunner.UserBulkWithoutSelectingCertificatetypeRunner" />
-			
-			 
-			  </classes>
-	    </test>-->
-	    
-	    
-	    
-	     
-	    <!--   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
 			
 			  <class name="com.cucumber.TestRunner.UserGenSingleBygivingFutureMonthandYearRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" /> 
@@ -123,13 +93,7 @@
 			  <class name="com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner" /> 
 			 
-			    </classes>
-	    </test> -->
-	    
-	    
-	       <!--   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+			  
 			
 			 <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner" /> 
 			 <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner" /> 
@@ -139,33 +103,15 @@
 			 <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsRunner" /> 
 			 <class name="com.cucumber.TestRunner.UserInternalPrintingwithoutuploadingCSVfileRunner" />  
 			 
-			  </classes>
-	    </test> -->
-	    
-	    
-	     <!--   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
+			 
 			
 			  <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner" /> 
-			
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner" /> 
-			 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" /> 
-			
-			
-			  </classes>
-	    </test>-->
-	    
-	     
-	    <!-- <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
-			   
-		     <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> 
+
+             <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminCreditsListRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminNewMailEditRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminRateContractListRunner" />  
@@ -181,7 +127,7 @@
 			  
 			 
 			</classes>
-	    </test>-->
+	    </test>
 
 	    
 	    
