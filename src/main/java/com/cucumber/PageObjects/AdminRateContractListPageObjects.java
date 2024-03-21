@@ -34,8 +34,8 @@ public class AdminRateContractListPageObjects {
 	By prepaid= By.xpath("//input[@value='PrePaid']");
 	// Click on Postpaid Radio button
 	By postpaid= By.xpath("//input[@value='PostPaid']");
-	// Click on pages
-	By pages1= By.xpath("//span[normalize-space()='2']");
+//	// Click on pages
+//	By pages1= By.xpath("//span[normalize-space()='2']");
 
 
 

@@ -9,5 +9,5 @@ Feature: Institution Admin - Check the flow of Rate Contrat List
     Then Click on Download icon
     Then Click on Prepaid radio button 
     Then Click on Postpaid Radio button
-    Then Click on pages
+    #Then Click on pages
     

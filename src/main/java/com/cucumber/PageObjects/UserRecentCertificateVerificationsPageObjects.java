@@ -19,7 +19,7 @@ public class UserRecentCertificateVerificationsPageObjects {
 	By scroll = By.xpath("//h5[normalize-space()='Recent Certificate Verifications']");
 
 	//Click on the Student name link
-	By name = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[5]/div[2]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/a[1]");
+	By name = By.xpath("//a[normalize-space()='Kajal']");
 
 
 	public UserRecentCertificateVerificationsPageObjects(WebDriver driver) {

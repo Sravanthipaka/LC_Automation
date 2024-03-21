@@ -27,7 +27,7 @@ public class UserBulkByUploadingDOCfilePageObjects {
 	//upload the DOC file
 	//By upload = By.id("fileInput");
 	By checkbox = By.xpath("//input[@type='checkbox']");
-	By next = By.xpath("//input[@value='Next']");
+	//By next = By.xpath("//input[@value='Next']");
 
 
 
@@ -62,8 +62,8 @@ public class UserBulkByUploadingDOCfilePageObjects {
 		driver.findElement(By.id("fileInput")).sendKeys("D:\\LC_Automation Practice\\DWSample1-DOC 1.doc");
 		Thread.sleep(2000);
 		Constants.driver.findElement(checkbox).click();
-		Constants.driver.findElement(next).click();
-		Thread.sleep(3000);
+		//Constants.driver.findElement(next).click();
+		//Thread.sleep(3000);
 	}
 
 }

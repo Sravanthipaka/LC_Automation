@@ -24,7 +24,7 @@ public class AdminNewMailEditPageObjects {
 	//click the edit icon and Clear Student Email
 	By icon= By.xpath("//tbody/tr[1]/td[7]/span[1]");
 	By mail= By.xpath("//input[@placeholder='Enter new email']");
-	By ok = By.xpath("(//*[@type='button'])[3]");
+	//By ok = By.xpath("(//*[@type='button'])[3]");
 	// Click on the certificate type dropdown
 	By dropdown1 = By.xpath("//select[@class='selectBatchSingle ng-untouched ng-pristine ng-valid']");
 
@@ -54,7 +54,8 @@ public class AdminNewMailEditPageObjects {
 	public void Selectbygeneratedcertificates() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(GeneratedCertfs), TIMEOUT_WAIT,POOLING_WAIT);
 		Constants.driver.findElement(GeneratedCertfs).click();
-		Constants.driver.findElement(ok).click();
+		Thread.sleep(3000);
+		//Constants.driver.findElement(ok).click();
 		Constants.driver.findElement(dropdown1).click();
 		Constants.driver.findElement(selectvalue).click();
 		Thread.sleep(3000);

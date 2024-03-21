@@ -27,7 +27,7 @@ public class UserBulkByUploadingJPEGfilePageObjects {
 	//upload the JPEG file
 	//By upload = By.id("fileInput");
 	By checkbox = By.xpath("//input[@type='checkbox']");
-	By next = By.xpath("//input[@value='Next']");
+	//By next = By.xpath("//input[@value='Next']");
 
 
 

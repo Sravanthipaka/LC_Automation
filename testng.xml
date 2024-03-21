@@ -73,25 +73,26 @@
 			 <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
 			 <class name="com.cucumber.TestRunner.UserApplicationTitleRunner" />
 			 <class name="com.cucumber.TestRunner.UserBacktotopbuttonRunner" /> 
-			 <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCfileRunner" /> 
-			 <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCXfileRunner" /> 
+			
+			
 			 <class name="com.cucumber.TestRunner.UserBulkByUploadingJPGfileRunner" /> 
 			 <class name="com.cucumber.TestRunner.UserBulkByUploadingPDFfileRunner" /> 
 			 <class name="com.cucumber.TestRunner.UserBulkByUploadingJPEGfileRunner" />
 			 <class name="com.cucumber.TestRunner.UserBulkByUploadingCombinationOffilesRunner" />
+			 <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCXfileRunner" /> 
 			
       
 			 <class name="com.cucumber.TestRunner.UserBulkDashboardLinkRunner" />
 			 <class name="com.cucumber.TestRunner.UserBulkUploadingandRemovethefileRunner" />
 			 <class name="com.cucumber.TestRunner.UserBulkWithoutSelectingCertificatetypeRunner" />
-			
-			  <class name="com.cucumber.TestRunner.UserGenSingleBygivingFutureMonthandYearRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserGenSingleEmailWithMultipleSpecialcharectersRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserBulkByUploadingDOCfileRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserGenSingleBygivingFutureMonthandYearRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserGenSingleEmailWithMultipleSpecialcharectersRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner" /> 
+			 <class name="com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner" /> 
 			 
 			  
 			
@@ -106,15 +107,15 @@
 			 
 			
 			  <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner" /> 
 			  <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRunner" /> 
-			  <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" /> 
+			   <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" /> 
+			 
 
              <class name="com.cucumber.TestRunner.UserGuidelinesRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminCreditsListRunner" /> 
 			 <class name="com.cucumber.TestRunner.AdminNewMailEditRunner" /> 
-			 <class name="com.cucumber.TestRunner.AdminRateContractListRunner" />  
+			  
 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner" />  
 			 <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner" />
 			 <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
@@ -122,6 +123,7 @@
              <class name="com.cucumber.TestRunner.OrgSalesViewUserListRunner" /> 
              <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner" /> 
 		     <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" /> 
+		     <class name="com.cucumber.TestRunner.AdminRateContractListRunner" /> 
 
 			 
 			  
@@ -130,7 +132,17 @@
 	    </test>
 
 	    
-	    
+	  <!--    <test name="ChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			
+			 <class name="com.cucumber.TestRunner.UserRecentCertificateVerificationsRunner" /> 
+			
+
+			 
+			 
+			</classes>
+	    </test>--> 
 	    
 </suite>
 

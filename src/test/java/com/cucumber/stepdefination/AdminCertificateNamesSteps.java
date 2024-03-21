@@ -19,7 +19,7 @@ public class AdminCertificateNamesSteps {
 	}
 	@Given("^login through at the Admin with Username and password$")
 	public void login_through_at_the_Admin_with_Username_and_password() throws Throwable {
-		login.Logintoappln("SahaAdmin", "Admin@1");
+		login.Logintoappln("SahaAdmin", "Admin@123");
 	}
 
 	@Then("^click by Institution dropdown$")

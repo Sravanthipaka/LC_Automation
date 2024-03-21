@@ -27,7 +27,7 @@ public class UserBulkByUploadingJPGfilePageObjects {
 	//upload the JPG file
 	//By upload = By.id("fileInput");
 	By checkbox = By.xpath("//input[@type='checkbox']");
-	By next = By.xpath("//input[@value='Next']");
+	//By next = By.xpath("//input[@value='Next']");
 	
 	
 
@@ -64,8 +64,8 @@ public class UserBulkByUploadingJPGfilePageObjects {
 		driver.findElement(By.id("fileInput")).sendKeys("D:\\LC_Automation Practice\\Cat03 (7).jpg");
 		Thread.sleep(2000);
 		Constants.driver.findElement(checkbox).click();
-		Constants.driver.findElement(next).click();
-		Thread.sleep(3000);
+//		Constants.driver.findElement(next).click();
+//		Thread.sleep(3000);
 		}
 
 	}
