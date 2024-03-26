@@ -8,7 +8,7 @@
   <test name="ChromeBrowser">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner"/>
+      <class name="com.cucumber.TestRunner.AdminApprovalSettingsRunner"/>
     </classes>
   </test> <!-- ChromeBrowser -->
 </suite> <!-- Failed suite [Sapphirus Systems Pvt Ltd] -->

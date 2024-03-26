@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver.Navigation;
 
 import com.cucumber.PageObjects.AdminRateContractListPageObjects;
 import com.cucumber.PageObjects.AdminVerifiedCertificatesPageObjects;
-import com.cucumber.PageObjects.ApprovalSettingPageObjects;
+import com.cucumber.PageObjects.AdminApprovalSettingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.utility.TestContext;
 
@@ -15,7 +15,7 @@ import cucumber.api.java.en.When;
 public class AdminVerifiedCertificatesListSteps {
 	TestContext testContext;
 	LoginPageObjects login;
-	ApprovalSettingPageObjects approval;
+	AdminApprovalSettingPageObjects approval;
 	AdminVerifiedCertificatesPageObjects verify;
 
 	public AdminVerifiedCertificatesListSteps(TestContext context) {

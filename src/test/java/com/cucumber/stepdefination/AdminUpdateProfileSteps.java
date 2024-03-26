@@ -1,7 +1,7 @@
 package com.cucumber.stepdefination;
 
 import com.cucumber.PageObjects.AdminUpdateProfilePageObjects;
-import com.cucumber.PageObjects.ApprovalSettingPageObjects;
+import com.cucumber.PageObjects.AdminApprovalSettingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.utility.TestContext;
 

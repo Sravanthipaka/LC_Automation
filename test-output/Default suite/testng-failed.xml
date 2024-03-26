@@ -3,19 +3,19 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner"/>
+      <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner"/>
     </classes>
   </test> <!-- Default test -->
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner">
+      <class name="com.cucumber.TestRunner.AdminLaunchTheApplicationRunner">
         <methods>
           <include name="setUpClass"/>
           <include name="testDownClass"/>
           <include name="feature"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminAddCertificateNameRunner -->
+      </class> <!-- com.cucumber.TestRunner.AdminLaunchTheApplicationRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

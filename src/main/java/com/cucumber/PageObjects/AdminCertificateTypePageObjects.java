@@ -24,17 +24,10 @@ public class AdminCertificateTypePageObjects {
 	By CertTypes= By.xpath("//a[normalize-space()='Certificate Types']");
 
 	//Then click on the Certificate Type 
-	By CertType= By.xpath("//a[normalize-space()='MBA']");
-
-	//	//Then edit the fields 
-	//	//	By edit=By.xpath("(//*[@type='number'])[1]");
-	//	//By edit= By.xpath("(//*[@type='checkbox'])[2]");
-	//
-	//	//Then click on GO
-	//	By go=By.xpath("//*[@value='Update']");
+	By CertType= By.xpath("//a[normalize-space()='Auto']");
 
 	//click on the Type dropdown and select the option
-	By dropdown = By.xpath("/html/body/div/app-root/app-certificate-type-name/div/div/div[2]/div/div/div[2]/div[3]/table/tbody/tr[1]/td[5]/select");
+	//By dropdown = By.xpath("/html/body/div/app-root/app-certificate-type-name/div/div/div[2]/div/div/div[2]/div[3]/table/tbody/tr[1]/td[5]/select");
 
 	//click on Create button
 	By go = By.xpath("//*[@type='button']");
@@ -72,23 +65,12 @@ public class AdminCertificateTypePageObjects {
 	}	
 
 	public void editthefields() throws InterruptedException {
-		//testbase.waitForElement(Constants.driver.findElement(edit), TIMEOUT_WAIT, POOLING_WAIT);
-		//Constants.driver.findElement(edit).click();
+		//Constants.driver.findElement(dropdown).click();
 		Thread.sleep(2000);
-
-		// driver.findElement(By.xpath("/html/body/div/app-root/app-certificate-type-name/div/div/div[2]/div/div/div[2]/div[2]/table/tbody/tr[1]/td[5]/select/option[2]")).click();
-		//Thread.sleep(2000);
-
-		Constants.driver.findElement(dropdown).click();
-		Thread.sleep(2000);
-		//driver.findElement(By.xpath("/html/body/div/app-root/app-certificate-type-name/div/div/div[2]/div/div/div[2]/div[3]/table/tbody/tr[1]/td[5]/select")).click();
-		//Thread.sleep(2000);
 		
-	    JavascriptExecutor jse1=(JavascriptExecutor) driver;
-
-		WebElement Action=driver.findElement(By.xpath("//a[normalize-space()='LearningChain']"));
-
-		jse1.executeScript("arguments[0].scrollIntoView();",Action);
+		JavascriptExecutor jse1=(JavascriptExecutor) driver;
+        WebElement Action=driver.findElement(By.xpath("//a[normalize-space()='LearningChain']"));
+        jse1.executeScript("arguments[0].scrollIntoView();",Action);
 		Thread.sleep(3000);
 
 	}	
@@ -99,7 +81,7 @@ public class AdminCertificateTypePageObjects {
 		Constants.driver.findElement(checkbox).click();
 		Constants.driver.findElement(save).click();
 		Thread.sleep(2000);
-		
+
 		testbase.waitForElement(Constants.driver.findElement(ok), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(ok).click();
 

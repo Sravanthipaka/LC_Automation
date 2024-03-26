@@ -1,6 +1,6 @@
 package com.cucumber.stepdefination;
 
-import com.cucumber.PageObjects.ApprovalSettingPageObjects;
+import com.cucumber.PageObjects.AdminApprovalSettingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.PageObjects.OrgMgmtChangePasswordPageObjects;
 import com.cucumber.PageObjects.OrgSalesViewInstitutionsPageObjects;

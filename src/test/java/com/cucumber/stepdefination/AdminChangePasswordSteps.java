@@ -1,7 +1,7 @@
 package com.cucumber.stepdefination;
 
 import com.cucumber.PageObjects.AdminChangePasswordPageObjects;
-import com.cucumber.PageObjects.ApprovalSettingPageObjects;
+import com.cucumber.PageObjects.AdminApprovalSettingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.utility.TestContext;
 import cucumber.api.java.en.Given;
@@ -22,7 +22,7 @@ public class AdminChangePasswordSteps {
 	}
 	@Given("^Login with valid Username and Password$")
 	public void login_with_valid_Username_and_Password() throws Throwable {
-		login.Logintoappln("AnuAdmin", "Admin@1");
+		login.Logintoappln("SahaAdmin", "Admin@123");
 	}
 
 	@Then("^Click the Settings options$")

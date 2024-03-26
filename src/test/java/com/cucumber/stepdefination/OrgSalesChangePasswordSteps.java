@@ -1,6 +1,6 @@
 package com.cucumber.stepdefination;
 
-import com.cucumber.PageObjects.ApprovalSettingPageObjects;
+import com.cucumber.PageObjects.AdminApprovalSettingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.PageObjects.OrgSalesChangePasswordPageObjects;
 import com.cucumber.utility.TestContext;
@@ -23,7 +23,7 @@ public class OrgSalesChangePasswordSteps {
 	@Given("^Login through Username and Password$")
 	public void login_through_Username_and_Password() throws Throwable {
 		login.Logintoappln("pavan123", "Global12@");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 	}
 
 	@Then("^Click on Settings option$")

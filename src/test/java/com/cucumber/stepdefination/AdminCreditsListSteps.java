@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver.Navigation;
 
 import com.cucumber.PageObjects.AdminCreditsListPageObjects;
 import com.cucumber.PageObjects.AdminRateContractListPageObjects;
-import com.cucumber.PageObjects.ApprovalSettingPageObjects;
+import com.cucumber.PageObjects.AdminApprovalSettingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.utility.TestContext;
 
@@ -16,7 +16,7 @@ public class AdminCreditsListSteps {
 	TestContext testContext;
 	LoginPageObjects login;
 	AdminCreditsListPageObjects credits;
-	ApprovalSettingPageObjects approval;
+	AdminApprovalSettingPageObjects approval;
 
 	public AdminCreditsListSteps(TestContext context) {
 		System.out.println("Started CL2plus1 Step Definition ");

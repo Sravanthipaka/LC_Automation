@@ -24,7 +24,7 @@ public class OrgMgmtViewInstitutionsSteps {
 	@Given("^Login to Username and Password$")
 	public void login_Username_and_Password() throws Throwable {
 		login.Logintoappln("sravanthiom", "Org@12");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 
 	}
 	

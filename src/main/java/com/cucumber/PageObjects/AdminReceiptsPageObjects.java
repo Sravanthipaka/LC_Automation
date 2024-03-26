@@ -26,10 +26,13 @@ public class AdminReceiptsPageObjects {
 
 	// Click on Reports
 	By reports = By.xpath("//a[normalize-space()='Reports']");
+
 	// Click on Receipts
 	By receipts = By.xpath("//a[text()='Receipts ']");
+
 	// Click on Next button
 	By nextbutton = By.xpath("//a[text()=' Next ']");
+
 
 	public AdminReceiptsPageObjects(WebDriver driver) {
 		this.driver = driver;
@@ -47,19 +50,25 @@ public class AdminReceiptsPageObjects {
 	public void clickonReceipts() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(receipts), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(receipts).click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
+
+		JavascriptExecutor jse1=(JavascriptExecutor) driver;
+		WebElement Action=driver.findElement(By.xpath("//*[@class='pagination-next']"));
+		jse1.executeScript("arguments[0].scrollIntoView();",Action);
+		Thread.sleep(2000);
+
 	}
 
 	public void clickonnextbutton() throws InterruptedException {
 		((JavascriptExecutor) driver).executeScript("scroll(0,250);");
 		Thread.sleep(2000);
-		for (int i = 0; i < 8; i++) {
+		for (int i = 0; i < 9; i++) {
 			Thread.sleep(1000);
 			if ((Constants.driver.findElement(nextbutton)).isDisplayed()) {
 				Thread.sleep(1000);
 				Actions action = new Actions(Constants.driver);
 				WebElement element = Constants.driver.findElement(nextbutton);
-				if (i != 8) {
+				if (i != 9) {
 					action.moveToElement(element);
 					action.moveToElement(element).perform();
 					testbase.safeActionsClick(element, TIMEOUT_WAIT, POOLING_WAIT);

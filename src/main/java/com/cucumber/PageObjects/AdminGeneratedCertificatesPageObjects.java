@@ -1,5 +1,4 @@
 
-
 package com.cucumber.PageObjects;
 
 import java.time.Duration;
@@ -101,9 +100,9 @@ public class AdminGeneratedCertificatesPageObjects {
 		Constants.driver.findElement(generate).click();
 		Thread.sleep(3000);
 
-		testbase.waitForElement(Constants.driver.findElement(ok3), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(ok3).click();
-		Thread.sleep(1000);
+		//		testbase.waitForElement(Constants.driver.findElement(ok3), TIMEOUT_WAIT, POOLING_WAIT);
+		//		Constants.driver.findElement(ok3).click();
+		//		Thread.sleep(1000);
 
 		testbase.waitForElement(Constants.driver.findElement(dropdown1), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(dropdown1).click();
@@ -123,14 +122,13 @@ public class AdminGeneratedCertificatesPageObjects {
 		Constants.driver.findElement(student).sendKeys("shiva");
 		Thread.sleep(2000);
 
-
+		//scroll to horizontal(Action)
 		JavascriptExecutor jse1=(JavascriptExecutor) driver;
-
-		WebElement Action=driver.findElement(By.xpath("//input[@value='Export CSV']"));
-
+		WebElement Action=driver.findElement(By.xpath("//*[@id=\"example\"]/thead/tr/th[9]"));
 		jse1.executeScript("arguments[0].scrollIntoView();",Action);
 		Thread.sleep(3000);
 	}
+
 	public void clickthesendmailiconandclickonOk() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(mail), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(mail).click();
@@ -138,6 +136,7 @@ public class AdminGeneratedCertificatesPageObjects {
 		Thread.sleep(4000);
 
 	}
+
 	public void clickonRevokeiconandclickonOk() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(revoke), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(revoke).click();
@@ -146,6 +145,7 @@ public class AdminGeneratedCertificatesPageObjects {
 
 
 	}
+
 	public void clickthedownloadsourcefileiconandclickonOK() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(source), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(source).click();
@@ -164,12 +164,15 @@ public class AdminGeneratedCertificatesPageObjects {
 		testbase.waitForElement(Constants.driver.findElement(checkbox), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(checkbox).click();
 		Thread.sleep(2000);
+
+
 		JavascriptExecutor jse1=(JavascriptExecutor) driver;
 		WebElement Action=driver.findElement(By.xpath("//select[@id='bulk_action']"));
 		jse1.executeScript("arguments[0].scrollIntoView();",Action);
 		Thread.sleep(3000);
 
 	}
+
 	public void clickonActiondropdown() throws InterruptedException {
 		WebElement drop = testbase.waitForElement(Constants.driver.findElement(dropdown), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(dropdown).click();
@@ -177,8 +180,8 @@ public class AdminGeneratedCertificatesPageObjects {
 		driver.findElement(By.xpath("//*[@name='bulk_action']//option[2]")).click();
 		Thread.sleep(3000);
 
-
 	}
+
 	public void selectsendmailandclickonGobutton() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(go), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(go).click();
@@ -192,6 +195,7 @@ public class AdminGeneratedCertificatesPageObjects {
 
 
 	}
+
 	public void ClickbySignoutpage() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(signout), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(signout).click();

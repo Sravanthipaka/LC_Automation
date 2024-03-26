@@ -19,18 +19,18 @@ public class AdminCertificateApprovalsPageObjects {
 
 	//select the Approvals
 	By approvals= By.xpath("//a[normalize-space()='Approvals']");
-	
+
 	//click on BulkApproval
-    By bulk= By.xpath("//label[normalize-space()='Bulk Approval']//input[@name='sh']");
- 
-    //click on OK button
-    //By ok=By.xpath("(//*[@type='button'])[2]");
-    
-    //click on SingleApproval
-    By single= By.xpath("//label[normalize-space()='Single Approval']//input[@name='sh']");
-	
-    		
-    		public AdminCertificateApprovalsPageObjects(WebDriver driver) {
+	By bulk= By.xpath("//label[normalize-space()='Bulk Approval']//input[@name='sh']");
+
+	//click on OK button
+	//By ok=By.xpath("(//*[@type='button'])[2]");
+
+	//click on SingleApproval
+	By single= By.xpath("//label[normalize-space()='Single Approval']//input[@name='sh']");
+
+
+	public AdminCertificateApprovalsPageObjects(WebDriver driver) {
 		this.driver = driver;
 		testbase = new TestBase();
 	}
@@ -48,14 +48,14 @@ public class AdminCertificateApprovalsPageObjects {
 		Thread.sleep(3000);
 
 	}
-	
+
 	public void clickonBulkApproval() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(bulk), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(bulk).click();
 		Thread.sleep(2000);
 	}	
- 
-/*	public void clicktonOK() throws InterruptedException {
+
+	/*	public void clicktonOK() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(ok), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(ok).click();
 		Thread.sleep(2000);

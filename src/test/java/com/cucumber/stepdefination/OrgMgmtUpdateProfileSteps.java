@@ -1,6 +1,4 @@
 package com.cucumber.stepdefination;
-
-import com.cucumber.PageObjects.ApprovalSettingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.PageObjects.OrgMgmtUpdateProfilePageObjects;
 import com.cucumber.utility.TestContext;
@@ -27,7 +25,7 @@ public class OrgMgmtUpdateProfileSteps {
 	@Given("^Login as Username and Password$")
 	public void login_as_Username_and_Password() throws Throwable {
 		login.Logintoappln("sankar12", "Global12@");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 	}
 	@Then("^Click the Settings option$")
 	public void click_the_Settings_option() throws Throwable {

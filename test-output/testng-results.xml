@@ -14,10 +14,10 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.beforeclass]]>
+      <![CDATA[About to begin executing following method : AdminApprovalSettingsRunner.beforeclass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.beforeclass]]>
+      <![CDATA[Completed executing following method : AdminApprovalSettingsRunner.beforeclass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
@@ -26,19 +26,19 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner]]>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminApprovalSettingsRunner]]>
     </line>
     <line>
-      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Original Certificates,]]>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Approval Settings,]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.testDownClass]]>
+      <![CDATA[About to begin executing following method : AdminApprovalSettingsRunner.testDownClass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.testDownClass]]>
+      <![CDATA[Completed executing following method : AdminApprovalSettingsRunner.testDownClass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
@@ -47,22 +47,22 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-21T06:11:39Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-21T06:12:04Z" duration-ms="25607">
+  <suite started-at="2024-03-26T09:43:21Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-26T09:44:02Z" duration-ms="40972">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@505fc5a4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminApprovalSettingsRunner@5fbdfdcf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-21T06:11:39Z" name="ChromeBrowser" finished-at="2024-03-21T06:12:04Z" duration-ms="25607">
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@505fc5a4]" started-at="2024-03-21T11:41:39Z" name="setUpClass" finished-at="2024-03-21T11:41:39Z" duration-ms="457" status="PASS">
+    <test started-at="2024-03-26T09:43:21Z" name="ChromeBrowser" finished-at="2024-03-26T09:44:02Z" duration-ms="40972">
+      <class name="com.cucumber.TestRunner.AdminApprovalSettingsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminApprovalSettingsRunner@5fbdfdcf]" started-at="2024-03-26T15:13:21Z" name="setUpClass" finished-at="2024-03-26T15:13:21Z" duration-ms="525" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@505fc5a4]" started-at="2024-03-21T11:41:39Z" name="beforeclass" finished-at="2024-03-21T11:41:44Z" duration-ms="4194" status="PASS">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminApprovalSettingsRunner@5fbdfdcf]" started-at="2024-03-26T15:13:21Z" name="beforeclass" finished-at="2024-03-26T15:13:27Z" duration-ms="5335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,15 +72,15 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.beforeclass]]>
+              <![CDATA[Completed executing following method : AdminApprovalSettingsRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@505fc5a4]" started-at="2024-03-21T11:41:44Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-21T11:42:04Z" duration-ms="20235" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminApprovalSettingsRunner@5fbdfdcf]" started-at="2024-03-26T15:13:27Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-26T15:14:01Z" duration-ms="34289" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Institution User - Check the flow of Recent Certificate GenerationsandVerification Original Certificates]]>
+                <![CDATA[Institution Admin - Check the flow of Approval Settings]]>
               </value>
             </param>
           </params>
@@ -89,31 +89,31 @@
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner]]>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminApprovalSettingsRunner]]>
             </line>
             <line>
-              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Original Certificates,]]>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Approval Settings,]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@505fc5a4]" started-at="2024-03-21T11:42:04Z" name="testDownClass" finished-at="2024-03-21T11:42:04Z" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminApprovalSettingsRunner@5fbdfdcf]" started-at="2024-03-26T15:14:01Z" name="testDownClass" finished-at="2024-03-26T15:14:01Z" duration-ms="146" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.testDownClass]]>
+              <![CDATA[Completed executing following method : AdminApprovalSettingsRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@505fc5a4]" started-at="2024-03-21T11:42:04Z" name="tearDownClass" finished-at="2024-03-21T11:42:04Z" duration-ms="412" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminApprovalSettingsRunner@5fbdfdcf]" started-at="2024-03-26T15:14:01Z" name="tearDownClass" finished-at="2024-03-26T15:14:02Z" duration-ms="479" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner -->
+      </class> <!-- com.cucumber.TestRunner.AdminApprovalSettingsRunner -->
     </test> <!-- ChromeBrowser -->
   </suite> <!-- Sapphirus Systems Pvt Ltd -->
 </testng-results>

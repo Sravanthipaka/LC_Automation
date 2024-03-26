@@ -14,7 +14,7 @@ public class PageObjectManager {
 
 	private Log log;
 
-	private ApprovalSettingPageObjects approval;
+	private AdminApprovalSettingPageObjects approval;
 
 	private AdminVerifiedCertificatesPageObjects verify;
 
@@ -237,9 +237,9 @@ public class PageObjectManager {
 	}
 
 
-	public ApprovalSettingPageObjects getapproval() {
+	public AdminApprovalSettingPageObjects getapproval() {
 		if (approval == null) {
-			approval = new ApprovalSettingPageObjects(Constants.driver);
+			approval = new AdminApprovalSettingPageObjects(Constants.driver);
 		}
 		return approval;
 	}
