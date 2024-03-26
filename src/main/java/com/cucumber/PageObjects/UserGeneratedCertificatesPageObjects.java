@@ -83,9 +83,9 @@ public class UserGeneratedCertificatesPageObjects {
 		Constants.driver.findElement(generated).click();
 		Thread.sleep(3000);
 
-		testbase.waitForElement(Constants.driver.findElement(ok3), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(ok3).click();
-		Thread.sleep(1000);
+//		testbase.waitForElement(Constants.driver.findElement(ok3), TIMEOUT_WAIT, POOLING_WAIT);
+//		Constants.driver.findElement(ok3).click();
+//		Thread.sleep(1000);
 
 		testbase.waitForElement(Constants.driver.findElement(dropdown1), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(dropdown1).click();
@@ -104,7 +104,7 @@ public class UserGeneratedCertificatesPageObjects {
 		Constants.driver.findElement(name).sendKeys("R12");
 		Thread.sleep(2000);
         JavascriptExecutor jse1=(JavascriptExecutor) driver;
-        WebElement Action=driver.findElement(By.xpath("//th[normalize-space()='Action']"));
+        WebElement Action=driver.findElement(By.xpath("//*[@id=\"example\"]/thead/tr/th[9]"));
         jse1.executeScript("arguments[0].scrollIntoView();",Action);
 		Thread.sleep(3000);
 	}

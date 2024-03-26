@@ -23,7 +23,7 @@ public class UserRecentCertificateGenerationsandVerificationsSendMailPageObjects
 	By mail = By.xpath("//*[@title='Send Mail']");
 
 	//Click the send mail in Recent Certificate Verifications
-	By sendmail = By.xpath("(//*[@title='Send Mail'])[6]");
+	By sendmail = By.xpath("(//*[@title='Send Mail'])[1]");
 
 
 

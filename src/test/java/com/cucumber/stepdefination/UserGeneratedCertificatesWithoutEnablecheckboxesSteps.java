@@ -1,5 +1,5 @@
 package com.cucumber.stepdefination;
-import com.cucumber.PageObjects.InternalPrintingPageObjects;
+import com.cucumber.PageObjects.UserInternalPrintingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.PageObjects.UserGeneratedCertificatesWithoutEnablecheckboxesPageObjects;
 import com.cucumber.utility.Constants;
@@ -11,7 +11,7 @@ public class UserGeneratedCertificatesWithoutEnablecheckboxesSteps {
 
 	TestContext testContext;
 	LoginPageObjects login;
-	InternalPrintingPageObjects ipo;
+	UserInternalPrintingPageObjects ipo;
 	UserGeneratedCertificatesWithoutEnablecheckboxesPageObjects generatedcertificates1;
 
 

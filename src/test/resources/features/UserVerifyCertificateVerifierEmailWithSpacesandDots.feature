@@ -1,8 +1,8 @@
 @tag
-Feature: Institution User - Check the verification flow with verifier email id with spaces and dots.
+Feature: Institution User - Check the verification flow with verifier email id with Spaces and Dots
 
   @sanity
-  Scenario:  Check the flow of Institution User verification flow with verifier email id with spaces and dots.
+  Scenario:  Check the flow of Institution User verification flow with verifier email id with Spaces and Dots.
   Then Navigate to certificates
   Then click on Verify certificate
   Then Select certificate Type

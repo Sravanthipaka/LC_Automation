@@ -1,8 +1,8 @@
 @tag
-Feature: Institution User - Certificates Internal Printing WIth Out CSV
+Feature: Institution User - Check the flow of Internal Printing Without Uploading the CSV file
 
   @sanity
-  Scenario: Verified Certificates Internal Printing WIth Out CSV
+  Scenario: Check the flow of institution user Internal Printing Without Uploading the CSV file
     Given login with Valid Username and Password
     When click on Certificates Menu 
     And Select verified certificates

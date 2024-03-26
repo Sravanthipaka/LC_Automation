@@ -1,5 +1,5 @@
 package com.cucumber.stepdefination;
-import com.cucumber.PageObjects.InternalPrintingPageObjects;
+import com.cucumber.PageObjects.UserInternalPrintingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.utility.TestContext;
 
@@ -9,7 +9,7 @@ public class InternalPrintingSteps
 {
 	TestContext testContext;
 	LoginPageObjects login;
-	InternalPrintingPageObjects ipo;
+	UserInternalPrintingPageObjects ipo;
 	
 	 public InternalPrintingSteps(TestContext context) 
 	 { 

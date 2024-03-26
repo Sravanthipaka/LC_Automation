@@ -128,7 +128,7 @@ public class PageObjectManager {
 
 	private UserDashboardRecentCertificateGenerationsCertificateTypedropdownPageObjects certificatetypedropdown;
 
-	private UserBulkWithoutApprovalPageObjects userbulkwithoutapproval;
+	private UserGenerateBulkWithoutApprovalPageObjects userbulkwithoutapproval;
 
 	private UserDashboardGenerationsGraphPageObjects generationsgraph;
 
@@ -158,7 +158,7 @@ public class PageObjectManager {
 	
 	private UserVerifyCertificatePageObjects verifycertificate;
 
-	private UserBulkWithApprovalPageObjects bulkwithapproval;
+	private UserGenerateBulkWithApprovalPageObjects bulkwithapproval;
 
 	private UserInternalPrintingCSVFileWithoutAcademicReferenceNumberPageObjects invalidacrefnum;
 
@@ -196,7 +196,7 @@ public class PageObjectManager {
 	
 	private UserGenSingleByUploadingDOCXfilePageObjects gensinglewithdocx;
 	
-	private InternalPrintingPageObjects internalptinting;
+	private UserInternalPrintingPageObjects internalptinting;
 	
 	private UserInternalPrintingwithoutuploadingCSVfilePageObjects interprintwithempty;
 	
@@ -625,9 +625,9 @@ public class PageObjectManager {
 		return certificatetypedropdown;
 	}
 
-	public UserBulkWithoutApprovalPageObjects getuserbulkwithoutapproval() {
+	public UserGenerateBulkWithoutApprovalPageObjects getuserbulkwithoutapproval() {
 		if (userbulkwithoutapproval == null) {
-			userbulkwithoutapproval = new UserBulkWithoutApprovalPageObjects(Constants.driver);
+			userbulkwithoutapproval = new UserGenerateBulkWithoutApprovalPageObjects(Constants.driver);
 		}
 		return userbulkwithoutapproval;
 	}
@@ -717,9 +717,9 @@ public class PageObjectManager {
 		return verifycertificate;
 	}
 	
-	public UserBulkWithApprovalPageObjects getbulkwithapproval() {
+	public UserGenerateBulkWithApprovalPageObjects getbulkwithapproval() {
 		if (bulkwithapproval == null) {
-			bulkwithapproval = new UserBulkWithApprovalPageObjects(Constants.driver);
+			bulkwithapproval = new UserGenerateBulkWithApprovalPageObjects(Constants.driver);
 		}
 		return bulkwithapproval;
 	}
@@ -867,9 +867,9 @@ public class PageObjectManager {
 		return verifycertiwithemptyrefid;
 	}
 	
-	public InternalPrintingPageObjects getinternalptinting() {
+	public UserInternalPrintingPageObjects getinternalptinting() {
 		if (internalptinting == null) {
-			internalptinting = new InternalPrintingPageObjects(Constants.driver);
+			internalptinting = new UserInternalPrintingPageObjects(Constants.driver);
 		}
 		return internalptinting;
 	}

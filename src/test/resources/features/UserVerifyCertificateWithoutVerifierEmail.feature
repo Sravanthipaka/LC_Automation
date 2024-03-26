@@ -1,7 +1,7 @@
 @tag
-Feature: Institution User - Check the verification by giving email without @
+Feature: Institution User - Check the flow of User Verify Certifiate Without Verifier Email id
 	@Sanity
-	Scenario: Check the flow of Institution User Verifier email id without @
+	Scenario: Check the flow of Institution User User Verify Certifiate Without Verifier Email id
 	Then Navigate to the certificates
   Then click on the Verify certificate
   Then Select a certificate Type

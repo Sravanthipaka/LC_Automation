@@ -6,7 +6,7 @@ import com.cucumber.PageObjects.UserBulkByUploadingDOCfilePageObjects;
 import com.cucumber.PageObjects.UserBulkByUploadingJPEGfilePageObjects;
 import com.cucumber.PageObjects.UserBulkByUploadingJPGfilePageObjects;
 import com.cucumber.PageObjects.UserBulkByUploadingPDFfilePageObjects;
-import com.cucumber.PageObjects.UserBulkWithoutApprovalPageObjects;
+import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
 import com.cucumber.PageObjects.UserBulkWithoutSelectingCertificatetype;
 import com.cucumber.utility.TestContext;
 

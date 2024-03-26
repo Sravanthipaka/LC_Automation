@@ -61,7 +61,12 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 	By checkbox1= By.xpath("//input[@id='gen_mail_institution']");
 	By generatecertificate= By.xpath("//input[@value='Generate Certificate']");
 	By submit1= By.xpath("(//*[@type='button'])[2]");
+	
 	//By ok1= By.xpath("//button[normalize-space()='Ok']");
+	
+	
+	
+	
 
 	public UserGenerateSingleWithoutApprovalPageObjects(WebDriver driver) {
 		this.driver = driver;
@@ -75,6 +80,7 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 		Thread.sleep(3000);
 
 	}
+	
 	public void selectthesettingsoption() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(settings), TIMEOUT_WAIT,POOLING_WAIT);
 		Constants.driver.findElement(settings).click();
@@ -141,11 +147,11 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 	public void Enterallinputfields() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(name), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(name).sendKeys("ShreyasIyer");
+		Constants.driver.findElement(name).sendKeys("Mamatha");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(mobile), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(mobile).sendKeys("7569143890");
+		Constants.driver.findElement(mobile).sendKeys("99121908023");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(IssueMonth), TIMEOUT_WAIT, POOLING_WAIT);
@@ -153,11 +159,11 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(email), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(email).sendKeys("saitejaswi.m@sapphirus.in");
+		Constants.driver.findElement(email).sendKeys("anusha.m@sapphirus.in");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(AcademicRef), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(AcademicRef).sendKeys("MST21");
+		Constants.driver.findElement(AcademicRef).sendKeys("GS11");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(CertName), TIMEOUT_WAIT, POOLING_WAIT);
@@ -169,12 +175,13 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
-		String img= "C:\\Users\\admin\\Desktop\\BULK Data (2-28-24)\\marina-obooko (4)-85.pdf";
+		String img= "C:\\Users\\admin\\Desktop\\Bulk data-(26-Mar-24)\\important-linux-commands-you-should-know-obooko-1.pdf";
 
 		Constants.driver.findElement(upload);
 		WebElement Upload= testbase.waitForElement(Constants.driver.findElement(upload), TIMEOUT_WAIT, POOLING_WAIT);
 		Upload.sendKeys(img);
 		Thread.sleep(2000);
+		
 	}
 
 	public void clicktheGenerateCertificatebutton() throws InterruptedException {
@@ -200,8 +207,8 @@ public class UserGenerateSingleWithoutApprovalPageObjects {
 		Constants.driver.findElement(submit1).click();
 		Thread.sleep(3000);
 
-//		testbase.waitForElement(Constants.driver.findElement(ok1), TIMEOUT_WAIT, POOLING_WAIT);
-//		Constants.driver.findElement(ok1).click();
+		//		testbase.waitForElement(Constants.driver.findElement(ok1), TIMEOUT_WAIT, POOLING_WAIT);
+		//		Constants.driver.findElement(ok1).click();
 
 	}
 }

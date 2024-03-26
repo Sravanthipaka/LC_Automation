@@ -1,7 +1,7 @@
 package com.cucumber.stepdefination;
 import org.openqa.selenium.WebDriver;
 
-import com.cucumber.PageObjects.InternalPrintingPageObjects;
+import com.cucumber.PageObjects.UserInternalPrintingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.PageObjects.UserVerifiedCertificatesWithoutEnablecheckboxesPageObjects;
 

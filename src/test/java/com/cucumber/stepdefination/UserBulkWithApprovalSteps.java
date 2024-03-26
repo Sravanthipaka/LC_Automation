@@ -1,8 +1,8 @@
 package com.cucumber.stepdefination;
 
 import com.cucumber.PageObjects.LoginPageObjects;
-import com.cucumber.PageObjects.UserBulkWithApprovalPageObjects;
-import com.cucumber.PageObjects.UserBulkWithoutApprovalPageObjects;
+import com.cucumber.PageObjects.UserGenerateBulkWithApprovalPageObjects;
+import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
 import com.cucumber.utility.TestContext;
 
 import cucumber.api.java.en.Given;
@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 public class UserBulkWithApprovalSteps {
 	TestContext testContext;
 	LoginPageObjects login;
-	UserBulkWithApprovalPageObjects bulkwithapproval;
+	UserGenerateBulkWithApprovalPageObjects bulkwithapproval;
 
 	public UserBulkWithApprovalSteps(TestContext context) {
 		System.out.println("Started Bulk With Approvals");

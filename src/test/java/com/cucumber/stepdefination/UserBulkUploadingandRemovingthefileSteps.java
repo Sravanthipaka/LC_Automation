@@ -1,5 +1,5 @@
 package com.cucumber.stepdefination;
-import com.cucumber.PageObjects.InternalPrintingPageObjects;
+import com.cucumber.PageObjects.UserInternalPrintingPageObjects;
 import com.cucumber.PageObjects.LoginPageObjects;
 import com.cucumber.PageObjects.UserBulkUploadingandRemovingthefilePageObjects;
 import com.cucumber.utility.Constants;
