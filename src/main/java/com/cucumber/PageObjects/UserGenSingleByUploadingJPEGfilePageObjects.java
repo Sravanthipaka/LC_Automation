@@ -55,7 +55,7 @@ public class UserGenSingleByUploadingJPEGfilePageObjects {
 
 		WebElement CertificateType = driver.findElement(ct);
 		Select sc=new Select(CertificateType);
-		sc.selectByVisibleText("B.tech");
+		sc.selectByVisibleText("BSC");
 		Thread.sleep(3000);
 	}
 	

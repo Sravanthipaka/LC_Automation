@@ -69,15 +69,15 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 	public void filltherequiredfields() throws InterruptedException {
 
 		testbase.waitForElement(Constants.driver.findElement(name), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(name).sendKeys("Ashwitha");
+		Constants.driver.findElement(name).sendKeys("Swathi");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(mobile), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(mobile).sendKeys("7519243856");
+		Constants.driver.findElement(mobile).sendKeys("7519243800");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(email), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(email).sendKeys("anusha.m@sapphirus.in");
+		Constants.driver.findElement(email).sendKeys("swathi.m@sapphirus.in");
 		Thread.sleep(3000);
 
 		testbase.waitForElement(Constants.driver.findElement(IssueMonth), TIMEOUT_WAIT, POOLING_WAIT);
@@ -86,7 +86,7 @@ public class UserGenSingleByUploadingJPGfilePageObjects {
 
 
 		testbase.waitForElement(Constants.driver.findElement(AcademicRef), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(AcademicRef).sendKeys("shdgfh3");
+		Constants.driver.findElement(AcademicRef).sendKeys("s65573");
 		Thread.sleep(2000);
 
 		testbase.waitForElement(Constants.driver.findElement(CertName), TIMEOUT_WAIT, POOLING_WAIT);

@@ -15,13 +15,13 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
-	@CucumberOptions(features = { "src/test/resources/features/UserBulkByUploadingDOCfile.feature" },
+	@CucumberOptions(features = { "src/test/resources/features/UserBulkByUploadingCombinationOffiles.feature" },
 			glue = { "com/cucumber/stepdefination/" }, plugin = { "json:target/cucumber-reports/cucumber.json",
 					"html:target/cucumber-pretty",
 					"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",
 					"pretty" }, monochrome = true, dryRun = false, strict = true)
 
-	public class UserBulkByUploadingDOCfileRunner extends AbstractTestNGCucumberTests {
+	public class UserGenerateBulkByUploadingCombinationOffilesRunner extends AbstractTestNGCucumberTests {
 
 		String testcasename;
 		WebDriverManager driverManager = new WebDriverManager();

@@ -8,26 +8,21 @@
   <test name="ChromeBrowser">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.UserWelcomeTextRunner"/>
-      <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner"/>
-      <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner"/>
-      <class name="com.cucumber.TestRunner.UserVerificationURLRunner"/>
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRevokeRunner"/>
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsQRCodeRunner"/>
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner"/>
-      <class name="com.cucumber.TestRunner.UserNewMailEditRunner"/>
-      <class name="com.cucumber.TestRunner.UserLaunchTheApplicationRunner"/>
-      <class name="com.cucumber.TestRunner.UserRecentCertificateGenerationsRecallRunner"/>
-      <class name="com.cucumber.TestRunner.UserInternalPrintingwithoutuploadingCSVfileRunner"/>
-      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsRunner"/>
-      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithSpacesandDotsinAcademicReferenceNumberRunner"/>
-      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileWithoutAcademicReferenceNumberRunner"/>
-      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithSpacesandDotsRunner"/>
-      <class name="com.cucumber.TestRunner.UserGenSingleMobileWithless10digitsRunner"/>
-      <class name="com.cucumber.TestRunner.UserGenSingleMobileWithAbove10digitsRunner"/>
-      <class name="com.cucumber.TestRunner.UserGenSingleEmailWithMultipleSpecialcharectersRunner"/>
-      <class name="com.cucumber.TestRunner.UserGenSingleBygivingFutureMonthandYearRunner"/>
-      <class name="com.cucumber.TestRunner.UserGenSingleByUploadingJPGfileRunner"/>
+      <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner"/>
     </classes>
   </test> <!-- ChromeBrowser -->
+  <test name="ChromeBrowser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
 </suite> <!-- Failed suite [Sapphirus Systems Pvt Ltd] -->
