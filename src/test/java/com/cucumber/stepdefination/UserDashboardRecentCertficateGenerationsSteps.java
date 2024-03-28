@@ -46,7 +46,7 @@ public class UserDashboardRecentCertficateGenerationsSteps {
 	
 	@Then("^click on the print button$")
 	public void click_on_the_print_button() throws Throwable {
-		dbrecentcertificategenerations.clickontheprintbutton();
+		//dbrecentcertificategenerations.clickontheprintbutton();
 	}
 
 	

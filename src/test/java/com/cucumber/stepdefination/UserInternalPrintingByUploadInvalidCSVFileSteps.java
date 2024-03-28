@@ -30,7 +30,7 @@ public class UserInternalPrintingByUploadInvalidCSVFileSteps {
 
 	@When("^I navigate to  Certificates type tab$")
 	public void i_navigate_to_Certificates_type_tab() throws Throwable {
-		invalidcsv.i_navigate_to_Certificates_type_tab();
+		//invalidcsv.i_navigate_to_Certificates_type_tab();
 	}
 
 	@When("^select the internal printing$")

@@ -40,25 +40,25 @@ public class UserVerifyCertificatesStudentNameWithSpacesandDotsSteps {
 	@Then("^select the Certificates type$")
 	public void select_the_Certificates_type() throws Throwable {
 		verifStuDots.selectCertificatestype();
-		Thread.sleep(2000);
+		
 	}
 
 	@Then("^enter  the StudentDetails$")
 	public void enter_the_StudentDetails() throws Throwable {
 		verifStuDots.enterStudentDetails();
-		Thread.sleep(2000);
+		
 	}
 
 	@Then("^enter the VerifierDetails$")
 	public void enter_the_VerifierDetails() throws Throwable {
 		verifStuDots.enterVerifierDetailsclickontheQRCodeicon(); 
-		Thread.sleep(2000);
+		
 	}
 
 	@Then("^click the Next button$")
 	public void click_the_Next_button() throws Throwable {
 		verifStuDots.clickontheNextbutton();
-		Thread.sleep(2000); 
+		
 	}
 	
 	

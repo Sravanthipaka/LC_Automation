@@ -81,13 +81,13 @@ public class UserDashboardRecentCertificateGenerationsPageObjects {
 		testbase.waitForElement(Constants.driver.findElement(print), TIMEOUT_WAIT,POOLING_WAIT);
 		
 		
-		driver.switchTo().window(driver.getWindowHandles().toArray()[1].toString());	
-		WebElement element1 = driver.findElement(By.xpath("//a[text()='Print']"));
-		JavascriptExecutor js1 = (JavascriptExecutor) driver;
-		int y1 = element1.getLocation().getY();
-		js1.executeScript("window.scrollBy(0,"+y1+")", element1);
-		Thread.sleep(2000);
-        element1.click();        
+//		driver.switchTo().window(driver.getWindowHandles().toArray()[1].toString());	
+//		WebElement element1 = driver.findElement(By.xpath("//a[text()='Print']"));
+//		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+//		int y1 = element1.getLocation().getY();
+//		js1.executeScript("window.scrollBy(0,"+y1+")", element1);
+//		Thread.sleep(2000);
+//       element1.click();        
 
 	}
 

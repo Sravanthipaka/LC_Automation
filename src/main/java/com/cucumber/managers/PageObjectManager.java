@@ -240,8 +240,13 @@ public class PageObjectManager {
 
 	private UserGenerateBulkByUploadCSVFileWithoutIssueMonthObjects withoutissuemonth;
 
+	private UserGenerateBulkByUploadCSVFileWithEmptyStudentNamePageObjects emptystuname1;
+
+	private UserGenerateBulkByUploadCSVFileWithoutIssueYearObjects withoutissueyear;
 	
-	
+	private UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypePageObjects invalidcertificatetype;
+
+
 	
 	public PageObjectManager() {
 		// this.driver = driver;
@@ -1040,5 +1045,27 @@ public class PageObjectManager {
 			withoutissuemonth = new UserGenerateBulkByUploadCSVFileWithoutIssueMonthObjects(Constants.driver);
 		}
 		return withoutissuemonth;
+	}
+	
+	public UserGenerateBulkByUploadCSVFileWithEmptyStudentNamePageObjects getemptystuname1() {
+		if (emptystuname1 == null) {
+			emptystuname1 = new UserGenerateBulkByUploadCSVFileWithEmptyStudentNamePageObjects(Constants.driver);
+		}
+		return emptystuname1;
+	}
+	
+	public UserGenerateBulkByUploadCSVFileWithoutIssueYearObjects getwithoutissueyear() {
+		if (withoutissueyear == null) {
+			withoutissueyear = new UserGenerateBulkByUploadCSVFileWithoutIssueYearObjects(Constants.driver);
+		}
+		return withoutissueyear;
+	}
+	
+
+	public UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypePageObjects getinvalidcertificatetype() {
+		if (invalidcertificatetype == null) {
+			invalidcertificatetype = new UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypePageObjects(Constants.driver);
+		}
+		return invalidcertificatetype;
 	}
 }
