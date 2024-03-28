@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Suite Sapphirus Systems Pvt Ltd]]>
@@ -14,10 +14,10 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.beforeclass]]>
+      <![CDATA[About to begin executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.beforeclass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.beforeclass]]>
+      <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.beforeclass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
@@ -26,19 +26,19 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner]]>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner]]>
     </line>
     <line>
-      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month,]]>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Verify Certificate Verifier Name With Alphabets,]]>
     </line>
     <line>
-      <![CDATA[Test Status: Pass]]>
+      <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.testDownClass]]>
+      <![CDATA[About to begin executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.testDownClass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.testDownClass]]>
+      <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.testDownClass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
@@ -47,73 +47,129 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-28T05:34:25Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-28T05:35:12Z" duration-ms="47445">
+  <suite started-at="2024-03-28T07:46:44Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-28T07:46:52Z" duration-ms="8036">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-28T05:34:25Z" name="ChromeBrowser" finished-at="2024-03-28T05:35:12Z" duration-ms="47445">
-      <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:04:25Z" name="setUpClass" finished-at="2024-03-28T11:04:25Z" duration-ms="522" status="PASS">
+    <test started-at="2024-03-28T07:46:44Z" name="ChromeBrowser" finished-at="2024-03-28T07:46:52Z" duration-ms="8036">
+      <class name="com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:44Z" name="setUpClass" finished-at="2024-03-28T13:16:44Z" duration-ms="506" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:04:25Z" name="beforeclass" finished-at="2024-03-28T11:04:29Z" duration-ms="3987" status="PASS">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:44Z" name="beforeclass" finished-at="2024-03-28T13:16:48Z" duration-ms="3877" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.beforeclass]]>
+              <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:04:29Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T11:05:11Z" duration-ms="41880" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:48Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T13:16:51Z" duration-ms="3014" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Institution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month]]>
+                <![CDATA[Institution User - Check the flow of Verify Certificate Verifier Name With Alphabets]]>
               </value>
             </param>
           </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: RemoteWebDriver
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@type='text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.cucumber.PageObjects.LoginPageObjects.user_name_txtbox(LoginPageObjects.java:33)
+	at com.cucumber.PageObjects.LoginPageObjects.Logintoappln(LoginPageObjects.java:59)
+	at com.cucumber.stepdefination.UserVerifyCertificateVerifierNameWithAlphanumericsSteps.i_log_in_with_Username_and_Password(UserVerifyCertificateVerifierNameWithAlphanumericsSteps.java:27)
+	at ✽.Given I log in with Username and Password(src/test/resources/features/UserVeryCertificateVerifierNameWithAlphanumerics.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner]]>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner]]>
             </line>
             <line>
-              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month,]]>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Verify Certificate Verifier Name With Alphabets,]]>
             </line>
             <line>
-              <![CDATA[Test Status: Pass]]>
+              <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:05:11Z" name="testDownClass" finished-at="2024-03-28T11:05:12Z" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:51Z" name="testDownClass" finished-at="2024-03-28T13:16:52Z" duration-ms="247" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.testDownClass]]>
+              <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:05:12Z" name="tearDownClass" finished-at="2024-03-28T11:05:12Z" duration-ms="571" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:52Z" name="tearDownClass" finished-at="2024-03-28T13:16:52Z" duration-ms="300" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner -->
+      </class> <!-- com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner -->
     </test> <!-- ChromeBrowser -->
   </suite> <!-- Sapphirus Systems Pvt Ltd -->
 </testng-results>

@@ -56,7 +56,7 @@ public class UserInternalPrintingByUploadingCSVFileWithInvalidIssueYearandMonthP
 		ee.click();
 		Thread.sleep(4000);
 		Select s1 = new Select(ee);
-		s1.selectByVisibleText("Btech");
+		s1.selectByVisibleText("BSC");
 		Thread.sleep(4000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,4000);");

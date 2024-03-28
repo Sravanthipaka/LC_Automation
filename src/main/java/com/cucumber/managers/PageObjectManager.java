@@ -218,13 +218,15 @@ public class PageObjectManager {
 	
 	private UserVerifyCertificateWithoutSpecialcharactersVerifierEmailPageObjects withoutverifieremail;
 	
-	private UserInternalPrintingByUploadingInvalidCSVFilePageObjects invalidcsv;
-	
 	private UserGenSingleWithApprovalPageObjects withapproval;
 
 	private UserInternalPrintingByUploadingCSVFileWithInvalidIssueYearandMonthPageObjects invaliyearmonth;
 
+	private UserInternalPrintingByUploadInvalidCSVFIlePageObjects invalidcsv;
 	
+	private UserVerifyCertificateVerifierNameWithAlphanumericsPageObjects invalidverifiername;
+
+
 	
 
 	
@@ -948,13 +950,6 @@ public class PageObjectManager {
 		return withoutverifieremail;
 	}
 	
-	public UserInternalPrintingByUploadingInvalidCSVFilePageObjects getinvalidcsv() {
-		if (invalidcsv == null) {
-			invalidcsv = new UserInternalPrintingByUploadingInvalidCSVFilePageObjects(Constants.driver);
-		}
-		return invalidcsv;
-	}
-	
 	public UserGenSingleWithApprovalPageObjects getwithapproval() {
 		if (withapproval == null) {
 			withapproval = new UserGenSingleWithApprovalPageObjects(Constants.driver);
@@ -969,4 +964,17 @@ public class PageObjectManager {
 		return invaliyearmonth;
 	}
 	
+	public UserInternalPrintingByUploadInvalidCSVFIlePageObjects getinvalidcsv() {
+		if (invalidcsv == null) {
+			invalidcsv = new UserInternalPrintingByUploadInvalidCSVFIlePageObjects(Constants.driver);
+		}
+		return invalidcsv;
+	}
+
+	public UserVerifyCertificateVerifierNameWithAlphanumericsPageObjects getinvalidverifiername() {
+		if (invalidverifiername == null) {
+			invalidverifiername = new UserVerifyCertificateVerifierNameWithAlphanumericsPageObjects(Constants.driver);
+		}
+		return invalidverifiername;
+	}
 }

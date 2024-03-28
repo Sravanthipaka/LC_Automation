@@ -67,7 +67,7 @@
 	    </test> -->
 	    
 	    
-	    
+	  
           <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -100,7 +100,8 @@
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" />
             <class name="com.cucumber.TestRunner.UserGuidelinesRunner" />
-		    <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner" />
+            <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner" />
+
 
 
 
@@ -109,7 +110,7 @@
 	    
 	    
 	    
-	   <!--    <test name="ChromeBrowser">
+	    <!--     <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 		    
@@ -147,14 +148,15 @@
 	    </test> -->
 	    
 		    
-	      <!--    <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
+	     <!--     <test name="ChromeBrowser">
+		<parameter name="browser" value="firefox" />
 		<classes>
 			
 			
 		 <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner" />
+		 <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner" />
+		<class name="com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner" />
 
-			
 			 </classes>
 	    </test>  -->
 	    

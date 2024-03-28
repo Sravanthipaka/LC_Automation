@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Sapphirus Systems Pvt Ltd]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="firefox"/>
   <listeners>
     <listener class-name="com.cucumber.utility.Listener"/>
   </listeners>
   <test name="ChromeBrowser">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner"/>
+      <class name="com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner"/>
     </classes>
   </test> <!-- ChromeBrowser -->
+  <test name="ChromeBrowser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="beforeclass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
 </suite> <!-- Failed suite [Sapphirus Systems Pvt Ltd] -->

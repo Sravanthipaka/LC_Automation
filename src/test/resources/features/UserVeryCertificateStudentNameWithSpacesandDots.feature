@@ -1,12 +1,10 @@
-@tag
-Feature: Institution User - Check the flow of Verify Certificates StudentName With Spaces and Dots
+Feature: Login - Check the internal printing by giving CSV File student name column with Spaces and dots
 
   @sanity
-  Scenario: Check the flow of Institution User Verify Certificates StudentName With Spaces and Dots
+  Scenario: CSV File student name column with Spaces and dots
     Given login with Username and Password
     When click on Certificates Tab And verified certificates
     Then select the Certificates type
-    And enter  the StudentDetails
+    Then enter  the StudentDetails
     Then enter the VerifierDetails
-    And click the Next button
-    
+    Then click the Next button
