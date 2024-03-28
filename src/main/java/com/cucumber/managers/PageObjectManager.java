@@ -222,7 +222,8 @@ public class PageObjectManager {
 	
 	private UserGenSingleWithApprovalPageObjects withapproval;
 
-	
+	private UserInternalPrintingByUploadingCSVFileWithInvalidIssueYearandMonthPageObjects invaliyearmonth;
+
 	
 	
 
@@ -959,6 +960,13 @@ public class PageObjectManager {
 			withapproval = new UserGenSingleWithApprovalPageObjects(Constants.driver);
 		}
 		return withapproval;
+	}
+	
+	public UserInternalPrintingByUploadingCSVFileWithInvalidIssueYearandMonthPageObjects getinvaliyearmonth() {
+		if (invaliyearmonth == null) {
+			invaliyearmonth = new UserInternalPrintingByUploadingCSVFileWithInvalidIssueYearandMonthPageObjects(Constants.driver);
+		}
+		return invaliyearmonth;
 	}
 	
 }

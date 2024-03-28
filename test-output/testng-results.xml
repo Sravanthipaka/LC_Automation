@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="0" failed="1" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Suite Sapphirus Systems Pvt Ltd]]>
@@ -14,10 +14,10 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.beforeclass]]>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.beforeclass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.beforeclass]]>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.beforeclass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
@@ -26,19 +26,19 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner]]>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner]]>
     </line>
     <line>
-      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of  Internal Printing with Valid CSV File and Replace with Another,]]>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month,]]>
     </line>
     <line>
-      <![CDATA[Test Status: Failed]]>
+      <![CDATA[Test Status: Pass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.testDownClass]]>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.testDownClass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.testDownClass]]>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.testDownClass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
@@ -47,22 +47,22 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-27T17:50:03Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-27T17:50:54Z" duration-ms="50994">
+  <suite started-at="2024-03-28T05:34:25Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-28T05:35:12Z" duration-ms="47445">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-27T17:50:03Z" name="ChromeBrowser" finished-at="2024-03-27T17:50:54Z" duration-ms="50994">
-      <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:03Z" name="setUpClass" finished-at="2024-03-27T23:20:03Z" duration-ms="567" status="PASS">
+    <test started-at="2024-03-28T05:34:25Z" name="ChromeBrowser" finished-at="2024-03-28T05:35:12Z" duration-ms="47445">
+      <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:04:25Z" name="setUpClass" finished-at="2024-03-28T11:04:25Z" duration-ms="522" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:03Z" name="beforeclass" finished-at="2024-03-27T23:20:09Z" duration-ms="5054" status="PASS">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:04:25Z" name="beforeclass" finished-at="2024-03-28T11:04:29Z" duration-ms="3987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,92 +72,48 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.beforeclass]]>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:09Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-27T23:20:53Z" duration-ms="44430" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:04:29Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T11:05:11Z" duration-ms="41880" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Institution User - Check the flow of  Internal Printing with Valid CSV File and Replace with Another]]>
+                <![CDATA[Institution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month]]>
               </value>
             </param>
           </params>
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-	The method user_click_on_the_Next_button() is undefined for the type UserInternalPrintingByUploadingInvalidCSVFilePageObjects
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.Error: Unresolved compilation problem: 
-	The method user_click_on_the_Next_button() is undefined for the type UserInternalPrintingByUploadingInvalidCSVFilePageObjects
-
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.Error: Unresolved compilation problem: 
-	The method user_click_on_the_Next_button() is undefined for the type UserInternalPrintingByUploadingInvalidCSVFilePageObjects
-
-	at com.cucumber.stepdefination.UserInternalPrintingByUploadingInvalidCSVFileSteps.user_click_on_the_Next_button(UserInternalPrintingByUploadingInvalidCSVFileSteps.java:59)
-	at ✽.And user click on the Next button(src/test/resources/features/UserInternalPrintingByUploadingInvalidCSVFile.feature:12)
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner]]>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner]]>
             </line>
             <line>
-              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of  Internal Printing with Valid CSV File and Replace with Another,]]>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month,]]>
             </line>
             <line>
-              <![CDATA[Test Status: Failed]]>
+              <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:53Z" name="testDownClass" finished-at="2024-03-27T23:20:53Z" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:05:11Z" name="testDownClass" finished-at="2024-03-28T11:05:12Z" duration-ms="276" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.testDownClass]]>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:53Z" name="tearDownClass" finished-at="2024-03-27T23:20:54Z" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner@505fc5a4]" started-at="2024-03-28T11:05:12Z" name="tearDownClass" finished-at="2024-03-28T11:05:12Z" duration-ms="571" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner -->
     </test> <!-- ChromeBrowser -->
   </suite> <!-- Sapphirus Systems Pvt Ltd -->
 </testng-results>

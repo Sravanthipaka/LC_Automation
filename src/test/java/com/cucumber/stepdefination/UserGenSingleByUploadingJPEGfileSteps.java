@@ -19,29 +19,30 @@ public class UserGenSingleByUploadingJPEGfileSteps {
 		gensinwithjpeg=new UserGenSingleByUploadingJPEGfilePageObjects(Constants.driver);
 	}
 	
-//	@Given("^login user to the application$")
-//	public void login_user_to_the_application() throws Throwable {
+	@Given("^login user to the application$")
+	public void login_user_to_the_application() throws Throwable {
 //	    login.Logintoappln("SahUser", "User@1");
-//	}
-//
-//	@Given("^Click on to the certificates and generatesigle link$")
-//	public void click_on_to_the_certificates_and_generatesigle_link() throws Throwable {
+		Thread.sleep(10000);
+	}
+
+	@Given("^Click on to the certificates and generatesigle link$")
+	public void click_on_to_the_certificates_and_generatesigle_link() throws Throwable {
 //	    gensinwithjpeg.clickoncertificateandgenearatesingle();
-//	}
-//
-//	@When("^select certificatetype$")
-//	public void select_certificatetype() throws Throwable {
+	}
+
+	@When("^select certificatetype$")
+	public void select_certificatetype() throws Throwable {
 //	   gensinwithjpeg.selectCertificate();
-//	}
-//
-//	@When("^fill the details of student$")
-//	public void fill_the_details_of_student() throws Throwable {
+	}
+
+	@When("^fill the details of student$")
+	public void fill_the_details_of_student() throws Throwable {
 //	    gensinwithjpeg.fillStudentDeatils();
-//	}
-//
-//	@When("^upload the certificate and submit$")
-//	public void upload_the_certificate_and_submit() throws Throwable {
+	}
+
+	@When("^upload the certificate and submit$")
+	public void upload_the_certificate_and_submit() throws Throwable {
 //	    gensinwithjpeg.uploadCertificate();
-//	}
-//
+	}
+
 }

@@ -29,35 +29,37 @@ public class UserGenSingleByUploadingDOCXfileSteps {
 	}
 
 
-//	@Given("^login institution user by username and valid password$")
-//	public void login_institution_user_by_username_and_valid_password() throws Throwable {
+	@Given("^login institution user by username and valid password$")
+	public void login_institution_user_by_username_and_valid_password() throws Throwable {
 //		login.Logintoappln("SahUser", "User@1");
-//	}
-//
-//	@Then("^Click Certificate Click Generate Single$")
-//	public void click_Certificate_Click_Generate_Single() throws Throwable {
+		Thread.sleep(10000);
+	}
+
+	@Then("^Click Certificate Click Generate Single$")
+	public void click_Certificate_Click_Generate_Single() throws Throwable {
 //		gensinglewithdocx.ClickCertificateClickGenerateSingle();
-//	}
-//
-//	@Then("^Click Certificate Type Dropdown and Select Certificate Type$")
-//	public void click_Certificate_Type_Dropdown_and_Select_Certificate_Type() throws Throwable {
-//		gensinglewithdocx.ClickCertificateTypeDropdownandSelectCertificateType();
-//	}
-//
-//	@Then("^Fill by the Required Fields$")
-//	public void fill_by_the_Required_Fields() throws Throwable {
+	}
+
+	@Then("^Click Certificate Type Dropdown and Select Certificate Type$")
+	public void click_Certificate_Type_Dropdown_and_Select_Certificate_Type() throws Throwable {
+//	gensinglewithdocx.ClickCertificateTypeDropdownandSelectCertificateType();
+		
+	}
+
+	@Then("^Fill by the Required Fields$")
+	public void fill_by_the_Required_Fields() throws Throwable {
 //		gensinglewithdocx.FillbytheRequiredFields();
-//	}
-//
-//	@Then("^Upload DOCX file into Upload the Document field$")
-//	public void upload_DOCX_file_into_Upload_the_Document_field() throws Throwable {
+	}
+
+	@Then("^Upload DOCX file into Upload the Document field$")
+	public void upload_DOCX_file_into_Upload_the_Document_field() throws Throwable {
 //		gensinglewithdocx.UploadDOCXfileintoUploadtheDocumentfield();
-//	}
-//
-//	@Then("^Click by Next Button$")
-//	public void click_by_Next_Button() throws Throwable {
+	}
+
+	@Then("^Click by Next Button$")
+	public void click_by_Next_Button() throws Throwable {
 //		gensinglewithdocx.ClickbyNextButton();
-//	}
-//
+	}
+
 }
 
