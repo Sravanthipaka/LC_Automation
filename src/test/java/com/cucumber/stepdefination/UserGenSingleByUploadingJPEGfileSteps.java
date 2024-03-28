@@ -1,24 +1,24 @@
-//package com.cucumber.stepdefination;
-//
-//import com.cucumber.PageObjects.LoginPageObjects;
-//import com.cucumber.PageObjects.UserGenSingleByUploadingJPEGfilePageObjects;
-//import com.cucumber.utility.Constants;
-//import com.cucumber.utility.TestContext;
-//
-//import cucumber.api.java.en.*;
-//
-//public class UserGenSingleByUploadingJPEGfileSteps {
-//	TestContext testContext;
-//	LoginPageObjects login;
-//	UserGenSingleByUploadingJPEGfilePageObjects gensinwithjpeg;
-//	
-//	public UserGenSingleByUploadingJPEGfileSteps(TestContext context)
-//	{
-//		testContext = context;
-//		login = testContext.getPageObjectManager().getlogin();
-//		gensinwithjpeg=new UserGenSingleByUploadingJPEGfilePageObjects(Constants.driver);
-//	}
-//	
+package com.cucumber.stepdefination;
+
+import com.cucumber.PageObjects.LoginPageObjects;
+import com.cucumber.PageObjects.UserGenSingleByUploadingJPEGfilePageObjects;
+import com.cucumber.utility.Constants;
+import com.cucumber.utility.TestContext;
+
+import cucumber.api.java.en.*;
+
+public class UserGenSingleByUploadingJPEGfileSteps {
+	TestContext testContext;
+	LoginPageObjects login;
+	UserGenSingleByUploadingJPEGfilePageObjects gensinwithjpeg;
+	
+	public UserGenSingleByUploadingJPEGfileSteps(TestContext context)
+	{
+		testContext = context;
+		login = testContext.getPageObjectManager().getlogin();
+		gensinwithjpeg=new UserGenSingleByUploadingJPEGfilePageObjects(Constants.driver);
+	}
+	
 //	@Given("^login user to the application$")
 //	public void login_user_to_the_application() throws Throwable {
 //	    login.Logintoappln("SahUser", "User@1");
@@ -44,4 +44,4 @@
 //	    gensinwithjpeg.uploadCertificate();
 //	}
 //
-//}
+}

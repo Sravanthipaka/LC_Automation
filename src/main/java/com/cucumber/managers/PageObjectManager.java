@@ -218,7 +218,10 @@ public class PageObjectManager {
 	
 	private UserVerifyCertificateWithoutSpecialcharactersVerifierEmailPageObjects withoutverifieremail;
 	
+	private UserInternalPrintingByUploadingInvalidCSVFilePageObjects invalidcsv;
+	
 	private UserGenSingleWithApprovalPageObjects withapproval;
+
 	
 	
 	
@@ -942,6 +945,13 @@ public class PageObjectManager {
 			withoutverifieremail = new UserVerifyCertificateWithoutSpecialcharactersVerifierEmailPageObjects(Constants.driver);
 		}
 		return withoutverifieremail;
+	}
+	
+	public UserInternalPrintingByUploadingInvalidCSVFilePageObjects getinvalidcsv() {
+		if (invalidcsv == null) {
+			invalidcsv = new UserInternalPrintingByUploadingInvalidCSVFilePageObjects(Constants.driver);
+		}
+		return invalidcsv;
 	}
 	
 	public UserGenSingleWithApprovalPageObjects getwithapproval() {

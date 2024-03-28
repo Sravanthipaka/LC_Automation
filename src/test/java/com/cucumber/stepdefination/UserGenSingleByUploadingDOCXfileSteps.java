@@ -1,34 +1,34 @@
-//package com.cucumber.stepdefination;
-//
-//import com.cucumber.PageObjects.LoginPageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingDOCXfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingDOCfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingJPEGfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingJPGfilePageObjects;
-//import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
-//import com.cucumber.PageObjects.UserBulkWithoutSelectingCertificatetype;
-//import com.cucumber.PageObjects.UserGenSingleByUploadingDOCXfilePageObjects;
-//import com.cucumber.PageObjects.UserGenSingleByUploadingDOCfilePageObjects;
-//import com.cucumber.PageObjects.UserGenSingleByUploadingJPGfilePageObjects;
-//import com.cucumber.PageObjects.UserGenSingleEmailWithMultipleSpecialcharectersPageObjects;
-//import com.cucumber.utility.TestContext;
-//
-//import cucumber.api.java.en.Given;
-//import cucumber.api.java.en.Then;
-//
-//public class UserGenSingleByUploadingDOCXfileSteps {
-//	TestContext testContext;
-//	LoginPageObjects login;
-//	UserGenSingleByUploadingDOCXfilePageObjects gensinglewithdocx;
-//
-//	public UserGenSingleByUploadingDOCXfileSteps(TestContext context) {
-//		System.out.println("Started Generate Single By Uploading DOCX file");
-//		testContext = context;
-//		login = testContext.getPageObjectManager().getlogin();
-//		gensinglewithdocx = testContext.getPageObjectManager().getgensinglewithdocx();
-//	}
-//
-//
+package com.cucumber.stepdefination;
+
+import com.cucumber.PageObjects.LoginPageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingDOCXfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingDOCfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingJPEGfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingJPGfilePageObjects;
+import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
+import com.cucumber.PageObjects.UserBulkWithoutSelectingCertificatetype;
+import com.cucumber.PageObjects.UserGenSingleByUploadingDOCXfilePageObjects;
+import com.cucumber.PageObjects.UserGenSingleByUploadingDOCfilePageObjects;
+import com.cucumber.PageObjects.UserGenSingleByUploadingJPGfilePageObjects;
+import com.cucumber.PageObjects.UserGenSingleEmailWithMultipleSpecialcharectersPageObjects;
+import com.cucumber.utility.TestContext;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class UserGenSingleByUploadingDOCXfileSteps {
+	TestContext testContext;
+	LoginPageObjects login;
+	UserGenSingleByUploadingDOCXfilePageObjects gensinglewithdocx;
+
+	public UserGenSingleByUploadingDOCXfileSteps(TestContext context) {
+		System.out.println("Started Generate Single By Uploading DOCX file");
+		testContext = context;
+		login = testContext.getPageObjectManager().getlogin();
+		gensinglewithdocx = testContext.getPageObjectManager().getgensinglewithdocx();
+	}
+
+
 //	@Given("^login institution user by username and valid password$")
 //	public void login_institution_user_by_username_and_valid_password() throws Throwable {
 //		login.Logintoappln("SahUser", "User@1");
@@ -59,5 +59,5 @@
 //		gensinglewithdocx.ClickbyNextButton();
 //	}
 //
-//}
-//
+}
+

@@ -14,10 +14,10 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.beforeclass]]>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.beforeclass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.beforeclass]]>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.beforeclass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
@@ -26,19 +26,19 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner]]>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner]]>
     </line>
     <line>
-      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generated Certificates without selecting checkboxes,]]>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of  Internal Printing with Valid CSV File and Replace with Another,]]>
     </line>
     <line>
       <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.testDownClass]]>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.testDownClass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.testDownClass]]>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.testDownClass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
@@ -47,22 +47,22 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-27T14:49:33Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-27T14:50:30Z" duration-ms="56990">
+  <suite started-at="2024-03-27T17:50:03Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-27T17:50:54Z" duration-ms="50994">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@5fbdfdcf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-27T14:49:33Z" name="ChromeBrowser" finished-at="2024-03-27T14:50:30Z" duration-ms="56990">
-      <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@5fbdfdcf]" started-at="2024-03-27T20:19:33Z" name="setUpClass" finished-at="2024-03-27T20:19:33Z" duration-ms="608" status="PASS">
+    <test started-at="2024-03-27T17:50:03Z" name="ChromeBrowser" finished-at="2024-03-27T17:50:54Z" duration-ms="50994">
+      <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:03Z" name="setUpClass" finished-at="2024-03-27T23:20:03Z" duration-ms="567" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@5fbdfdcf]" started-at="2024-03-27T20:19:33Z" name="beforeclass" finished-at="2024-03-27T20:19:39Z" duration-ms="5684" status="PASS">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:03Z" name="beforeclass" finished-at="2024-03-27T23:20:09Z" duration-ms="5054" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,40 +72,28 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.beforeclass]]>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@5fbdfdcf]" started-at="2024-03-27T20:19:39Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-27T20:20:29Z" duration-ms="49817" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:09Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-27T23:20:53Z" duration-ms="44430" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Institution User - Check the flow of Generated Certificates without selecting checkboxes]]>
+                <![CDATA[Institution User - Check the flow of  Internal Printing with Valid CSV File and Replace with Another]]>
               </value>
             </param>
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
-  (Session info: chrome=123.0.6312.59)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e53918bdc0060f3d30d1ec740502890, findElement {using=xpath, value=//button[text()='Ok']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58804/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e53918bdc0060f3d30d1ec740502890]]>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The method user_click_on_the_Next_button() is undefined for the type UserInternalPrintingByUploadingInvalidCSVFilePageObjects
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
-  (Session info: chrome=123.0.6312.59)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e53918bdc0060f3d30d1ec740502890, findElement {using=xpath, value=//button[text()='Ok']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58804/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e53918bdc0060f3d30d1ec740502890
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.Error: Unresolved compilation problem: 
+	The method user_click_on_the_Next_button() is undefined for the type UserInternalPrintingByUploadingInvalidCSVFilePageObjects
+
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -132,33 +120,11 @@ Session ID: 9e53918bdc0060f3d30d1ec740502890
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
-  (Session info: chrome=123.0.6312.59)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e53918bdc0060f3d30d1ec740502890, findElement {using=xpath, value=//button[text()='Ok']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58804}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58804/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e53918bdc0060f3d30d1ec740502890
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at com.cucumber.PageObjects.UserGeneratedCertificatesWithoutSelectingCheckboxesPageObjects.SelecttheCertificateType(UserGeneratedCertificatesWithoutSelectingCheckboxesPageObjects.java:60)
-	at com.cucumber.stepdefination.UserGeneratedCertificatesWithoutSelectingCheckboxesSteps.select_the_Certificate_Type(UserGeneratedCertificatesWithoutSelectingCheckboxesSteps.java:41)
-	at ✽.Then Select the Certificate Type(src/test/resources/features/UserGeneratedCertificatesWithoutselectingCheckboxes.feature:9)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method user_click_on_the_Next_button() is undefined for the type UserInternalPrintingByUploadingInvalidCSVFilePageObjects
+
+	at com.cucumber.stepdefination.UserInternalPrintingByUploadingInvalidCSVFileSteps.user_click_on_the_Next_button(UserInternalPrintingByUploadingInvalidCSVFileSteps.java:59)
+	at ✽.And user click on the Next button(src/test/resources/features/UserInternalPrintingByUploadingInvalidCSVFile.feature:12)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
@@ -167,31 +133,31 @@ Session ID: 9e53918bdc0060f3d30d1ec740502890
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner]]>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner]]>
             </line>
             <line>
-              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generated Certificates without selecting checkboxes,]]>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of  Internal Printing with Valid CSV File and Replace with Another,]]>
             </line>
             <line>
               <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@5fbdfdcf]" started-at="2024-03-27T20:20:29Z" name="testDownClass" finished-at="2024-03-27T20:20:29Z" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:53Z" name="testDownClass" finished-at="2024-03-27T23:20:53Z" duration-ms="264" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.testDownClass]]>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingInvalidCSVFIleRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@5fbdfdcf]" started-at="2024-03-27T20:20:29Z" name="tearDownClass" finished-at="2024-03-27T20:20:30Z" duration-ms="500" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner@5fbdfdcf]" started-at="2024-03-27T23:20:53Z" name="tearDownClass" finished-at="2024-03-27T23:20:54Z" duration-ms="488" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner -->
     </test> <!-- ChromeBrowser -->
   </suite> <!-- Sapphirus Systems Pvt Ltd -->
 </testng-results>

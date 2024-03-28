@@ -1,33 +1,33 @@
-//package com.cucumber.stepdefination;
-//
-//import com.cucumber.PageObjects.LoginPageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingDOCXfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingDOCfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingJPEGfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingJPGfilePageObjects;
-//import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
-//import com.cucumber.PageObjects.UserBulkWithoutSelectingCertificatetype;
-//import com.cucumber.PageObjects.UserGenSingleByUploadingDOCfilePageObjects;
-//import com.cucumber.PageObjects.UserGenSingleByUploadingJPGfilePageObjects;
-//import com.cucumber.PageObjects.UserGenSingleEmailWithMultipleSpecialcharectersPageObjects;
-//import com.cucumber.utility.TestContext;
-//
-//import cucumber.api.java.en.Given;
-//import cucumber.api.java.en.Then;
-//
-//public class UserGenSingleByUploadingDOCfileSteps {
-//	TestContext testContext;
-//	LoginPageObjects login;
-//	UserGenSingleByUploadingDOCfilePageObjects gensinglewithdoc;
-//
-//	public UserGenSingleByUploadingDOCfileSteps(TestContext context) {
-//		System.out.println("Started Generate Single By Uploading DOC file");
-//		testContext = context;
-//		login = testContext.getPageObjectManager().getlogin();
-//		gensinglewithdoc = testContext.getPageObjectManager().getgensinglewithdoc();
-//	}
-//
-//
+package com.cucumber.stepdefination;
+
+import com.cucumber.PageObjects.LoginPageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingDOCXfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingDOCfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingJPEGfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingJPGfilePageObjects;
+import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
+import com.cucumber.PageObjects.UserBulkWithoutSelectingCertificatetype;
+import com.cucumber.PageObjects.UserGenSingleByUploadingDOCfilePageObjects;
+import com.cucumber.PageObjects.UserGenSingleByUploadingJPGfilePageObjects;
+import com.cucumber.PageObjects.UserGenSingleEmailWithMultipleSpecialcharectersPageObjects;
+import com.cucumber.utility.TestContext;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class UserGenSingleByUploadingDOCfileSteps {
+	TestContext testContext;
+	LoginPageObjects login;
+	UserGenSingleByUploadingDOCfilePageObjects gensinglewithdoc;
+
+	public UserGenSingleByUploadingDOCfileSteps(TestContext context) {
+		System.out.println("Started Generate Single By Uploading DOC file");
+		testContext = context;
+		login = testContext.getPageObjectManager().getlogin();
+		gensinglewithdoc = testContext.getPageObjectManager().getgensinglewithdoc();
+	}
+
+
 //	@Given("^login institution user by valid username and password$")
 //	public void login_institution_user_by_valid_username_and_password() throws Throwable {
 //		login.Logintoappln("SahUser", "User@1");
@@ -57,5 +57,5 @@
 //	public void click_by_next_button() throws Throwable {
 //		gensinglewithdoc.clickbynextbutton();
 //	}
-//}
-//
+}
+

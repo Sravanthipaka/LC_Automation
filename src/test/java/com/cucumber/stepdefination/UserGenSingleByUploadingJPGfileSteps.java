@@ -1,32 +1,32 @@
-//package com.cucumber.stepdefination;
-//
-//import com.cucumber.PageObjects.LoginPageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingDOCXfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingDOCfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingJPEGfilePageObjects;
-//import com.cucumber.PageObjects.UserBulkByUploadingJPGfilePageObjects;
-//import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
-//import com.cucumber.PageObjects.UserBulkWithoutSelectingCertificatetype;
-//import com.cucumber.PageObjects.UserGenSingleByUploadingJPGfilePageObjects;
-//import com.cucumber.PageObjects.UserGenSingleEmailWithMultipleSpecialcharectersPageObjects;
-//import com.cucumber.utility.TestContext;
-//
-//import cucumber.api.java.en.Given;
-//import cucumber.api.java.en.Then;
-//
-//public class UserGenSingleByUploadingJPGfileSteps {
-//	TestContext testContext;
-//	LoginPageObjects login;
-//	UserGenSingleByUploadingJPGfilePageObjects gensinglewithjpg;
-//
-//	public UserGenSingleByUploadingJPGfileSteps(TestContext context) {
-//		System.out.println("Started Generate Single By Uploading JPG file");
-//		testContext = context;
-//		login = testContext.getPageObjectManager().getlogin();
-//		gensinglewithjpg = testContext.getPageObjectManager().getgensinglewithjpg();
-//	}
-//
-//
+package com.cucumber.stepdefination;
+
+import com.cucumber.PageObjects.LoginPageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingDOCXfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingDOCfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingJPEGfilePageObjects;
+import com.cucumber.PageObjects.UserBulkByUploadingJPGfilePageObjects;
+import com.cucumber.PageObjects.UserGenerateBulkWithoutApprovalPageObjects;
+import com.cucumber.PageObjects.UserBulkWithoutSelectingCertificatetype;
+import com.cucumber.PageObjects.UserGenSingleByUploadingJPGfilePageObjects;
+import com.cucumber.PageObjects.UserGenSingleEmailWithMultipleSpecialcharectersPageObjects;
+import com.cucumber.utility.TestContext;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class UserGenSingleByUploadingJPGfileSteps {
+	TestContext testContext;
+	LoginPageObjects login;
+	UserGenSingleByUploadingJPGfilePageObjects gensinglewithjpg;
+
+	public UserGenSingleByUploadingJPGfileSteps(TestContext context) {
+		System.out.println("Started Generate Single By Uploading JPG file");
+		testContext = context;
+		login = testContext.getPageObjectManager().getlogin();
+		gensinglewithjpg = testContext.getPageObjectManager().getgensinglewithjpg();
+	}
+
+
 //	@Given("^login institution user by username and password$")
 //	public void login_institution_user_by_username_and_password() throws Throwable {
 //		login.Logintoappln("SahUser", "User@1");
@@ -57,5 +57,5 @@
 //		gensinglewithjpg.Clicknextbutton();
 //	}
 //	
-//}
-//
+}
+

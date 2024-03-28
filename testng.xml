@@ -9,7 +9,7 @@
 	
        
        
-        <test name="ChromeBrowser">
+      <!--   <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -44,7 +44,7 @@
 	          
 	            
 	          </classes>
-	    </test> 
+	    </test> -->
 	    
 	    
 	   <!--    <test name="ChromeBrowser">
@@ -68,7 +68,7 @@
 	    
 	    
 	    
-	   <test name="ChromeBrowser">
+   <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -139,21 +139,15 @@
 		    <class name="com.cucumber.TestRunner.UserVerifyCertificatesStudentNameWithSpacesandDotsRunner" />
 		    
 		   
+		    <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner" />
+		    <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner" />
 
 
 		    </classes>
 	    </test> -->
 	    
 		    
-	  <!--   <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
-		    <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner" />
-			
-			
-			  </classes>
-	    </test> -->
+	     
 		    
 </suite>
 
