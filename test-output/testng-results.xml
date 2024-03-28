@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="0" failed="1" skipped="0">
+<testng-results total="25" passed="21" failed="4" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[About to begin executing Suite Sapphirus Systems Pvt Ltd]]>
@@ -14,10 +14,10 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.beforeclass]]>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingCombinationOffilesRunner.beforeclass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.beforeclass]]>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingCombinationOffilesRunner.beforeclass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
@@ -26,19 +26,955 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
     </line>
     <line>
-      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner]]>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner]]>
     </line>
     <line>
-      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Verify Certificate Verifier Name With Alphabets,]]>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of By uploading the files with the combination of JPG/JPEG/DOC/DOCX in Bulk Generated certificates,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingCombinationOffilesRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingCombinationOffilesRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingDOCfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the DOC File,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingDOCfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingDOCXfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCXfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the DOCX File,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingDOCXfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCXfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingJPEGfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPEGfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the JPEG File,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingJPEGfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPEGfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingJPGfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPGfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the JPG File,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingJPGfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPGfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingPDFfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingPDFfileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the PDF File,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingPDFfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingPDFfileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkUploadingandRemovethefileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkUploadingandRemovethefileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullGenerateBulk,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkUploadingandRemovethefileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkUploadingandRemovethefileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkWithoutSelectingCertificatetypeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkWithoutSelectingCertificatetypeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk without selecting the Certificare Type,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkWithoutSelectingCertificatetypeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkWithoutSelectingCertificatetypeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminGeneratedCertificatesNewMailEditRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminGeneratedCertificatesNewMailEditRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of New Mail Edit,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminGeneratedCertificatesNewMailEditRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminGeneratedCertificatesNewMailEditRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerifications OriginalCertificates,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsQRCodeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsQRCodeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Download QR Code,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsQRCodeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsQRCodeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRecallRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate Generations Recall,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRecallRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRevokeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Recent Certificate Generations Revoke,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AdminRecentCertificateGenerationsRevokeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Internal Printing CSV File Student Email Without Special Charecters,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Internal Printing CSV File Student Email With Alphabets and Numerics,]]>
     </line>
     <line>
       <![CDATA[Test Status: Failed]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.testDownClass]]>
+      <![CDATA[About to begin executing following method : UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner.testDownClass]]>
     </line>
     <line>
-      <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.testDownClass]]>
+      <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generated Certificates without selecting checkboxes,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadInvalidCSVFileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadInvalidCSVFileRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Ccheck the flow of Internal Printing with Upload of CSV File containing Invalid Email, Student Name, and Mobile Number,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadInvalidCSVFileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadInvalidCSVFileRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing CSV file Student Name With Alphabets and Numeic values,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing   By uploading the CSV File without Student Email id column.,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generate bulk Upload CSV File Email id with Sapces and Dots,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generate Bulk with invalid CSV File - empty academic reference num,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generate Bulk By Upload CSV File With Invalid Certificate Name,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGeneratedCertificatesWithoutEnablecheckboxesRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGeneratedCertificatesWithoutEnablecheckboxesRunner.beforeclass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner]]>
+    </line>
+    <line>
+      <![CDATA[Test Method had the following parameters : nullgenearated certificate,]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Failed]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : UserGeneratedCertificatesWithoutEnablecheckboxesRunner.testDownClass]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : UserGeneratedCertificatesWithoutEnablecheckboxesRunner.testDownClass]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
@@ -47,57 +983,1493 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-28T07:46:44Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-28T07:46:52Z" duration-ms="8036">
+  <suite started-at="2024-03-28T16:46:56Z" name="Sapphirus Systems Pvt Ltd" finished-at="2024-03-28T17:00:19Z" duration-ms="803167">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner@6fd83fc1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@5a56cdac]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@57cf54e1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@4f2b503c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner@bae7dc0]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@54bff557]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner@729d991e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner@7bd4937b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner@5ba3f27a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner@21e360a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner@58d75e99]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner@74751b3]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner@741a8937]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner@3e11f9e9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner@316bcf94]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner@306e95ec]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner@52af26ee]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@3ee37e5a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner@957e06]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner@3a44431a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner@f0da945]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner@194bcebf]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner@6e0f5f7f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner@37d4349f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner@ffaa6af]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-28T07:46:44Z" name="ChromeBrowser" finished-at="2024-03-28T07:46:52Z" duration-ms="8036">
-      <class name="com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:44Z" name="setUpClass" finished-at="2024-03-28T13:16:44Z" duration-ms="506" status="PASS">
+    <test started-at="2024-03-28T16:46:56Z" name="ChromeBrowser" finished-at="2024-03-28T17:00:19Z" duration-ms="803167">
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@57cf54e1]" started-at="2024-03-28T22:22:36Z" name="setUpClass" finished-at="2024-03-28T22:22:36Z" duration-ms="39" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:44Z" name="beforeclass" finished-at="2024-03-28T13:16:48Z" duration-ms="3877" status="PASS">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@57cf54e1]" started-at="2024-03-28T22:22:36Z" name="beforeclass" finished-at="2024-03-28T22:22:39Z" duration-ms="3059" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.beforeclass]]>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.beforeclass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:48Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T13:16:51Z" duration-ms="3014" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@57cf54e1]" started-at="2024-03-28T22:22:39Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:23:00Z" duration-ms="20851" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Institution User - Check the flow of Verify Certificate Verifier Name With Alphabets]]>
+                <![CDATA[Institution Admin - Check the flow of Recent Certificate Generations Revoke]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of Recent Certificate Generations Revoke,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@57cf54e1]" started-at="2024-03-28T22:23:00Z" name="testDownClass" finished-at="2024-03-28T22:23:00Z" duration-ms="242" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRevokeRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner@57cf54e1]" started-at="2024-03-28T22:23:00Z" name="tearDownClass" finished-at="2024-03-28T22:23:00Z" duration-ms="54" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsRevokeRunner -->
+      <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner@6fd83fc1]" started-at="2024-03-28T22:20:18Z" name="setUpClass" finished-at="2024-03-28T22:20:19Z" duration-ms="84" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner@6fd83fc1]" started-at="2024-03-28T22:20:19Z" name="beforeclass" finished-at="2024-03-28T22:20:22Z" duration-ms="3658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminGeneratedCertificatesNewMailEditRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner@6fd83fc1]" started-at="2024-03-28T22:20:22Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:20:47Z" duration-ms="25012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution Admin - Check the flow of New Mail Edit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution Admin - Check the flow of New Mail Edit,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner@6fd83fc1]" started-at="2024-03-28T22:20:47Z" name="testDownClass" finished-at="2024-03-28T22:20:47Z" duration-ms="251" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminGeneratedCertificatesNewMailEditRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner@6fd83fc1]" started-at="2024-03-28T22:20:47Z" name="tearDownClass" finished-at="2024-03-28T22:20:48Z" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminGeneratedCertificatesNewMailEditRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner@741a8937]" started-at="2024-03-28T22:19:12Z" name="setUpClass" finished-at="2024-03-28T22:19:12Z" duration-ms="104" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner@741a8937]" started-at="2024-03-28T22:19:12Z" name="beforeclass" finished-at="2024-03-28T22:19:16Z" duration-ms="3791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingPDFfileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner@741a8937]" started-at="2024-03-28T22:19:16Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:19:36Z" duration-ms="20274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Bulk By Uploading the PDF File]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the PDF File,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner@741a8937]" started-at="2024-03-28T22:19:36Z" name="testDownClass" finished-at="2024-03-28T22:19:37Z" duration-ms="247" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingPDFfileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner@741a8937]" started-at="2024-03-28T22:19:37Z" name="tearDownClass" finished-at="2024-03-28T22:19:37Z" duration-ms="58" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadingPDFfileRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@4f2b503c]" started-at="2024-03-28T22:20:48Z" name="setUpClass" finished-at="2024-03-28T22:20:48Z" duration-ms="64" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@4f2b503c]" started-at="2024-03-28T22:20:48Z" name="beforeclass" finished-at="2024-03-28T22:20:51Z" duration-ms="3569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@4f2b503c]" started-at="2024-03-28T22:20:51Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:21:14Z" duration-ms="22870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Recent Certificate GenerationsandVerifications OriginalCertificates]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerifications OriginalCertificates,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@4f2b503c]" started-at="2024-03-28T22:21:14Z" name="testDownClass" finished-at="2024-03-28T22:21:14Z" duration-ms="314" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner@4f2b503c]" started-at="2024-03-28T22:21:14Z" name="tearDownClass" finished-at="2024-03-28T22:21:14Z" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsOriginalCertificatesRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner@3a44431a]" started-at="2024-03-28T22:24:50Z" name="setUpClass" finished-at="2024-03-28T22:24:50Z" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner@3a44431a]" started-at="2024-03-28T22:24:50Z" name="beforeclass" finished-at="2024-03-28T22:24:54Z" duration-ms="3638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadInvalidCSVFileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner@3a44431a]" started-at="2024-03-28T22:24:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:25:40Z" duration-ms="45879" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Ccheck the flow of Internal Printing with Upload of CSV File containing Invalid Email, Student Name, and Mobile Number]]>
               </value>
             </param>
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@type='text']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2de35a228285ce85935971174afecfc9)] -> xpath: //a[text()='Certificates ']/following-sibling::ul/li[4]/a] (tried for 30 second(s) with 8000 milliseconds interval)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@type='text']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2de35a228285ce85935971174afecfc9)] -> xpath: //a[text()='Certificates ']/following-sibling::ul/li[4]/a] (tried for 30 second(s) with 8000 milliseconds interval)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: driver.version: RemoteWebDriver
+Driver info: driver.version: unknown
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (2de35a228285ce85935971174afecfc9)] -> xpath: //a[text()='Certificates ']/following-sibling::ul/li[4]/a] (tried for 30 second(s) with 8000 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.cucumber.TestBase.TestBase.waitForElement(TestBase.java:84)
+	at com.cucumber.PageObjects.UserInternalPrintingByUploadInvalidCSVFIlePageObjects.select_the_internal_printing(UserInternalPrintingByUploadInvalidCSVFIlePageObjects.java:43)
+	at com.cucumber.stepdefination.UserInternalPrintingByUploadInvalidCSVFileSteps.select_the_internal_printing(UserInternalPrintingByUploadInvalidCSVFileSteps.java:38)
+	at ✽.And select the internal printing(src/test/resources/features/UserInternalPrintingByUploadInvalidCSVFIle.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Ccheck the flow of Internal Printing with Upload of CSV File containing Invalid Email, Student Name, and Mobile Number,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner@3a44431a]" started-at="2024-03-28T22:25:40Z" name="testDownClass" finished-at="2024-03-28T22:25:40Z" duration-ms="207" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadInvalidCSVFileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner@3a44431a]" started-at="2024-03-28T22:25:40Z" name="tearDownClass" finished-at="2024-03-28T22:25:40Z" duration-ms="33" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingByUploadInvalidCSVFileRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner@3e11f9e9]" started-at="2024-03-28T22:28:38Z" name="setUpClass" finished-at="2024-03-28T22:28:38Z" duration-ms="64" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner@3e11f9e9]" started-at="2024-03-28T22:28:38Z" name="beforeclass" finished-at="2024-03-28T22:28:42Z" duration-ms="3428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner@3e11f9e9]" started-at="2024-03-28T22:28:42Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:29:26Z" duration-ms="44881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Generate Bulk with invalid CSV File - empty academic reference num]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generate Bulk with invalid CSV File - empty academic reference num,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner@3e11f9e9]" started-at="2024-03-28T22:29:26Z" name="testDownClass" finished-at="2024-03-28T22:29:27Z" duration-ms="252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner@3e11f9e9]" started-at="2024-03-28T22:29:27Z" name="tearDownClass" finished-at="2024-03-28T22:29:27Z" duration-ms="38" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadingWithEmptyAcademicRefNumColumnRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@5a56cdac]" started-at="2024-03-28T22:22:05Z" name="setUpClass" finished-at="2024-03-28T22:22:05Z" duration-ms="64" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@5a56cdac]" started-at="2024-03-28T22:22:05Z" name="beforeclass" finished-at="2024-03-28T22:22:09Z" duration-ms="3887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@5a56cdac]" started-at="2024-03-28T22:22:09Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:22:36Z" duration-ms="26957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Recent Certificate Generations Recall]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate Generations Recall,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@5a56cdac]" started-at="2024-03-28T22:22:36Z" name="testDownClass" finished-at="2024-03-28T22:22:36Z" duration-ms="245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsRecallRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner@5a56cdac]" started-at="2024-03-28T22:22:36Z" name="tearDownClass" finished-at="2024-03-28T22:22:36Z" duration-ms="34" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsRecallRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner@58d75e99]" started-at="2024-03-28T22:18:29Z" name="setUpClass" finished-at="2024-03-28T22:18:29Z" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner@58d75e99]" started-at="2024-03-28T22:18:29Z" name="beforeclass" finished-at="2024-03-28T22:18:32Z" duration-ms="2790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPEGfileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner@58d75e99]" started-at="2024-03-28T22:18:32Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:18:49Z" duration-ms="17789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Bulk By Uploading the JPEG File]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the JPEG File,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner@58d75e99]" started-at="2024-03-28T22:18:49Z" name="testDownClass" finished-at="2024-03-28T22:18:50Z" duration-ms="184" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPEGfileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner@58d75e99]" started-at="2024-03-28T22:18:50Z" name="tearDownClass" finished-at="2024-03-28T22:18:50Z" duration-ms="64" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadingJPEGfileRunner -->
+      <class name="com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner@957e06]" started-at="2024-03-28T22:30:15Z" name="setUpClass" finished-at="2024-03-28T22:30:15Z" duration-ms="66" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner@957e06]" started-at="2024-03-28T22:30:15Z" name="beforeclass" finished-at="2024-03-28T22:30:19Z" duration-ms="3599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGeneratedCertificatesWithoutEnablecheckboxesRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner@957e06]" started-at="2024-03-28T22:30:19Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:30:19Z" duration-ms="9" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[genearated certificate]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[cucumber.runtime.CucumberException: There are undefined steps]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: There are undefined steps
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: cucumber.runtime.CucumberException: There are undefined steps
+	at cucumber.api.testng.FeatureResultListener.collectError(FeatureResultListener.java:60)
+	at cucumber.api.testng.FeatureResultListener.result(FeatureResultListener.java:45)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:282)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullgenearated certificate,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner@957e06]" started-at="2024-03-28T22:30:19Z" name="testDownClass" finished-at="2024-03-28T22:30:19Z" duration-ms="198" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGeneratedCertificatesWithoutEnablecheckboxesRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner@957e06]" started-at="2024-03-28T22:30:19Z" name="tearDownClass" finished-at="2024-03-28T22:30:19Z" duration-ms="64" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner@194bcebf]" started-at="2024-03-28T22:25:40Z" name="setUpClass" finished-at="2024-03-28T22:25:40Z" duration-ms="36" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner@194bcebf]" started-at="2024-03-28T22:25:40Z" name="beforeclass" finished-at="2024-03-28T22:25:43Z" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner@194bcebf]" started-at="2024-03-28T22:25:43Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:26:23Z" duration-ms="39929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Internal Printing CSV file Student Name With Alphabets and Numeic values]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing CSV file Student Name With Alphabets and Numeic values,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner@194bcebf]" started-at="2024-03-28T22:26:23Z" name="testDownClass" finished-at="2024-03-28T22:26:23Z" duration-ms="184" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner@194bcebf]" started-at="2024-03-28T22:26:23Z" name="tearDownClass" finished-at="2024-03-28T22:26:23Z" duration-ms="34" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner@729d991e]" started-at="2024-03-28T22:29:27Z" name="setUpClass" finished-at="2024-03-28T22:29:27Z" duration-ms="42" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner@729d991e]" started-at="2024-03-28T22:29:27Z" name="beforeclass" finished-at="2024-03-28T22:29:30Z" duration-ms="3365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner@729d991e]" started-at="2024-03-28T22:29:30Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:30:15Z" duration-ms="44848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Generate Bulk By Upload CSV File With Invalid Certificate Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generate Bulk By Upload CSV File With Invalid Certificate Name,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner@729d991e]" started-at="2024-03-28T22:30:15Z" name="testDownClass" finished-at="2024-03-28T22:30:15Z" duration-ms="254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner@729d991e]" started-at="2024-03-28T22:30:15Z" name="tearDownClass" finished-at="2024-03-28T22:30:15Z" duration-ms="47" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateNameRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner@316bcf94]" started-at="2024-03-28T22:27:47Z" name="setUpClass" finished-at="2024-03-28T22:27:47Z" duration-ms="45" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner@316bcf94]" started-at="2024-03-28T22:27:47Z" name="beforeclass" finished-at="2024-03-28T22:27:51Z" duration-ms="3412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner@316bcf94]" started-at="2024-03-28T22:27:51Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:28:38Z" duration-ms="47040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Generate bulk Upload CSV File Email id with Sapces and Dots]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generate bulk Upload CSV File Email id with Sapces and Dots,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner@316bcf94]" started-at="2024-03-28T22:28:38Z" name="testDownClass" finished-at="2024-03-28T22:28:38Z" duration-ms="240" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner@316bcf94]" started-at="2024-03-28T22:28:38Z" name="tearDownClass" finished-at="2024-03-28T22:28:38Z" duration-ms="59" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkUploadCSVFileEmailIDWithSpacesandDotsRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner@5ba3f27a]" started-at="2024-03-28T22:18:07Z" name="setUpClass" finished-at="2024-03-28T22:18:07Z" duration-ms="103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner@5ba3f27a]" started-at="2024-03-28T22:18:07Z" name="beforeclass" finished-at="2024-03-28T22:18:11Z" duration-ms="3435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCXfileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner@5ba3f27a]" started-at="2024-03-28T22:18:11Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:18:28Z" duration-ms="17826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Bulk By Uploading the DOCX File]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the DOCX File,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner@5ba3f27a]" started-at="2024-03-28T22:18:28Z" name="testDownClass" finished-at="2024-03-28T22:18:29Z" duration-ms="226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCXfileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner@5ba3f27a]" started-at="2024-03-28T22:18:29Z" name="tearDownClass" finished-at="2024-03-28T22:18:29Z" duration-ms="42" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner@7bd4937b]" started-at="2024-03-28T22:16:56Z" name="setUpClass" finished-at="2024-03-28T22:16:57Z" duration-ms="699" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner@7bd4937b]" started-at="2024-03-28T22:16:57Z" name="beforeclass" finished-at="2024-03-28T22:17:03Z" duration-ms="6190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingCombinationOffilesRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner@7bd4937b]" started-at="2024-03-28T22:17:03Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:17:45Z" duration-ms="41778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of By uploading the files with the combination of JPG/JPEG/DOC/DOCX in Bulk Generated certificates]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of By uploading the files with the combination of JPG/JPEG/DOC/DOCX in Bulk Generated certificates,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner@7bd4937b]" started-at="2024-03-28T22:17:45Z" name="testDownClass" finished-at="2024-03-28T22:17:45Z" duration-ms="250" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingCombinationOffilesRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner@7bd4937b]" started-at="2024-03-28T22:17:45Z" name="tearDownClass" finished-at="2024-03-28T22:17:46Z" duration-ms="501" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner@f0da945]" started-at="2024-03-28T22:26:23Z" name="setUpClass" finished-at="2024-03-28T22:26:23Z" duration-ms="41" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner@f0da945]" started-at="2024-03-28T22:26:23Z" name="beforeclass" finished-at="2024-03-28T22:26:27Z" duration-ms="3218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner@f0da945]" started-at="2024-03-28T22:26:27Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:27:06Z" duration-ms="39793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing with upload the CSV file with invalid issue year and month,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner@f0da945]" started-at="2024-03-28T22:27:06Z" name="testDownClass" finished-at="2024-03-28T22:27:07Z" duration-ms="310" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner@f0da945]" started-at="2024-03-28T22:27:07Z" name="tearDownClass" finished-at="2024-03-28T22:27:07Z" duration-ms="66" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner@52af26ee]" started-at="2024-03-28T22:19:58Z" name="setUpClass" finished-at="2024-03-28T22:19:58Z" duration-ms="83" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner@52af26ee]" started-at="2024-03-28T22:19:58Z" name="beforeclass" finished-at="2024-03-28T22:20:02Z" duration-ms="3522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkWithoutSelectingCertificatetypeRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner@52af26ee]" started-at="2024-03-28T22:20:02Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:20:18Z" duration-ms="16551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Bulk without selecting the Certificare Type]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk without selecting the Certificare Type,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner@52af26ee]" started-at="2024-03-28T22:20:18Z" name="testDownClass" finished-at="2024-03-28T22:20:18Z" duration-ms="252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkWithoutSelectingCertificatetypeRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner@52af26ee]" started-at="2024-03-28T22:20:18Z" name="tearDownClass" finished-at="2024-03-28T22:20:18Z" duration-ms="72" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkWithoutSelectingCertificatetypeRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner@ffaa6af]" started-at="2024-03-28T22:27:07Z" name="setUpClass" finished-at="2024-03-28T22:27:07Z" duration-ms="51" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner@ffaa6af]" started-at="2024-03-28T22:27:07Z" name="beforeclass" finished-at="2024-03-28T22:27:10Z" duration-ms="3035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner@ffaa6af]" started-at="2024-03-28T22:27:10Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:27:47Z" duration-ms="37199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Internal Printing   By uploading the CSV File without Student Email id column.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Internal Printing   By uploading the CSV File without Student Email id column.,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner@ffaa6af]" started-at="2024-03-28T22:27:47Z" name="testDownClass" finished-at="2024-03-28T22:27:47Z" duration-ms="253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner@ffaa6af]" started-at="2024-03-28T22:27:47Z" name="tearDownClass" finished-at="2024-03-28T22:27:47Z" duration-ms="36" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingUploadCSVFIleWithoutEmailIdRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner@37d4349f]" started-at="2024-03-28T22:23:00Z" name="setUpClass" finished-at="2024-03-28T22:23:00Z" duration-ms="72" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner@37d4349f]" started-at="2024-03-28T22:23:00Z" name="beforeclass" finished-at="2024-03-28T22:23:04Z" duration-ms="3611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner@37d4349f]" started-at="2024-03-28T22:23:04Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:23:21Z" duration-ms="16644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Internal Printing CSV File Student Email Without Special Charecters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Internal Printing CSV File Student Email Without Special Charecters,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner@37d4349f]" started-at="2024-03-28T22:23:21Z" name="testDownClass" finished-at="2024-03-28T22:23:21Z" duration-ms="254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner@37d4349f]" started-at="2024-03-28T22:23:21Z" name="tearDownClass" finished-at="2024-03-28T22:23:21Z" duration-ms="54" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharectersRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@54bff557]" started-at="2024-03-28T22:21:38Z" name="setUpClass" finished-at="2024-03-28T22:21:38Z" duration-ms="81" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@54bff557]" started-at="2024-03-28T22:21:38Z" name="beforeclass" finished-at="2024-03-28T22:21:41Z" duration-ms="3667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@54bff557]" started-at="2024-03-28T22:21:41Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:22:05Z" duration-ms="23076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Send Mail,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@54bff557]" started-at="2024-03-28T22:22:05Z" name="testDownClass" finished-at="2024-03-28T22:22:05Z" duration-ms="310" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsSendMailRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner@54bff557]" started-at="2024-03-28T22:22:05Z" name="tearDownClass" finished-at="2024-03-28T22:22:05Z" duration-ms="69" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsSendMailRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner@306e95ec]" started-at="2024-03-28T22:19:37Z" name="setUpClass" finished-at="2024-03-28T22:19:37Z" duration-ms="78" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner@306e95ec]" started-at="2024-03-28T22:19:37Z" name="beforeclass" finished-at="2024-03-28T22:19:41Z" duration-ms="3888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkUploadingandRemovethefileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner@306e95ec]" started-at="2024-03-28T22:19:41Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:19:58Z" duration-ms="17002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GenerateBulk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullGenerateBulk,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner@306e95ec]" started-at="2024-03-28T22:19:58Z" name="testDownClass" finished-at="2024-03-28T22:19:58Z" duration-ms="252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkUploadingandRemovethefileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner@306e95ec]" started-at="2024-03-28T22:19:58Z" name="tearDownClass" finished-at="2024-03-28T22:19:58Z" duration-ms="75" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkUploadingandRemovethefileRunner -->
+      <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@3ee37e5a]" started-at="2024-03-28T22:23:56Z" name="setUpClass" finished-at="2024-03-28T22:23:56Z" duration-ms="68" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@3ee37e5a]" started-at="2024-03-28T22:23:56Z" name="beforeclass" finished-at="2024-03-28T22:23:59Z" duration-ms="3694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@3ee37e5a]" started-at="2024-03-28T22:23:59Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:24:50Z" duration-ms="50417" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Generated Certificates without selecting checkboxes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (33cc640a6af20b88024044bce3d322f8)] -> xpath: //a[text()='Generated Certificates ']] (tried for 30 second(s) with 8000 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (33cc640a6af20b88024044bce3d322f8)] -> xpath: //a[text()='Generated Certificates ']] (tried for 30 second(s) with 8000 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at jdk.internal.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (33cc640a6af20b88024044bce3d322f8)] -> xpath: //a[text()='Generated Certificates ']] (tried for 30 second(s) with 8000 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.cucumber.TestBase.TestBase.waitForElement(TestBase.java:84)
+	at com.cucumber.PageObjects.UserGeneratedCertificatesWithoutSelectingCheckboxesPageObjects.ClicktheGeneratedCertificates(UserGeneratedCertificatesWithoutSelectingCheckboxesPageObjects.java:52)
+	at com.cucumber.stepdefination.UserGeneratedCertificatesWithoutSelectingCheckboxesSteps.click_the_Generated_Certificates(UserGeneratedCertificatesWithoutSelectingCheckboxesSteps.java:36)
+	at ✽.Then Click the Generated Certificates(src/test/resources/features/UserGeneratedCertificatesWithoutselectingCheckboxes.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Generated Certificates without selecting checkboxes,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@3ee37e5a]" started-at="2024-03-28T22:24:50Z" name="testDownClass" finished-at="2024-03-28T22:24:50Z" duration-ms="252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGeneratedCertificateWithoutSelectingCheckboxesRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner@3ee37e5a]" started-at="2024-03-28T22:24:50Z" name="tearDownClass" finished-at="2024-03-28T22:24:50Z" duration-ms="45" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner -->
+      <class name="com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner@6e0f5f7f]" started-at="2024-03-28T22:23:21Z" name="setUpClass" finished-at="2024-03-28T22:23:21Z" duration-ms="67" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner@6e0f5f7f]" started-at="2024-03-28T22:23:21Z" name="beforeclass" finished-at="2024-03-28T22:23:25Z" duration-ms="3572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner@6e0f5f7f]" started-at="2024-03-28T22:23:25Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:23:55Z" duration-ms="30783" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Internal Printing CSV File Student Email With Alphabets and Numerics]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.60)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1e523789a204db7163639ed39f136c1, clickElement {id=f.D71D62CF17A117362064B4AE81D4170A.d.0D397D2B7D79DAF0CF230D081A1577FF.e.714}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51051}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51051/devtoo..., se:cdpVersion: 123.0.6312.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c1e523789a204db7163639ed39f136c1)] -> xpath: //a[text()='Internal Printing ']]
+Session ID: c1e523789a204db7163639ed39f136c1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.60)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1e523789a204db7163639ed39f136c1, clickElement {id=f.D71D62CF17A117362064B4AE81D4170A.d.0D397D2B7D79DAF0CF230D081A1577FF.e.714}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51051}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51051/devtoo..., se:cdpVersion: 123.0.6312.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c1e523789a204db7163639ed39f136c1)] -> xpath: //a[text()='Internal Printing ']]
+Session ID: c1e523789a204db7163639ed39f136c1
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -124,19 +2496,31 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[@type='text']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.60)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at com.cucumber.PageObjects.LoginPageObjects.user_name_txtbox(LoginPageObjects.java:33)
-	at com.cucumber.PageObjects.LoginPageObjects.Logintoappln(LoginPageObjects.java:59)
-	at com.cucumber.stepdefination.UserVerifyCertificateVerifierNameWithAlphanumericsSteps.i_log_in_with_Username_and_Password(UserVerifyCertificateVerifierNameWithAlphanumericsSteps.java:27)
-	at ✽.Given I log in with Username and Password(src/test/resources/features/UserVeryCertificateVerifierNameWithAlphanumerics.feature:6)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1e523789a204db7163639ed39f136c1, clickElement {id=f.D71D62CF17A117362064B4AE81D4170A.d.0D397D2B7D79DAF0CF230D081A1577FF.e.714}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.60, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51051}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51051/devtoo..., se:cdpVersion: 123.0.6312.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c1e523789a204db7163639ed39f136c1)] -> xpath: //a[text()='Internal Printing ']]
+Session ID: c1e523789a204db7163639ed39f136c1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.cucumber.PageObjects.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsPageObjects.ClickInternalPrintingoption(UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsPageObjects.java:42)
+	at com.cucumber.stepdefination.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsSteps.click_Internal_Printing_option(UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsSteps.java:34)
+	at ✽.Then Click Internal Printing option(src/test/resources/features/UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumerics.feature:7)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
@@ -145,31 +2529,211 @@ Driver info: driver.version: RemoteWebDriver
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
             </line>
             <line>
-              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner]]>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner]]>
             </line>
             <line>
-              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Verify Certificate Verifier Name With Alphabets,]]>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Internal Printing CSV File Student Email With Alphabets and Numerics,]]>
             </line>
             <line>
               <![CDATA[Test Status: Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:51Z" name="testDownClass" finished-at="2024-03-28T13:16:52Z" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner@6e0f5f7f]" started-at="2024-03-28T22:23:55Z" name="testDownClass" finished-at="2024-03-28T22:23:56Z" duration-ms="241" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Completed executing following method : UserVerifyCertificateVerifierNameWithAlphanumericsRunner.testDownClass]]>
+              <![CDATA[Completed executing following method : UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner@5fbdfdcf]" started-at="2024-03-28T13:16:52Z" name="tearDownClass" finished-at="2024-03-28T13:16:52Z" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner@6e0f5f7f]" started-at="2024-03-28T22:23:56Z" name="tearDownClass" finished-at="2024-03-28T22:23:56Z" duration-ms="77" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumber.TestRunner.UserVerifyCertificateVerifierNameWithAlphanumericsRunner -->
+      </class> <!-- com.cucumber.TestRunner.UserInternalPrintingCSVFileStudentEmailWithAlphabetsandNumericsRunner -->
+      <class name="com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner@bae7dc0]" started-at="2024-03-28T22:21:14Z" name="setUpClass" finished-at="2024-03-28T22:21:14Z" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner@bae7dc0]" started-at="2024-03-28T22:21:14Z" name="beforeclass" finished-at="2024-03-28T22:21:18Z" duration-ms="4021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsQRCodeRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner@bae7dc0]" started-at="2024-03-28T22:21:18Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:21:37Z" duration-ms="18854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of Recent Certificate GenerationsandVerification Download QR Code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of Recent Certificate GenerationsandVerification Download QR Code,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner@bae7dc0]" started-at="2024-03-28T22:21:37Z" name="testDownClass" finished-at="2024-03-28T22:21:38Z" duration-ms="297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AdminRecentCertificateGenerationsandVerificationsQRCodeRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner@bae7dc0]" started-at="2024-03-28T22:21:38Z" name="tearDownClass" finished-at="2024-03-28T22:21:38Z" duration-ms="49" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.AdminRecentCertificateGenerationsandVerificationsQRCodeRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner@21e360a]" started-at="2024-03-28T22:17:46Z" name="setUpClass" finished-at="2024-03-28T22:17:46Z" duration-ms="92" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner@21e360a]" started-at="2024-03-28T22:17:46Z" name="beforeclass" finished-at="2024-03-28T22:17:49Z" duration-ms="3269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCfileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner@21e360a]" started-at="2024-03-28T22:17:49Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:18:07Z" duration-ms="17837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Bulk By Uploading the DOC File]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the DOC File,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner@21e360a]" started-at="2024-03-28T22:18:07Z" name="testDownClass" finished-at="2024-03-28T22:18:07Z" duration-ms="238" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingDOCfileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner@21e360a]" started-at="2024-03-28T22:18:07Z" name="tearDownClass" finished-at="2024-03-28T22:18:07Z" duration-ms="96" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner@74751b3]" started-at="2024-03-28T22:18:50Z" name="setUpClass" finished-at="2024-03-28T22:18:50Z" duration-ms="57" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.setUpClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner@74751b3]" started-at="2024-03-28T22:18:50Z" name="beforeclass" finished-at="2024-03-28T22:18:54Z" duration-ms="3998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPGfileRunner.beforeclass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner@74751b3]" started-at="2024-03-28T22:18:54Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-03-28T22:19:12Z" duration-ms="17839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Institution User - Check the flow of User Bulk By Uploading the JPG File]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.feature]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner]]>
+            </line>
+            <line>
+              <![CDATA[Test Method had the following parameters : nullInstitution User - Check the flow of User Bulk By Uploading the JPG File,]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner@74751b3]" started-at="2024-03-28T22:19:12Z" name="testDownClass" finished-at="2024-03-28T22:19:12Z" duration-ms="556" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : UserGenerateBulkByUploadingJPGfileRunner.testDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner@74751b3]" started-at="2024-03-28T22:19:12Z" name="tearDownClass" finished-at="2024-03-28T22:19:12Z" duration-ms="92" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkByUploadingJPGfileRunner -->
     </test> <!-- ChromeBrowser -->
   </suite> <!-- Sapphirus Systems Pvt Ltd -->
 </testng-results>

@@ -58,7 +58,7 @@ public class UserGeneratedCertificatesWithoutSelectingCheckboxesPageObjects {
 
 	public void SelecttheCertificateType() throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(ok1), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(ok1).click();
+		//Constants.driver.findElement(ok1).click();
 		Thread.sleep(2000);		
 
 		WebElement ele2 = driver.findElement(By.xpath("//div[@class='card-header']/div[2]/select"));

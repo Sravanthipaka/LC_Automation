@@ -20,10 +20,10 @@ public class AdminRecentCertificateGenerationsandVerificationsOriginalCertificat
 	By scroll = By.xpath("//h5[normalize-space()='Recent Certificate Verifications']");
 
 	//click the downoad original certificates Recent Certificate Generations
-	By icon = By.xpath("(//*[@title=' Download Original Certificate '])[5]");
+	By icon = By.xpath("(//*[@title='Download Original Certificate'])[1]");
 
 	//click by the Download original certficates Recent Certificate Verifications
-	By download = By.xpath("(//*[@title='Download Original Certificate'])[1]");
+	By download = By.xpath("//*[@title='Download Original Certificte']");
 
 
 

@@ -43,7 +43,7 @@ public class UserGeneratedCertificatesWithoutEnablecheckboxesPageObjects {
 	}
 	public void selectValueCertificate() throws InterruptedException
 	{
-		driver.findElement(ok).click();
+		//driver.findElement(ok).click();
 		WebElement ele2 = driver.findElement(c);
 		Thread.sleep(2000);
 		Select sc1=new Select(ele2);

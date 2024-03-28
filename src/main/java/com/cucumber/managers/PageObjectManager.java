@@ -226,9 +226,22 @@ public class PageObjectManager {
 	
 	private UserVerifyCertificateVerifierNameWithAlphanumericsPageObjects invalidverifiername;
 
+	private UserVerifyCertificateVerifierNameWithSpacesandDotsPageObjects invalidverifiername1;
+
+	private UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsPageObjects invalidcsv1;
+
+	private UserInternalPrintingUploadCSVFIleWithoutEmailidPageObjects invalidcsv2;
+
+	private UserGenerateBulkUploadCSVFileEmailIdWithSpacesandDotsPageObjects bulkinvalidcsv;
+
+	private UserGenerateBulkUploadCSVFileWithEmptyAcademicRefNumColumn bulkinvalidcsv1;
+
+	private UserGenerateBulkByUploadCSVFileWithInvalidCertificateNamePageObjects invalidcertificatename;
+
+	private UserGenerateBulkByUploadCSVFileWithoutIssueMonthObjects withoutissuemonth;
 
 	
-
+	
 	
 	public PageObjectManager() {
 		// this.driver = driver;
@@ -976,5 +989,56 @@ public class PageObjectManager {
 			invalidverifiername = new UserVerifyCertificateVerifierNameWithAlphanumericsPageObjects(Constants.driver);
 		}
 		return invalidverifiername;
+	}
+	
+	public UserVerifyCertificateVerifierNameWithSpacesandDotsPageObjects getinvalidverifiername1() {
+		if (invalidverifiername1 == null) {
+			invalidverifiername1 = new UserVerifyCertificateVerifierNameWithSpacesandDotsPageObjects(Constants.driver);
+		}
+		return invalidverifiername1;
+	}
+	
+	public UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsPageObjects getinvalidcsv1() {
+		if (invalidcsv1 == null) {
+			invalidcsv1 = new UserInternalPrintingCSVFIleStudentNameWithAlphabetsandNumericsPageObjects(Constants.driver);
+		}
+		return invalidcsv1;
+	}
+	
+	public UserInternalPrintingUploadCSVFIleWithoutEmailidPageObjects getinvalidcsv2() {
+		if (invalidcsv2 == null) {
+			invalidcsv2 = new UserInternalPrintingUploadCSVFIleWithoutEmailidPageObjects(Constants.driver);
+		}
+		return invalidcsv2;
+	}
+	
+	
+	public UserGenerateBulkUploadCSVFileEmailIdWithSpacesandDotsPageObjects getbulkinvalidcsv() {
+		if (bulkinvalidcsv == null) {
+			bulkinvalidcsv = new UserGenerateBulkUploadCSVFileEmailIdWithSpacesandDotsPageObjects(Constants.driver);
+		}
+		return bulkinvalidcsv;
+	}
+	
+
+	public UserGenerateBulkUploadCSVFileWithEmptyAcademicRefNumColumn getbulkinvalidcsv1() {
+		if (bulkinvalidcsv1 == null) {
+			bulkinvalidcsv1 = new UserGenerateBulkUploadCSVFileWithEmptyAcademicRefNumColumn(Constants.driver);
+		}
+		return bulkinvalidcsv1;
+	}
+	
+	public UserGenerateBulkByUploadCSVFileWithInvalidCertificateNamePageObjects getinvalidcertificatename() {
+		if (invalidcertificatename == null) {
+			invalidcertificatename = new UserGenerateBulkByUploadCSVFileWithInvalidCertificateNamePageObjects(Constants.driver);
+		}
+		return invalidcertificatename;
+	}
+	
+	public UserGenerateBulkByUploadCSVFileWithoutIssueMonthObjects getwithoutissuemonth() {
+		if (withoutissuemonth == null) {
+			withoutissuemonth = new UserGenerateBulkByUploadCSVFileWithoutIssueMonthObjects(Constants.driver);
+		}
+		return withoutissuemonth;
 	}
 }
