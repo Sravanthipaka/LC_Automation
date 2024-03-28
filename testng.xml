@@ -68,7 +68,7 @@
 	    
 	    
 	    
-         <!-- <test name="ChromeBrowser">
+          <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -100,12 +100,12 @@
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" />
             <class name="com.cucumber.TestRunner.UserGuidelinesRunner" />
-			<class name="com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner" />
+		    <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner" />
 
 
 
             </classes>
-	    </test> -->
+	    </test> 
 	    
 	    
 	    
@@ -140,14 +140,14 @@
 		    
 		   
 		    <class name="com.cucumber.TestRunner.UserGeneratedCertificateWithoutSelectingCheckboxesRunner" />
-		    <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingInvalidCSVFIleRunner" />
+			<class name="com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner" />
 
 
 		    </classes>
 	    </test> -->
 	    
 		    
-	         <test name="ChromeBrowser">
+	      <!--    <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -156,7 +156,7 @@
 
 			
 			 </classes>
-	    </test> 
+	    </test>  -->
 	    
 		    
 </suite>
