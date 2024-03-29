@@ -44,7 +44,7 @@ public class UserGenSingleWithApprovalPageObjects {
 	By single= By.xpath("//a[normalize-space()='Generate single']");
 
 	//Then click of Certificate type1
-	By certtype= By.xpath("//select//option[5]");
+	By certtype= By.xpath("/html/body/div/app-root/app-generate-certificates/div/div/div/div/div[2]/div/div/div[2]/select/option[7]");
 
 	//Then Enter the input fields1
 	By name= By.xpath("//input[@id='StudentName']");

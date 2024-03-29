@@ -139,11 +139,11 @@
 		<classes>
 			
 			
-	        <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
+	       <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
 	        <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner" />
 	        <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner" />
 	        <class name="com.cucumber.TestRunner.UserGeneratedCertificatesRunner" />
-	        <class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner" />
+	         <class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner" />
 	        
 	       <class name="com.cucumber.TestRunner.UserBulkGeneratedCertficatesRunner" />
 	        <class name="com.cucumber.TestRunner.UserUpdateProfileRunner" />
