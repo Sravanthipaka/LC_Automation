@@ -101,7 +101,7 @@ public class UserGeneratedCertificatesPageObjects {
 
 	public void Clicktheacademicreferencenumber () throws InterruptedException {
 		testbase.waitForElement(Constants.driver.findElement(name), TIMEOUT_WAIT, POOLING_WAIT);
-		Constants.driver.findElement(name).sendKeys("R12");
+		Constants.driver.findElement(name).sendKeys("HT34567");
 		Thread.sleep(2000);
         JavascriptExecutor jse1=(JavascriptExecutor) driver;
         WebElement Action=driver.findElement(By.xpath("//*[@id=\"example\"]/thead/tr/th[9]"));

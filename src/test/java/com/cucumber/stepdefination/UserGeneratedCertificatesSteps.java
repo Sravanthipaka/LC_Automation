@@ -21,7 +21,7 @@ public class UserGeneratedCertificatesSteps {
 	
     @Given("^login with the valid Username and password$")
 	public void login_with_the_valid_Username_and_password() throws Throwable {
-		login.Logintoappln("DemoUser", "Admin@1");
+		login.Logintoappln("SahUser", "User@1");
 	}
 
 	@Then("^click on reports type$")

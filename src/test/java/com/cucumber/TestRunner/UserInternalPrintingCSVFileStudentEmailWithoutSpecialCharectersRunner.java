@@ -15,7 +15,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
-	@CucumberOptions(features = { "src/test/resources/features/UserInternalPrintingCSVFileStudentEmailWithouSpecialCharecters.feature" },
+	@CucumberOptions(features = { "src/test/resources/features/UserInternalPrintingCSVFileStudentEmailWithoutSpecialCharecters.feature" },
 			glue = { "com/cucumber/stepdefination/" }, plugin = { "json:target/cucumber-reports/cucumber.json",
 					"html:target/cucumber-pretty",
 					"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Extent_Report.html",

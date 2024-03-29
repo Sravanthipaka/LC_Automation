@@ -246,7 +246,16 @@ public class PageObjectManager {
 	
 	private UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypePageObjects invalidcertificatetype;
 
+	private UserGenerateBulkByUploadCSVFileWithEmptyMobileNumberPageObjects emptymobilenum;
 
+	private UserGenerateBulkByUploadCSVFileWithEmptyCertificateNamePageObjects emptycertificatename1;
+
+	private UserInternalPrintingUploadCSVFIleWithoutStudentNamePageObjects emptystudentname1;
+
+	private UserInternalPrintingByUploadingCSVFileWithInvalidCertificateTypePageObjects invalidcertificatetype1;
+
+	
+	
 	
 	public PageObjectManager() {
 		// this.driver = driver;
@@ -1067,5 +1076,33 @@ public class PageObjectManager {
 			invalidcertificatetype = new UserGenerateBulkByUploadCSVFileWithInvalidCertificateTypePageObjects(Constants.driver);
 		}
 		return invalidcertificatetype;
+	}
+	
+	public UserGenerateBulkByUploadCSVFileWithEmptyMobileNumberPageObjects getemptymobilenum() {
+		if (emptymobilenum == null) {
+			emptymobilenum = new UserGenerateBulkByUploadCSVFileWithEmptyMobileNumberPageObjects(Constants.driver);
+		}
+		return emptymobilenum;
+	}
+	
+	public UserGenerateBulkByUploadCSVFileWithEmptyCertificateNamePageObjects getemptycertificatename1() {
+		if (emptycertificatename1 == null) {
+			emptycertificatename1 = new UserGenerateBulkByUploadCSVFileWithEmptyCertificateNamePageObjects(Constants.driver);
+		}
+		return emptycertificatename1;
+	}
+	
+	public UserInternalPrintingUploadCSVFIleWithoutStudentNamePageObjects getemptystudentname1() {
+		if (emptystudentname1 == null) {
+			emptystudentname1 = new UserInternalPrintingUploadCSVFIleWithoutStudentNamePageObjects(Constants.driver);
+		}
+		return emptystudentname1;
+	}
+	
+	public UserInternalPrintingByUploadingCSVFileWithInvalidCertificateTypePageObjects getinvalidcertificatetype1() {
+		if (invalidcertificatetype1 == null) {
+			invalidcertificatetype1 = new UserInternalPrintingByUploadingCSVFileWithInvalidCertificateTypePageObjects(Constants.driver);
+		}
+		return invalidcertificatetype1;
 	}
 }

@@ -8,7 +8,57 @@
   <test name="ChromeBrowser">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.cucumber.TestRunner.UserGeenrateBulkByUploadCSVFIleWithoutIssueYearRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner"/>
+      <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner"/>
+      <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner"/>
+      <class name="com.cucumber.TestRunner.UserGeneratedCertificatesRunner"/>
+      <class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner"/>
     </classes>
   </test> <!-- ChromeBrowser -->
+  <test name="ChromeBrowser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner -->
+      <class name="com.cucumber.TestRunner.UserVerifiedCertificatesRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserVerifiedCertificatesRunner -->
+      <class name="com.cucumber.TestRunner.UserVerifyCertificatesRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserVerifyCertificatesRunner -->
+      <class name="com.cucumber.TestRunner.UserGeneratedCertificatesRunner">
+        <methods>
+          <include name="testDownClass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGeneratedCertificatesRunner -->
+      <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="testDownClass"/>
+          <include name="beforeclass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner -->
+    </classes>
+  </test> <!-- ChromeBrowser(failed) -->
 </suite> <!-- Failed suite [Sapphirus Systems Pvt Ltd] -->
