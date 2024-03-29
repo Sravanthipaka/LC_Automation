@@ -1,5 +1,5 @@
 @tag
-Feature: GenerateBulk
+Feature: Institution User - Check the flow of  Bulk with Approval by uploading files and remove then click on the Next button.
 
   @tag1
   Scenario: Verify the Generate Bulk with Approval by uploading files and remove then click on the Next button.
