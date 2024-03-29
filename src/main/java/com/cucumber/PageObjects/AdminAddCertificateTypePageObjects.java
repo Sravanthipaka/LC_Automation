@@ -46,7 +46,7 @@ public class AdminAddCertificateTypePageObjects {
 		testbase.waitForElement(Constants.driver.findElement(certificate), TIMEOUT_WAIT, POOLING_WAIT);
 		Constants.driver.findElement(certificate).click();
 		Thread.sleep(2000);
-		
+	
 	}
 
 	public void clickontheAddCertificateType () throws InterruptedException {
