@@ -9,7 +9,7 @@
 	
        
        
-      <!--   <test name="ChromeBrowser">
+       <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
@@ -42,18 +42,7 @@
 	        <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  
 	        
 	          
-	            
-	          </classes>
-	    </test> -->
-	    
-	  
-	    
-	    
-	  
-      <!--     <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
+	        
 		 	 <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
 			 <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" />
              <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner" />
@@ -87,16 +76,6 @@
 
 
 
-            </classes>
-	    </test> 
-	    
-	    
-	    
-	    
-	        <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-		    
 		    <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingCombinationOffilesRunner" />
             <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadingDOCXfileRunner" />
@@ -129,15 +108,6 @@
 		    
      
 
-		    </classes>
-	    </test> -->
-	    
-	    
-		  
-	       <test name="ChromeBrowser">
-		<parameter name="browser" value="chrome" />
-		<classes>
-			
 			
 	        <class name="com.cucumber.TestRunner.UserGenerateSingleWithoutApprovalRunner" />
 	        <class name="com.cucumber.TestRunner.UserGenerateBulkWithoutApprovalRunner" />
@@ -167,14 +137,15 @@
             <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithEmptyCertificateNameRunner" />
             <class name="com.cucumber.TestRunner.UserGeneratedCertificatesWithoutEnablecheckboxesRunner" />
             <class name="com.cucumber.TestRunner.UserInternalPrintingUploadCSVFileWithoutStudentNameRunner" />
-            <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidCertificateTypeRunner" />
+			<class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidCertificateTypeRunner" />
 
 	        
 	         </classes>
 	    </test> 
 	    
 	    
-	       
+	      
+	     
 		    
 </suite>
 

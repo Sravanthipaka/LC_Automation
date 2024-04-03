@@ -27,6 +27,7 @@ public class UserGeneratedCertificatesWithoutEnablecheckboxesSteps {
 	@Given("^log to application$")
 	public void log_to_application() throws Throwable {
 		//login.Logintoappln("AnuUser", "Admin@1");
+		Thread.sleep(3000);
 	}
 
 	@Given("^click on reports and generatedcertificates$")

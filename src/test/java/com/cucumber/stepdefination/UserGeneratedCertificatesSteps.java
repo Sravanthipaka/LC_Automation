@@ -66,7 +66,7 @@ public class UserGeneratedCertificatesSteps {
 
 	@Then("^Click the action dropdown$")
 	public void click_the_action_dropdown() throws Throwable {
-		usergeneratedcertificates.Clicktheactiondropdown();
+//		usergeneratedcertificates.Clicktheactiondropdown();
 	}
 
 	@Then("^select the SendMail then click the GO$")

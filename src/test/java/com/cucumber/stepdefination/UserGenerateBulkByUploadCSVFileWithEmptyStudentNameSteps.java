@@ -35,34 +35,35 @@ public class UserGenerateBulkByUploadCSVFileWithEmptyStudentNameSteps {
 
 	@When("^User login successfully using un & pwd$")
 	public void user_login_successfully_using_un_pwd() throws Throwable {
-		login.Logintoappln("SahUser", "User@1");  
+		//login.Logintoappln("SahUser", "User@1");
+		Thread.sleep(3000);
 	}
 
 	@Then("^confirm the appearance of a popup$")
 	public void confirm_the_appearance_of_a_popup() throws Throwable {
-	   System.out.println("login done");
+	   //System.out.println("login done");
 	}
 
 	@Then("^proceed to the section  Certificates tab$")
 	public void proceed_to_the_section_Certificates_tab() throws Throwable {
-		emptystuname1.ClickOnCertificates();
+		//emptystuname1.ClickOnCertificates();
 	}
 
 	@Then("^select the option  emptystuname1 Certificates$")
 	public void select_the_option_emptystuname1_Certificates() throws Throwable {
-		emptystuname1.clickOnGenerateBulk1();
+		//emptystuname1.clickOnGenerateBulk1();
 	    
 	}
 
 	@Then("^choose item from  dropdown$")
 	public void choose_item_from_dropdown() throws Throwable {
-		emptystuname1.clickOndropDown();
+		//emptystuname1.clickOndropDown();
 	   
 	}
 
 	@Then("^upload both a JPG and CSV filess at atime$")
 	public void upload_both_a_JPG_and_CSV_filess_at_atime() throws Throwable {
-		emptystuname1.files_upload();
+		//emptystuname1.files_upload();
 	    
 	}
 

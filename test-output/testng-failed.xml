@@ -48,8 +48,8 @@
       </class> <!-- com.cucumber.TestRunner.AdminLaunchTheApplicationRunner -->
       <class name="com.cucumber.TestRunner.UserGenerateBulkByUploadCSVFIleWithInvalidCertificateTypeRunner">
         <methods>
-          <include name="setUpClass"/>
           <include name="testDownClass"/>
+          <include name="setUpClass"/>
           <include name="feature" invocation-numbers="0"/>
           <include name="beforeclass"/>
           <include name="tearDownClass"/>
@@ -67,7 +67,6 @@
         <methods>
           <include name="beforeclass"/>
           <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="testDownClass"/>
         </methods>
@@ -153,14 +152,6 @@
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.cucumber.TestRunner.UserVerifyCertificatesRunner -->
-      <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner">
-        <methods>
-          <include name="beforeclass"/>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumber.TestRunner.AdminBacktotopbuttonRunner -->
       <class name="com.cucumber.TestRunner.UserUpdateProfileRunner">
         <methods>
           <include name="setUpClass"/>
@@ -169,6 +160,14 @@
           <include name="beforeclass"/>
         </methods>
       </class> <!-- com.cucumber.TestRunner.UserUpdateProfileRunner -->
+      <class name="com.cucumber.TestRunner.AdminBacktotopbuttonRunner">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="testDownClass"/>
+        </methods>
+      </class> <!-- com.cucumber.TestRunner.AdminBacktotopbuttonRunner -->
       <class name="com.cucumber.TestRunner.UserChangePasswordRunner">
         <methods>
           <include name="setUpClass"/>
@@ -190,7 +189,6 @@
         <methods>
           <include name="setUpClass"/>
           <include name="testDownClass"/>
-          <include name="feature" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="beforeclass"/>
         </methods>

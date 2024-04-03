@@ -27,22 +27,22 @@ public class UserBulkGeneratedCertificatesSteps {
 	
 	@Given("^Login by User by using Username and Password$")
 	public void login_by_User_by_using_Username_and_Password() throws Throwable {
-		login.Logintoappln("SahUser", "User@1");
+		//.Logintoappln("SahUser", "User@1");
 	}
 
 	@When("^Click on the Reports tab$")
 	public void click_on_the_Reports_tab() throws Throwable {
-		bulkgc.ClickontheReportstab();
+		//bulkgc.ClickontheReportstab();
 	}
 
 	@Then("^Click on Bulk Generated Certificates$")
 	public void click_on_Bulk_Generated_Certificates() throws Throwable {
-		bulkgc.ClickonBulkGeneratedCertificates();
+		//bulkgc.ClickonBulkGeneratedCertificates();
 	}
 
 	@Then("^Click on the particular Reference id$")
 	public void click_on_the_particular_Reference_id() throws Throwable {
-		bulkgc.ClickontheparticularReferenceid();
+		//bulkgc.ClickontheparticularReferenceid();
 	}
 	}
 

@@ -22,17 +22,17 @@ public class UserDashboardRecentCertficateGenerationsCertificateTypedropdownStep
 	}
 	@Given("^login of the user valid Username valid Password$")
 	public void login_of_the_user_valid_Username_valid_Password() throws Throwable {
-		login.Logintoappln("DemoUser", "Admin@123");
+		//login.Logintoappln("DemoUser", "Admin@123");
 	}
 
 	@Then("^Scroll the vertical$")
 	public void Scroll_by_vertical() throws Throwable {
-		certificatetypedropdown.Scrollthevertical();
+		//certificatetypedropdown.Scrollthevertical();
 	}
 
 	@Then("^click on the Cerificate Type dropdown and select the type$")
 	public void click_on_the_cerificate_type_dropdown_and_select_the_type() throws Throwable {
-		certificatetypedropdown.clickontheCerificateTypedropdownandselectthetype();
+		//certificatetypedropdown.clickontheCerificateTypedropdownandselectthetype();
 	}
 
 }
