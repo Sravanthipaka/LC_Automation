@@ -13,7 +13,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			
-			<class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner" />
+			<!--<class name="com.cucumber.TestRunner.OrgMgmtChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgMgmtLaunchTheApplicationRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtUpdateProfileRunner" />		
             <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
@@ -27,10 +27,10 @@
          
             <class name="com.cucumber.TestRunner.AdminCertificateApprovalsRunner" />
 	        <class name="com.cucumber.TestRunner.AdminAddCertificateTypeRunner" /> 
-	        <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner" />  
+	        <class name="com.cucumber.TestRunner.AdminAddCertificateNameRunner" />  --> 
 	        <class name="com.cucumber.TestRunner.AdminRateContractListRunner" /> 
 	         
-	        <class name="com.cucumber.TestRunner.AdminCreditsListRunner" />
+	        <!--<class name="com.cucumber.TestRunner.AdminCreditsListRunner" />
 	        <class name="com.cucumber.TestRunner.AdminGeneratedCertificatesRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminVerifiedCertificatesRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminReceiptsRunner" /> 
@@ -39,10 +39,18 @@
 	        <class name="com.cucumber.TestRunner.AdminChangePasswordRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminApprovalSettingsRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner" /> 
-	        <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  
+	        <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  -->
+	        
+	           </classes>
+	    </test> 
 	        
 	          
-	        
+	  <!--    <test name="ChromeBrowser">
+		<parameter name="browser" value="chrome" />
+		<classes> 
+			
+			
+			     
 		 	 <class name="com.cucumber.TestRunner.UserWelcomeTextRunner" />
 			 <class name="com.cucumber.TestRunner.UserVerifyCertificatesWithEmptyAcademicRefNumfieldRunner" />
              <class name="com.cucumber.TestRunner.UserVerifiedCertificatesWithoutEnablecheckboxesRunner" />
@@ -71,7 +79,7 @@
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCfileRunner" />
             <class name="com.cucumber.TestRunner.UserGenSingleByUploadingDOCXfileRunner" />
             <class name="com.cucumber.TestRunner.UserGuidelinesRunner" />
-            <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingWithInvalidIssueYearandMonthRunner" />
+            <class name="com.cucumber.TestRunner.UserInternalPrintingByUploadingCSVWithInvalidIssueYearandMonthRunner" />
 
 
 
@@ -141,7 +149,7 @@
 
 	        
 	         </classes>
-	    </test> 
+	    </test> -->
 	    
 	    
 	      
