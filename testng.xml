@@ -36,10 +36,10 @@
 	        <class name="com.cucumber.TestRunner.AdminReceiptsRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminUpdateProfileRunner" /> 
 	        
-	        <class name="com.cucumber.TestRunner.AdminChangePasswordRunner" /> 
+	        <class name="com.cucumber.TestRunner.AdminChangePasswordRunner" /> -->
 	        <class name="com.cucumber.TestRunner.AdminApprovalSettingsRunner" /> 
 	        <class name="com.cucumber.TestRunner.AdminUpdateInstitutionRunner" /> 
-	        <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  -->
+	        <class name="com.cucumber.TestRunner.AdminRegistrationRunner" />  
 	        
 	           </classes>
 	    </test> 
