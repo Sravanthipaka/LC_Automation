@@ -19,6 +19,8 @@
             <class name="com.cucumber.TestRunner.OrgMgmtViewInstitutionsRunner" />	
          
 
+
+
             <class name="com.cucumber.TestRunner.OrgSalesChangePasswordRunner" />
 			<class name="com.cucumber.TestRunner.OrgSalesLaunchTheApplicationRunner" />		
             <class name="com.cucumber.TestRunner.OrgSalesViewInstitutionsRunner" />	
@@ -45,7 +47,7 @@
 	    </test> 
 	        
 	          
-	  <!--    <test name="ChromeBrowser">
+	     <test name="ChromeBrowser">
 		<parameter name="browser" value="chrome" />
 		<classes> 
 			
@@ -149,7 +151,7 @@
 
 	        
 	         </classes>
-	    </test> -->
+	    </test> 
 	    
 	    
 	      
